@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SG Courts — Find basketball courts near you</title>
+  <meta name="description" content="Find basketball courts near you in Singapore. Open data from OpenStreetMap." />
+
+  <link rel="preconnect" href="https://unpkg.com" />
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div class="brand">
+      <span class="brand-mark">🏀</span>
+      <div>
+        <h1>SG Courts</h1>
+        <p class="tagline">Basketball courts near you</p>
+      </div>
+    </div>
+    <button id="locate-btn" class="locate-btn" type="button">
+      📍 Find courts near me
+    </button>
+  </header>
+
+  <div class="toolbar">
+    <input
+      id="search"
+      class="search"
+      type="search"
+      placeholder="Search by name…"
+      autocomplete="off"
+    />
+    <span id="count" class="count"></span>
+  </div>
+
+  <main class="layout">
+    <section id="list" class="list" aria-label="Court list"></section>
+    <div id="map" class="map" aria-label="Map of basketball courts"></div>
+  </main>
+
+  <p id="status" class="status" role="status"></p>
+
+  <footer class="app-footer">
+    Court data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors.
+  </footer>
+
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""
+  ></script>
+  <script src="app.js"></script>
+</body>
+</html>
