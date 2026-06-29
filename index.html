@@ -5,8 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MoveSG — your fitness map for Singapore</title>
   <meta name="description" content="MoveSG: your personalized fitness map for Singapore — basketball courts, parks, park connectors and swimming pools near you." />
+  <meta name="theme-color" content="#0b0d12" />
 
   <link rel="preconnect" href="https://unpkg.com" />
+  <link rel="preconnect" href="https://basemaps.cartocdn.com" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" />
   <link
     rel="stylesheet"
     href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -18,32 +23,47 @@
 <body>
   <header class="app-header">
     <div class="brand">
-      <span class="brand-mark">📍</span>
-      <div>
-        <h1>MoveSG</h1>
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 21s-7-5.4-7-11a7 7 0 0 1 14 0c0 5.6-7 11-7 11Z" />
+          <circle cx="12" cy="10" r="2.6" />
+        </svg>
+      </span>
+      <div class="brand-text">
+        <h1>Move<span>SG</span></h1>
         <p class="tagline">Courts, parks, connectors &amp; pools near you</p>
       </div>
     </div>
     <button id="locate-btn" class="locate-btn" type="button">
-      📍 Near me
+      <svg class="locate-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <circle cx="12" cy="12" r="3.2" />
+        <path d="M12 2v3M12 19v3M2 12h3M19 12h3" />
+      </svg>
+      <span>Near me</span>
     </button>
   </header>
 
-  <div class="toolbar">
-    <span class="toolbar-label">Show:</span>
-    <div id="layer-toggles" class="layer-toggles"></div>
-  </div>
-
   <main class="layout">
     <div id="map" class="map" aria-label="Map of fitness places in Singapore"></div>
+
+    <div class="map-overlay">
+      <div class="toolbar" id="toolbar">
+        <div class="toolbar-head">
+          <span class="toolbar-label">Layers</span>
+          <button id="toolbar-toggle" class="toolbar-toggle" type="button" aria-expanded="true" aria-controls="layer-toggles" title="Collapse layers">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6" /></svg>
+          </button>
+        </div>
+        <div id="layer-toggles" class="layer-toggles"></div>
+      </div>
+    </div>
+
+    <p id="status" class="status" role="status"></p>
   </main>
 
-  <p id="status" class="status" role="status"></p>
-
   <footer class="app-footer">
-    Map &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> ·
-    Parks &amp; connectors from <a href="https://data.gov.sg/" target="_blank" rel="noopener">data.gov.sg</a> (NParks) ·
-    Courts &amp; pools from Google.
+    <span>Map &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> &middot; <a href="https://carto.com/attributions" target="_blank" rel="noopener">CARTO</a></span>
+    <span>Parks &amp; connectors from <a href="https://data.gov.sg/" target="_blank" rel="noopener">data.gov.sg</a> (NParks) &middot; Courts &amp; pools from Google</span>
   </footer>
 
   <script
