@@ -3,6 +3,14 @@
 const SG_CENTER = [1.3521, 103.8198];
 const DEFAULT_ZOOM = 12;
 
+// Lock the view to Singapore: [SW, NE] corners with a little padding so the
+// island sits comfortably inside the viewport.
+const SG_BOUNDS = [
+  [1.16, 103.59],
+  [1.48, 104.09],
+];
+const MIN_ZOOM = 11;
+
 // Every category is an equal, toggleable layer. Order = draw order on the map
 // (areas first, then lines, then point markers on top).
 const CATEGORIES = [
@@ -53,7 +61,12 @@ let statusTimer = null;
 
 // --- Map setup ---------------------------------------------------------------
 
-const map = L.map("map", { zoomControl: false }).setView(SG_CENTER, DEFAULT_ZOOM);
+const map = L.map("map", {
+  zoomControl: false,
+  maxBounds: SG_BOUNDS,
+  maxBoundsViscosity: 1.0,
+  minZoom: MIN_ZOOM,
+}).setView(SG_CENTER, DEFAULT_ZOOM);
 
 L.control.zoom({ position: "bottomright" }).addTo(map);
 
