@@ -1,0 +1,380 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ActiveSG Sport Park @ Teck Ghee Swimming Complex",
+        "address": "1771 Ang Mo Kio Ave 1, Singapore 569978",
+        "source": "Google"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.849779,
+          1.362802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bishan Swimming Complex",
+        "address": "1 Bishan St 14, Singapore 579778",
+        "source": "Google"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.850152,
+          1.354255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bukit Batok Swimming Complex",
+        "address": "2 Bukit Batok Street 22, Singapore 659581",
+        "source": "Google"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.748118,
+          1.344554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bukit Canberra Swimming Complex",
+        "address": "21 Canberra Link, Singapore 756973",
+        "source": "Google"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.823466,
+          1.446947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Choa Chu Kang Swimming Complex",
+        "address": "1 Choa Chu Kang Street 53, Singapore 689236",
+        "source": "Google"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.748067,
+          1.390985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Clementi Swimming Complex",
+        "address": "520 Clementi Ave 3, Singapore 129908",
+        "source": "Google"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.765651,
+          1.310781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Delta Swimming Complex",
+        "address": "900 Tiong Bahru Rd, Singapore 158790",
+        "source": "Google"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.820247,
+          1.289714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Geylang East Swimming Complex",
+        "address": "601 Aljunied Ave 1, Singapore 389862",
+        "source": "Google"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.887842,
+          1.321297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Heartbeat @ Bedok ActiveSG Swimming Complex",
+        "address": "Heartbeat@Bedok, 11 Bedok North Street 1, #5 Level, Singapore 469662",
+        "source": "Google"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.932164,
+          1.326916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hougang Swimming Complex",
+        "address": "95 Hougang Ave 4, Singapore 538830",
+        "source": "Google"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.886985,
+          1.370056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jalan Besar Swimming Complex",
+        "address": "100 Tyrwhitt Rd, Singapore 207542",
+        "source": "Google"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.859705,
+          1.3102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jurong East Swimming Complex",
+        "address": "21 Jurong East Street 31, #01-01, Singapore 609517",
+        "source": "Google"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.729347,
+          1.34617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jurong Lake Gardens Pool",
+        "address": "30 Yuan Ching Rd, Singapore 618664",
+        "source": "Google"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.726043,
+          1.330521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jurong West Swimming Complex",
+        "address": "20 Jurong West Street 93, Singapore 648965",
+        "source": "Google"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.693745,
+          1.337881
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Katong Swimming Complex",
+        "address": "111 Wilkinson Rd, Katong Swim Complex, Singapore 436752",
+        "source": "Google"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.886164,
+          1.302129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MOE (Evans) Swimming Complex",
+        "address": "21 Evans Rd, Singapore 259368",
+        "source": "Google"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.819463,
+          1.318388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pasir Ris Swimming Complex",
+        "address": "120 Pasir Ris Central, Singapore 519640",
+        "source": "Google"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.952134,
+          1.374338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Queenstown Swimming Complex",
+        "address": "473 Stirling Rd, Singapore 148948",
+        "source": "Google"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.802763,
+          1.297109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sengkang Swimming Complex",
+        "address": "57 Anchorvale Rd, Singapore 544964",
+        "source": "Google"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.886301,
+          1.396295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Senja-Cashew Swimming Complex",
+        "address": "101 Bukit Panjang Rd, Singapore 679910",
+        "source": "Google"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.764574,
+          1.382121
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Serangoon Swimming Complex",
+        "address": "35A Yio Chu Kang Rd, Singapore 545552",
+        "source": "Google"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.874675,
+          1.357214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tampines Swimming Complex",
+        "address": "1 Tampines Walk, Singapore 528523",
+        "source": "Google"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.939847,
+          1.353217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Woodlands Swimming Complex",
+        "address": "3 Woodlands Street 13, Woodlands Swimming Complex, Singapore 738600",
+        "source": "Google"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.779519,
+          1.434738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yio Chu Kang Swimming Complex",
+        "address": "202 Ang Mo Kio Ave 9, Singapore 569771",
+        "source": "Google"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.846558,
+          1.381681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yishun Swimming Complex",
+        "address": "351 Yishun Ave 3, YISHUN Swimming Complex, Singapore 769057",
+        "source": "Google"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.833608,
+          1.423245
+        ]
+      }
+    }
+  ]
+}

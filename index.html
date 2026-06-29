@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SG Courts — Find basketball courts near you</title>
-  <meta name="description" content="Find basketball courts near you in Singapore. Open data from OpenStreetMap." />
+  <title>MoveSG — your fitness map for Singapore</title>
+  <meta name="description" content="MoveSG: your personalized fitness map for Singapore — basketball courts, parks, park connectors and swimming pools near you." />
 
   <link rel="preconnect" href="https://unpkg.com" />
   <link
@@ -18,37 +18,32 @@
 <body>
   <header class="app-header">
     <div class="brand">
-      <span class="brand-mark">🏀</span>
+      <span class="brand-mark">📍</span>
       <div>
-        <h1>SG Courts</h1>
-        <p class="tagline">Basketball courts near you</p>
+        <h1>MoveSG</h1>
+        <p class="tagline">Courts, parks, connectors &amp; pools near you</p>
       </div>
     </div>
     <button id="locate-btn" class="locate-btn" type="button">
-      📍 Find courts near me
+      📍 Near me
     </button>
   </header>
 
   <div class="toolbar">
-    <input
-      id="search"
-      class="search"
-      type="search"
-      placeholder="Search by name…"
-      autocomplete="off"
-    />
-    <span id="count" class="count"></span>
+    <span class="toolbar-label">Show:</span>
+    <div id="layer-toggles" class="layer-toggles"></div>
   </div>
 
   <main class="layout">
-    <section id="list" class="list" aria-label="Court list"></section>
-    <div id="map" class="map" aria-label="Map of basketball courts"></div>
+    <div id="map" class="map" aria-label="Map of fitness places in Singapore"></div>
   </main>
 
   <p id="status" class="status" role="status"></p>
 
   <footer class="app-footer">
-    Court data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors.
+    Map &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> ·
+    Parks &amp; connectors from <a href="https://data.gov.sg/" target="_blank" rel="noopener">data.gov.sg</a> (NParks) ·
+    Courts &amp; pools from Google.
   </footer>
 
   <script
