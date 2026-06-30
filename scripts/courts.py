@@ -140,6 +140,104 @@ EXCLUDED_PLACE_IDS = {
     "ChIJB1ziZ_IR2jERz1YXFIkUifo",  # Stagmont Park
     "ChIJfRlYVWwZ2jERSy_8N9cwJZU",  # Duxton Plain Park Calisthenics Fitness Corner
     "ChIJKYNzcHIZ2jERAyCQV-Iajbo",  # Duxton Plain Park
+    # Manually reviewed venues whose NAME passes KEEP_PATTERNS (community club,
+    # park, sport hall, stadium, academy...) but which aren't a public basketball
+    # court — companies, residents' committees, gyms, stadiums, etc. Excluded so a
+    # re-run doesn't repopulate them into courts.geojson.
+    "ChIJT4pZ2m4T2jERBmcE2uLFBk0",  # 200 Woodlands Industrial Park E7
+    "ChIJC74KtocX2jERbjuFZt5Btkw",  # ActiveSG Gym @ Fernvale Square
+    "ChIJDZ3Ue80b2jEROkyEYadw5tU",  # Alexandra Hill East Neighbourhood Park
+    "ChIJydFa4-AZ2jERnphWgaLeBJc",  # ANTA BASKETBALL (Paragon)
+    "ChIJEwIC5BI92jERO8rhRUL8UK0",  # Arena @ OTH
+    "ChIJgx4YWagR2jERCasQYF6YSKI",  # ARK Sports Village
+    "ChIJfY8JOIgF2jERYc3bivJ2uQc",  # B. T. Sports Pte Ltd
+    "ChIJG9eysQ4Z2jER2ssnNHMkxvI",  # Basketball Association of Singapore
+    "ChIJ7Uv74dw92jERN4kNOjK5ErA",  # Bedok ActiveSG Sports Hall
+    "ChIJ1aYdSzU92jERCCLawGTW3II",  # Bedok Stadium
+    "ChIJq39FCPQX2jER34zgRQRenq4",  # Bidadari Community Club
+    "ChIJq8Wn7BQX2jERkoyjQG8mke8",  # Bishan East Zone 1 Residents' Committee
+    "ChIJr7mzHhoX2jERI6aOwsevkcA",  # Bishan Sport Hall
+    "ChIJx7bZHBoX2jER-hecDyx4avo",  # Bishan Sports and Recreation Centre
+    "ChIJU_zBbRQX2jERb37wh0APVP8",  # Bishan Street 13 Pavilion
+    "ChIJXxLuJ5gX2jERg_-g4i1jDWI",  # Blue Court
+    "ChIJLb1hKZUP2jERy8XqSPsCLgo",  # Boon Lay Zone B Residents' Network
+    "ChIJgW53_2cW2jERRQ8UJhZT5jI",  # Buangkok Sports Park
+    "ChIJi3pXvD8Q2jERSz5q5ag3ndw",  # Bukit Batok Zone 7 Residents' Network
+    "ChIJYe_UNiYV2jERlvWhqzwZneA",  # Bukit Canberra Sport Centre
+    "ChIJByE8bGAV2jEReIAf4jZEwD0",  # Bukit Canberra Sport Hall
+    "ChIJLzOhyEkQ2jERD-0pECpabro",  # Bukit Gombak ActiveSG Gym
+    "ChIJcRKWnisR2jERJQWjOOkVyIY",  # Bukit Gombak Park Dog Run
+    "ChIJKydd_kkQ2jERP8621RAPPz4",  # Bukit Gombak Sport Hall
+    "ChIJJWt786YR2jERcIgIkdUxv_0",  # Bukit Panjang Community Club
+    "ChIJGacQ0GMQ2jER8wwsO3AmbKg",  # Bukit Timah Community Club
+    "ChIJRzglD-wR2jERgCmyEeAecXI",  # Choa Chu Kang Park
+    "ChIJ_WX9ue0R2jER865IJyACAoc",  # Choa Chu Kang Sport Centre
+    "ChIJSfXDmI0a2jERDLaKw4Sp5Tc",  # Clementi ActiveSG Gym
+    "ChIJi6fqmI0a2jERdXJz8ecovMg",  # Clementi Sport Hall
+    "ChIJtwnG1kka2jERN1yAwHYFtkQ",  # Commonwealth Park
+    "ChIJy5EXsyoa2jERNfQ1b93bPI4",  # Delta ActiveSG Gym
+    "ChIJyWQnEYkb2jER6BxhOn5f-BA",  # Delta Sport Centre
+    "ChIJG9pxkCoa2jERSyubgxNCy-k",  # Delta Sport Hall
+    "ChIJx63zejEW2jERv3c5XCqjr-8",  # Evergreen Park
+    "ChIJRYg7aTgW2jERzmol5yapSgg",  # Exercise Park
+    "ChIJkVO-z5gR2jERYR1mMHhBYc8",  # Fajar Sports Hub
+    "ChIJbbOUMgAR2jER7KJytxaGdzY",  # Fitness Corner I @Limbang Pk
+    "ChIJ23HbOQAT2jERYweY6awYYms",  # Fitness Corner, Fu Shan Gdn
+    "ChIJe51FQbwP2jERj_QFCJP_xnM",  # Gek Poh Ville Community Club
+    "ChIJC2ORsH0R2jERx6MKPcbMjCA",  # Goodview Gardens Park
+    "ChIJ1xgTQ7Ui2jERqLDkdtiHQl8",  # Heartbeat @ Bedok ActiveSG Swimming Complex
+    "ChIJo5Mh_EgW2jERwPa6qOD7A7Y",  # Hougang Sport Hall
+    "ChIJ0Rz6Sg0Y2jERmgd6ZjD41YE",  # Joo Chiat Community Club
+    "ChIJEwW7gpoP2jER4o0mrMTZddM",  # Jurong West Sport Centre
+    "ChIJYeredpAP2jERduiD1Z5dTGI",  # Jurong West Sport Hall
+    "ChIJD_-Au5QX2jERPo8cB1pklg8",  # Kohup Sports Pte Ltd
+    "ChIJ9S391fwX2jERDralw-JiEVs",  # KOTC Sports Pte Ltd
+    "ChIJxa0bsEIS2jER3pv2smVyDcs",  # Kranji Recreation Centre
+    "ChIJywqE63IZ2jER4NBNaHlGSv0",  # Kreta Ayer Community Club
+    "ChIJlwhGYVU92jERIKor-3Jyvvs",  # Lengkong Enam Park
+    "ChIJHxDcuhgX2jERvyzRhopMHII",  # Marymount Community Club
+    "ChIJT-tysI4P2jERYQT45sS525E",  # Migrant Workers' Centre Recreation Club (MWC RC)
+    "ChIJb7dKT2IP2jERcFRITIwWDEY",  # MWC Recreation Club (MWC FWSIP)
+    "ChIJq7C_6m8U2jERTnac8Wp_HgY",  # Nee Soon Central Community Club
+    "ChIJq6qqmhEU2jER0yE06FDEo-U",  # Nee Soon South Community Club
+    "ChIJd2DnQXEU2jER4p6relpiLuk",  # Nee Soon South Zone D Residents' Network
+    "ChIJfePSLm8U2jERApXFZbuSbLo",  # Nee Soon Sports Centre
+    "ChIJVVJ93ocQ2jER8osZOv0lKQA",  # Ngee Ann Sports Complex
+    "ChIJKfr7nG8U2jERGyp7fB-uPTA",  # North Park Residences
+    "ChIJKR6br5QW2jERSsm0JDaPgkY",  # NYP Stadium
+    "ChIJjSbbY6Y92jER16q5yg_NPkI",  # OBA Arena @ Pasir Ris
+    "ChIJxUtilYEV2jERIbEmG9kxetY",  # OBA Arena @ Punggol
+    "ChIJrUlEWhI92jERvt94DySkZLg",  # Our Tampines Hub ActiveSG Community Auditorium
+    "ChIJURXsNa092jERHMncG26FzIo",  # Pasir Ris East Community Club
+    "ChIJuY8mPsc92jERdf13nPQ8Pq4",  # Pasir Ris Park Adventure Playground
+    "ChIJ9xq4i60a2jERtrsKmFap4qA",  # Penjuru Recreation Centre
+    "ChIJkwp7xqUR2jERnoHV9NhCArc",  # Petir Park
+    "ChIJq1FFDiEZ2jERadqa_RcvBh4",  # Real Madrid Foundation Basketball School Paya Lebar
+    "ChIJGXpRrr3Pq0YR_05Y3-CH1_c",  # Scholar Basketball Academy
+    "ChIJLZrxN-0R2jERvAlzlCDCtwk",  # Scholar Basketball Academy (Bukit Timah Plaza)
+    "ChIJO_I9wSIR2jERrn9XgYZYEkw",  # Segar Gardens Court
+    "ChIJ7ZgOOiAV2jERCFeUkkIYSag",  # Sembawang Recreation Centre
+    "ChIJZ96CCXQW2jERfzExgYN3pfw",  # Sengkang Sports Hall
+    "ChIJX5aljeQX2jERXdgdcLOa1kk",  # SG Basketball @ KBRC
+    "ChIJm3O-ybYj2jERoNzZBoBl-Po",  # SG Basketball @ Shot Zone
+    "ChIJfwlSIt482jER7yY_s9mjfHg",  # SIA Sports Club
+    "ChIJ42aqIOkj2jERYHGec0xobYw",  # Siglap Community Club
+    "ChIJu9z--xkX2jERWTaBRwAOhG4",  # SMRT Recreation Club
+    "ChIJ1fYfwGAa2jERGh-sWjfddQI",  # SP Sports Arena
+    "ChIJXU7drEcQ2jERbWPDktMIwlQ",  # Sports & Recreation Centre
+    "ChIJg3-7Glwb2jERA--oUIY-tD4",  # Sports @ Buona Vista
+    "ChIJs6XD7d482jERSe1xuAHuVjY",  # SUTD Sports and Recreation Centre
+    "ChIJz-uAfxI92jERZW0Qc-ylPPQ",  # Tampines Sports Hall
+    "ChIJ4yN1GYcP2jERQxzuheuvbVI",  # TCB Sports Pte Ltd
+    "ChIJGXaMysIb2jERUq9kRyJeaJ4",  # Telok Blangah 'Blangah Court' Residents' Committee
+    "ChIJCflFZ8Mb2jERXM0PHAKxCKE",  # Telok Blangah 'Blangah Square' RC
+    "ChIJh53Jei8X2jERfZdFMkoBje0",  # Thomson Sin Ming Court Residents' Committee
+    "ChIJERyP1dZwvaYR20PXbILdkNY",  # Triple Threat | Basketball Academy Singapore
+    "ChIJdc6XlNkZ2jERAdhP0MWbePc",  # Whampoa View Residents' Committee
+    "ChIJV5hnA6wT2jERqD4CwNu0SpM",  # Woodlands Sport Centre
+    "ChIJ9-wMbKkT2jERJojJzLw7pdA",  # Woodlands Sport Hall
+    "ChIJ2_q9-asT2jERy4IMLTN6_d8",  # Woodlands Stadium
+    "ChIJ4-iWlw8U2jERbtvdchPy4-o",  # Yishun Sport Hall
 }
 
 

@@ -421,32 +421,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "B. T. Sports Pte Ltd",
-				"address": "41 Gul Dr, Singapore",
-				"source": "Google",
-				"rating": 4.8,
-				"reviews": 6,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJfY8JOIgF2jERYc3bivJ2uQc",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.667888, 1.316804] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Basketball Association of Singapore",
-				"address": "601 Aljunied Ave 1, #01-04, Singapore",
-				"source": "Google",
-				"rating": 4.1,
-				"reviews": 115,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJG9eysQ4Z2jER2ssnNHMkxvI",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.887611, 1.321077] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "Basketball Court",
 				"address": "40 Woodlands Sector 2",
 				"source": "Google",
@@ -1719,19 +1693,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Bedok ActiveSG Sports Hall",
-				"address": "11 Bedok North Street 1, Singapore",
-				"source": "Google",
-				"rating": 4.8,
-				"reviews": 6,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ7Uv74dw92jERN4kNOjK5ErA",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.93242, 1.326844] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "Bedok Basketball Court",
 				"address": "2A Bedok South Ave 1, Singapore",
 				"source": "Google",
@@ -1758,19 +1719,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Bedok Stadium",
-				"address": "1 Bedok North Street 2, Singapore",
-				"source": "Google",
-				"rating": 4.2,
-				"reviews": 944,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ1aYdSzU92jERCCLawGTW3II",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.939314, 1.326471] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "BEP Basketball Court",
 				"address": "187 Bishan St. 13, Singapore",
 				"source": "Google",
@@ -1780,19 +1728,6 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.851353, 1.349344] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Bidadari Community Club",
-				"address": "11 Bidadari Park Dr, #01-60, Singapore",
-				"source": "Google",
-				"rating": 3.9,
-				"reviews": 111,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJq39FCPQX2jER34zgRQRenq4",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.872368, 1.339232] }
 		},
 		{
 			"type": "Feature",
@@ -1819,58 +1754,6 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.850397, 1.354855] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Bishan East Zone 1 Residents' Committee",
-				"address": "112 Bishan St. 12, #01-02 Bishan View, Singapore",
-				"source": "Google",
-				"rating": 4.4,
-				"reviews": 13,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJq8Wn7BQX2jERkoyjQG8mke8",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.848704, 1.346857] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Bishan Sport Hall",
-				"address": "5 Bishan St 14, #03-01, Singapore",
-				"source": "Google",
-				"rating": 4.2,
-				"reviews": 426,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJr7mzHhoX2jERI6aOwsevkcA",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.850874, 1.355356] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Bishan Sports and Recreation Centre",
-				"address": "5 Bishan St 14, Singapore",
-				"source": "Google",
-				"rating": 3.8,
-				"reviews": 12,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJx7bZHBoX2jER-hecDyx4avo",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.850878, 1.355284] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Bishan Street 13 Pavilion",
-				"address": "510 Bishan St. 13, Block 510, Singapore",
-				"source": "Google",
-				"rating": 4.8,
-				"reviews": 5,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJU_zBbRQX2jERb37wh0APVP8",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.84971, 1.348918] }
 		},
 		{
 			"type": "Feature",
@@ -2300,19 +2183,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Blue Court",
-				"address": "114 Edgefield Plains, Singapore",
-				"source": "Google",
-				"rating": 4,
-				"reviews": 1,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJXxLuJ5gX2jERg_-g4i1jDWI",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.907328, 1.395585] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "Boon Lay Community Club",
 				"address": "10 Boon Lay Pl, Level 1 Community Centre, Singapore",
 				"source": "Google",
@@ -2322,19 +2192,6 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.711501, 1.348459] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Boon Lay Zone B Residents' Network",
-				"address": "682A Jurong West Central 1, #01-104, Singapore",
-				"source": "Google",
-				"rating": 4.7,
-				"reviews": 3,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJLb1hKZUP2jERy8XqSPsCLgo",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.705434, 1.344] }
 		},
 		{
 			"type": "Feature",
@@ -2374,19 +2231,6 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.9374, 1.37384] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Buangkok Sports Park",
-				"address": "985C Buangkok Cres, Singapore",
-				"source": "Google",
-				"rating": 3.9,
-				"reviews": 186,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJgW53_2cW2jERRQ8UJhZT5jI",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.879407, 1.382413] }
 		},
 		{
 			"type": "Feature",
@@ -2443,58 +2287,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Bukit Batok Zone 7 Residents' Network",
-				"address": "210 Bukit Batok Street 21, Bukit Batok Green, #01-202, Singapore",
-				"source": "Google",
-				"rating": 3.4,
-				"reviews": 7,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJi3pXvD8Q2jERSz5q5ag3ndw",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.749873, 1.345503] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Bukit Canberra Sport Centre",
-				"address": "21 Canberra Link, Singapore",
-				"source": "Google",
-				"rating": 4.4,
-				"reviews": 74,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJYe_UNiYV2jERlvWhqzwZneA",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.82318, 1.449033] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Bukit Canberra Sport Hall",
-				"address": "21 Canberra Link, Singapore",
-				"source": "Google",
-				"rating": 4.3,
-				"reviews": 188,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJByE8bGAV2jEReIAf4jZEwD0",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.823946, 1.448873] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Bukit Gombak ActiveSG Gym",
-				"address": "810 Bukit Batok West Ave. 5, Singapore",
-				"source": "Google",
-				"rating": 4.1,
-				"reviews": 232,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJLzOhyEkQ2jERD-0pECpabro",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.752194, 1.359688] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "Bukit Gombak MRT Basketball Court",
 				"address": "810 Bukit Batok West Ave. 5, Singapore",
 				"source": "Google",
@@ -2504,19 +2296,6 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.752228, 1.359667] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Bukit Gombak Park Dog Run",
-				"address": "Bukit Batok West Ave. 5",
-				"source": "Google",
-				"rating": 3.6,
-				"reviews": 27,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJcRKWnisR2jERJQWjOOkVyIY",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.753014, 1.367597] }
 		},
 		{
 			"type": "Feature",
@@ -2534,19 +2313,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Bukit Gombak Sport Hall",
-				"address": "810 Bukit Batok West Ave. 5, Singapore",
-				"source": "Google",
-				"rating": 4.2,
-				"reviews": 241,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJKydd_kkQ2jERP8621RAPPz4",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.752228, 1.359667] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "Bukit Panjang CC Basketball Court",
 				"address": "8 Pending Rd, Singapore",
 				"source": "Google",
@@ -2556,32 +2322,6 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.770827, 1.37624] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Bukit Panjang Community Club",
-				"address": "8 Pending Rd, Singapore",
-				"source": "Google",
-				"rating": 4.1,
-				"reviews": 958,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJJWt786YR2jERcIgIkdUxv_0",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.770687, 1.376001] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Bukit Timah Community Club",
-				"address": "20 Toh Yi Dr, #04-01, Singapore",
-				"source": "Google",
-				"rating": 4.2,
-				"reviews": 565,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJGacQ0GMQ2jER8wwsO3AmbKg",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.771889, 1.340362] }
 		},
 		{
 			"type": "Feature",
@@ -2621,32 +2361,6 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.751598, 1.3812] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Choa Chu Kang Park",
-				"address": "Choa Chu Kang Dr, Singapore",
-				"source": "Google",
-				"rating": 4.3,
-				"reviews": 1910,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJRzglD-wR2jERgCmyEeAecXI",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.747429, 1.387486] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Choa Chu Kang Sport Centre",
-				"address": "1 Choa Chu Kang Street 53, Singapore",
-				"source": "Google",
-				"rating": 4.1,
-				"reviews": 964,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ_WX9ue0R2jER865IJyACAoc",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.74826, 1.391017] }
 		},
 		{
 			"type": "Feature",
@@ -2703,19 +2417,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Clementi ActiveSG Gym",
-				"address": "518 Clementi Ave 3, Singapore",
-				"source": "Google",
-				"rating": 3.6,
-				"reviews": 144,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJSfXDmI0a2jERDLaKw4Sp5Tc",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.765033, 1.310962] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "Clementi Community Centre",
 				"address": "220 Clementi Ave 4, Singapore",
 				"source": "Google",
@@ -2742,19 +2443,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Clementi Sport Hall",
-				"address": "518 Clementi Ave 3, Clementi Sports Hall, Singapore",
-				"source": "Google",
-				"rating": 4.2,
-				"reviews": 23,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJi6fqmI0a2jERdXJz8ecovMg",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.765173, 1.311193] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "Common Green Basketball Court",
 				"address": "195B Punggol Rd, Singapore 822195 Punggol Rd, Singapore",
 				"source": "Google",
@@ -2764,19 +2452,6 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.905905, 1.401113] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Commonwealth Park",
-				"address": "Commonwealth Dr",
-				"source": "Google",
-				"rating": 4.4,
-				"reviews": 20,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJtwnG1kka2jERN1yAwHYFtkQ",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.798338, 1.296102] }
 		},
 		{
 			"type": "Feature",
@@ -2820,45 +2495,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Delta ActiveSG Gym",
-				"address": "900 Tiong Bahru Rd, Singapore",
-				"source": "Google",
-				"rating": 3.9,
-				"reviews": 572,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJy5EXsyoa2jERNfQ1b93bPI4",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.820035, 1.289162] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Delta Sport Centre",
-				"address": "900 Tiong Bahru Rd, Singapore",
-				"source": "Google",
-				"rating": 4.8,
-				"reviews": 12,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJyWQnEYkb2jER6BxhOn5f-BA",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.820262, 1.289337] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Delta Sport Hall",
-				"address": "900 Tiong Bahru Rd, Singapore",
-				"source": "Google",
-				"rating": 4.1,
-				"reviews": 171,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJG9pxkCoa2jERSyubgxNCy-k",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.8205, 1.290585] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "East Canberra Sports Hardcourts (Basketball, Futsal, Badminton)",
 				"address": "Singapore",
 				"source": "Google",
@@ -2898,19 +2534,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Evergreen Park",
-				"address": "31 Hougang Ave 7, Singapore",
-				"source": "Google",
-				"rating": 4.2,
-				"reviews": 121,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJx63zejEW2jERv3c5XCqjr-8",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.899523, 1.369027] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "Everspring Park @ Yishun",
 				"address": "Yishun Street 42",
 				"source": "Google",
@@ -2924,19 +2547,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Exercise Park",
-				"address": "3 Hougang Ave 6, Singapore 538808 Hougang Ave 6, Singapore",
-				"source": "Google",
-				"rating": 4.2,
-				"reviews": 10,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJRYg7aTgW2jERzmol5yapSgg",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.892159, 1.374229] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "Faber Height Open Space",
 				"address": "40 Faber Heights, Singapore",
 				"source": "Google",
@@ -2946,19 +2556,6 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.757617, 1.32251] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Fajar Sports Hub",
-				"address": "Fajar Rd",
-				"source": "Google",
-				"rating": 3.8,
-				"reviews": 14,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJkVO-z5gR2jERYR1mMHhBYc8",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.768789, 1.384916] }
 		},
 		{
 			"type": "Feature",
@@ -3039,32 +2636,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Fitness Corner I @Limbang Pk",
-				"address": "784 Choa Chu Kang Dr, Singapore",
-				"source": "Google",
-				"rating": 2.3,
-				"reviews": 4,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJbbOUMgAR2jER7KJytxaGdzY",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.744233, 1.389423] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Fitness Corner, Fu Shan Gdn",
-				"address": "Singapore",
-				"source": "Google",
-				"rating": 5,
-				"reviews": 1,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ23HbOQAT2jERYweY6awYYms",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.78949, 1.440208] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "Football Court (Caged)",
 				"address": "Jurong Spring Neighbourhood Park",
 				"source": "Google",
@@ -3104,19 +2675,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Gek Poh Ville Community Club",
-				"address": "1 Jurong West Street 74, Singapore",
-				"source": "Google",
-				"rating": 4.1,
-				"reviews": 387,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJe51FQbwP2jERj_QFCJP_xnM",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.698951, 1.348722] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "Geylang West Community Club Basketball Court",
 				"address": "Geylang West CC",
 				"source": "Google",
@@ -3126,32 +2684,6 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.872615, 1.315114] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Goodview Gardens Park",
-				"address": "394 Bukit Batok West Ave. 5, Singapore",
-				"source": "Google",
-				"rating": 5,
-				"reviews": 5,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJC2ORsH0R2jERx6MKPcbMjCA",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.752749, 1.366157] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Heartbeat @ Bedok ActiveSG Swimming Complex",
-				"address": "Heartbeat@Bedok, 11 Bedok North Street 1, #5 Level",
-				"source": "Google",
-				"rating": 4.4,
-				"reviews": 4143,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ1xgTQ7Ui2jERqLDkdtiHQl8",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.932164, 1.326916] }
 		},
 		{
 			"type": "Feature",
@@ -3269,19 +2801,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Hougang Sport Hall",
-				"address": "93 Hougang Ave 4, Singapore",
-				"source": "Google",
-				"rating": 4.2,
-				"reviews": 126,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJo5Mh_EgW2jERwPa6qOD7A7Y",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.888364, 1.370726] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "HP Recreation And Clubhouse",
 				"address": "1150 Depot Rd, Singapore",
 				"source": "Google",
@@ -3347,19 +2866,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Joo Chiat Community Club",
-				"address": "405 Joo Chiat Rd, Singapore",
-				"source": "Google",
-				"rating": 4,
-				"reviews": 188,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ0Rz6Sg0Y2jERmgd6ZjD41YE",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.904113, 1.307436] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "JSP Basketball Court",
 				"address": "Jln Selaseh",
 				"source": "Google",
@@ -3408,32 +2914,6 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.716889, 1.353353] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Jurong West Sport Centre",
-				"address": "20 Jurong West Street 93, Singapore",
-				"source": "Google",
-				"rating": 4.3,
-				"reviews": 1865,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJEwW7gpoP2jER4o0mrMTZddM",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.694192, 1.337806] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Jurong West Sport Hall",
-				"address": "20 Jurong West Street 93, #02-18, Singapore",
-				"source": "Google",
-				"rating": 4.4,
-				"reviews": 238,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJYeredpAP2jERduiD1Z5dTGI",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.693299, 1.338529] }
 		},
 		{
 			"type": "Feature",
@@ -3579,19 +3059,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Kohup Sports Pte Ltd",
-				"address": "22 New Industrial Rd, #06-25/26 Primax Building Coffee Shop, Singapore",
-				"source": "Google",
-				"rating": 4.5,
-				"reviews": 10,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJD_-Au5QX2jERPo8cB1pklg8",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.886397, 1.343646] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "Kolam Ayer Community Club",
 				"address": "1 Geylang Bahru Ln, #01-03, Singapore",
 				"source": "Google",
@@ -3618,45 +3085,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "KOTC Sports Pte Ltd",
-				"address": "1093 Lower Delta Rd, #03-13, Singapore",
-				"source": "Google",
-				"rating": 4,
-				"reviews": 11,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ9S391fwX2jERDralw-JiEVs",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.822794, 1.281087] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Kranji Recreation Centre",
-				"address": "11 Kranji Cl, Singapore",
-				"source": "Google",
-				"rating": 4.4,
-				"reviews": 607,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJxa0bsEIS2jER3pv2smVyDcs",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.752877, 1.42945] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Kreta Ayer Community Club",
-				"address": "28 Kreta Ayer Rd, Singapore",
-				"source": "Google",
-				"rating": 4.2,
-				"reviews": 240,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJywqE63IZ2jER4NBNaHlGSv0",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.842786, 1.280915] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "Lam Soon Basketball Court",
 				"address": "Choa Chu Kang Ave 3",
 				"source": "Google",
@@ -3679,19 +3107,6 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.814317, 1.289781] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Lengkong Enam Park",
-				"address": "Lengkong Enam, Singapore",
-				"source": "Google",
-				"rating": 4.3,
-				"reviews": 48,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJlwhGYVU92jERIKor-3Jyvvs",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.914735, 1.327467] }
 		},
 		{
 			"type": "Feature",
@@ -3774,19 +3189,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Marymount Community Club",
-				"address": "191 Sin Ming Ave, Singapore",
-				"source": "Google",
-				"rating": 3.9,
-				"reviews": 309,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJHxDcuhgX2jERvyzRhopMHII",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.8415, 1.361332] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "Mayfair Park",
 				"address": "Jalan Gaharu",
 				"source": "Google",
@@ -3820,19 +3222,6 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.857545, 1.320316] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Migrant Workers' Centre Recreation Club (MWC RC)",
-				"address": "51 Soon Lee Rd, Singapore",
-				"source": "Google",
-				"rating": 4.2,
-				"reviews": 287,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJT-tysI4P2jERYQT45sS525E",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.699094, 1.332046] }
 		},
 		{
 			"type": "Feature",
@@ -3937,32 +3326,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "MWC Recreation Club (MWC FWSIP)",
-				"address": "51 Soon Lee Rd, Singapore",
-				"source": "Google",
-				"rating": 4.6,
-				"reviews": 77,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJb7dKT2IP2jERcFRITIwWDEY",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.698776, 1.332537] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Nee Soon Central Community Club",
-				"address": "1 Northpoint Drive, South Wing, #01-201 Northpoint City",
-				"source": "Google",
-				"rating": 4.3,
-				"reviews": 556,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJq7C_6m8U2jERTnac8Wp_HgY",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.835942, 1.426442] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "Nee Soon Central Community Park",
 				"address": "Yishun Street 72",
 				"source": "Google",
@@ -4000,45 +3363,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Nee Soon South Community Club",
-				"address": "30 Yishun Street 81, Singapore",
-				"source": "Google",
-				"rating": 4.1,
-				"reviews": 353,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJq6qqmhEU2jER0yE06FDEo-U",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.834804, 1.414993] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Nee Soon South Zone D Residents' Network",
-				"address": "832 Yishun Street 81, Block 832 D'Khatib, Singapore",
-				"source": "Google",
-				"rating": 4.4,
-				"reviews": 9,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJd2DnQXEU2jER4p6relpiLuk",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.834529, 1.414793] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Nee Soon Sports Centre",
-				"address": "32 Yishun Central 1, Singapore",
-				"source": "Google",
-				"rating": 4.2,
-				"reviews": 36,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJfePSLm8U2jERApXFZbuSbLo",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.838645, 1.427519] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "Net Free Basketball Court",
 				"address": "5 Marsiling Dr, Singapore",
 				"source": "Google",
@@ -4065,19 +3389,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Ngee Ann Sports Complex",
-				"address": "535 Clementi Rd, Singapore",
-				"source": "Google",
-				"rating": 4.4,
-				"reviews": 162,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJVVJ93ocQ2jER8osZOv0lKQA",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.77674, 1.335665] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "North Arc Basketball Court",
 				"address": "Singapore",
 				"source": "Google",
@@ -4087,19 +3398,6 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.760958, 1.32318] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "North Park Residences",
-				"address": "37 Yishun Central 1, Singapore",
-				"source": "Google",
-				"rating": 4.1,
-				"reviews": 320,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJKfr7nG8U2jERGyp7fB-uPTA",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.83673, 1.428841] }
 		},
 		{
 			"type": "Feature",
@@ -4117,45 +3415,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "NYP Stadium",
-				"address": "186 Ang Mo Kio Ave 8, Singapore",
-				"source": "Google",
-				"rating": 4.3,
-				"reviews": 65,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJKR6br5QW2jERSsm0JDaPgkY",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.850373, 1.382962] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "OBA Arena @ Pasir Ris",
-				"address": "3A Pasir Ris Drive 6, Singapore",
-				"source": "Google",
-				"rating": 2.7,
-				"reviews": 35,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJjSbbY6Y92jER16q5yg_NPkI",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.955914, 1.370842] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "OBA Arena @ Punggol",
-				"address": "11 Northshore Dr, Singapore",
-				"source": "Google",
-				"rating": 3,
-				"reviews": 94,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJxUtilYEV2jERIbEmG9kxetY",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.898993, 1.415152] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "Old Court Basketball Court",
 				"address": "660 Choa Chu Kang Cres, #17-91 Block 660, Singapore",
 				"source": "Google",
@@ -4163,19 +3422,6 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.749564, 1.401021] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Our Tampines Hub ActiveSG Community Auditorium",
-				"address": "1 Tampines Walk, Level 3, Singapore",
-				"source": "Google",
-				"rating": 4.5,
-				"reviews": 1125,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJrUlEWhI92jERvt94DySkZLg",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.940123, 1.353696] }
 		},
 		{
 			"type": "Feature",
@@ -4202,32 +3448,6 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.944243, 1.384152] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Pasir Ris East Community Club",
-				"address": "1 Pasir Ris Drive 4, #01-08 East Community Building, Singapore",
-				"source": "Google",
-				"rating": 4.1,
-				"reviews": 1073,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJURXsNa092jERHMncG26FzIo",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.959445, 1.368534] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Pasir Ris Park Adventure Playground",
-				"address": "110 Pasir Ris Rd, Singapore",
-				"source": "Google",
-				"rating": 4.6,
-				"reviews": 617,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJuY8mPsc92jERdf13nPQ8Pq4",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.944834, 1.383553] }
 		},
 		{
 			"type": "Feature",
@@ -4267,32 +3487,6 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.851407, 1.313109] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Penjuru Recreation Centre",
-				"address": "27 Penjuru Walk, Singapore",
-				"source": "Google",
-				"rating": 4.4,
-				"reviews": 1189,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ9xq4i60a2jERtrsKmFap4qA",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.732749, 1.318532] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Petir Park",
-				"address": "Petir Rd",
-				"source": "Google",
-				"rating": 4.3,
-				"reviews": 231,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJkwp7xqUR2jERnoHV9NhCArc",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.768458, 1.37559] }
 		},
 		{
 			"type": "Feature",
@@ -4479,19 +3673,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Real Madrid Foundation Basketball School Paya Lebar",
-				"address": "601 Aljunied Ave 1, Singapore",
-				"source": "Google",
-				"rating": 4,
-				"reviews": 1,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJq1FFDiEZ2jERadqa_RcvBh4",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.887851, 1.321236] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "Rivervale Drive Basketball Court",
 				"address": "117A Rivervale Dr, Singapore",
 				"source": "Google",
@@ -4570,43 +3751,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Scholar Basketball Academy",
-				"address": "80 Marine Parade Rd, #07-16/17 Parkway Parade, Singapore",
-				"source": "Google",
-				"rating": 4.9,
-				"reviews": 152,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJGXpRrr3Pq0YR_05Y3-CH1_c",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.905155, 1.30147] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Scholar Basketball Academy (Bukit Timah Plaza)",
-				"address": "Bukit Timah Plaza, Jalan Anak Bukit, #01-15",
-				"source": "Google",
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJLZrxN-0R2jERvAlzlCDCtwk",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.778865, 1.33881] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Segar Gardens Court",
-				"address": "Singapore",
-				"source": "Google",
-				"rating": 4.5,
-				"reviews": 2,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJO_I9wSIR2jERrn9XgYZYEkw",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.773972, 1.386812] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "Segar Hall",
 				"address": "466 Segar Rd, Singapore",
 				"source": "Google",
@@ -4629,19 +3773,6 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.828856, 1.451479] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Sembawang Recreation Centre",
-				"address": "301 Canberra Rd, Singapore",
-				"source": "Google",
-				"rating": 4.5,
-				"reviews": 88,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ7ZgOOiAV2jERCFeUkkIYSag",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.821852, 1.458518] }
 		},
 		{
 			"type": "Feature",
@@ -4670,19 +3801,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Sengkang Sports Hall",
-				"address": "57 Anchorvale Rd, Singapore",
-				"source": "Google",
-				"rating": 4.6,
-				"reviews": 42,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJZ96CCXQW2jERfzExgYN3pfw",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.886448, 1.396745] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "Sengkang Square Basketball Court",
 				"address": "Singapore",
 				"source": "Google",
@@ -4705,32 +3823,6 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.764651, 1.381403] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "SG Basketball @ KBRC",
-				"address": "7 Kaki Bukit Ave 3, Singapore",
-				"source": "Google",
-				"rating": 4.6,
-				"reviews": 10,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJX5aljeQX2jERXdgdcLOa1kk",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.906503, 1.337385] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "SG Basketball @ Shot Zone",
-				"address": "750B Chai Chee Rd, #01-02, Singapore",
-				"source": "Google",
-				"rating": 4.3,
-				"reviews": 37,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJm3O-ybYj2jERoNzZBoBl-Po",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.920922, 1.32295] }
 		},
 		{
 			"type": "Feature",
@@ -4811,32 +3903,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "SIA Sports Club",
-				"address": "726 Upper Changi Rd E, Singapore",
-				"source": "Google",
-				"rating": 4.2,
-				"reviews": 673,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJfwlSIt482jER7yY_s9mjfHg",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.964739, 1.344643] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Siglap Community Club",
-				"address": "151 Bedok S Rd, Singapore",
-				"source": "Google",
-				"rating": 4.4,
-				"reviews": 330,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ42aqIOkj2jERYHGec0xobYw",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.947029, 1.317119] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "SIM Multi-Purpose Sports Hall",
 				"address": "461 Clementi Rd, Level 2 SIM HQ, Block D, Singapore",
 				"source": "Google",
@@ -4859,19 +3925,6 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.832458, 1.357622] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "SMRT Recreation Club",
-				"address": "3 Bishan St 14, #01-02, Singapore",
-				"source": "Google",
-				"rating": 4.1,
-				"reviews": 98,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJu9z--xkX2jERWTaBRwAOhG4",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.850382, 1.35479] }
 		},
 		{
 			"type": "Feature",
@@ -4939,32 +3992,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "SP Sports Arena",
-				"address": "500 Dover Rd, Singapore",
-				"source": "Google",
-				"rating": 4.4,
-				"reviews": 52,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ1fYfwGAa2jERGh-sWjfddQI",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.77738, 1.308921] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Sports & Recreation Centre",
-				"address": "810 Bukit Batok East Ave 5, Bukit Gombak Stadium, Singapore",
-				"source": "Google",
-				"rating": 3.3,
-				"reviews": 4,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJXU7drEcQ2jERbWPDktMIwlQ",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.751854, 1.359223] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "Sports & Recreation Centre",
 				"address": "110 Nanyang Cres, Singapore",
 				"source": "Google",
@@ -4974,19 +4001,6 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.687764, 1.349181] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Sports @ Buona Vista",
-				"address": "115A Commonwealth Dr, Singapore",
-				"source": "Google",
-				"rating": 3.8,
-				"reviews": 44,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJg3-7Glwb2jERA--oUIY-tD4",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.798414, 1.305656] }
 		},
 		{
 			"type": "Feature",
@@ -5026,19 +4040,6 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.88412, 1.355556] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "SUTD Sports and Recreation Centre",
-				"address": "61 Changi South Ave 1, Singapore",
-				"source": "Google",
-				"rating": 4.5,
-				"reviews": 380,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJs6XD7d482jERSe1xuAHuVjY",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.964738, 1.341786] }
 		},
 		{
 			"type": "Feature",
@@ -5108,19 +4109,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Tampines Sports Hall",
-				"address": "1Tampines Walk, Singapore",
-				"source": "Google",
-				"rating": 4.5,
-				"reviews": 1019,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJz-uAfxI92jERZW0Qc-ylPPQ",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.93942, 1.353023] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "Tampines West Community Club",
 				"address": "5 Tampines Ave 3, #01 05, Singapore",
 				"source": "Google",
@@ -5160,19 +4148,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "TCB Sports Pte Ltd",
-				"address": "54 Kian Teck Rd, Singapore",
-				"source": "Google",
-				"rating": 4,
-				"reviews": 5,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ4yN1GYcP2jERQxzuheuvbVI",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.690097, 1.329477] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "TDOS Basketball Court",
 				"address": "Thrift Dr",
 				"source": "Google",
@@ -5208,32 +4183,6 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.853577, 1.363096] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Telok Blangah 'Blangah Court' Residents' Committee",
-				"address": "47 Telok Blangah Drive, #01-93, Blangah Court, Singapore",
-				"source": "Google",
-				"rating": 5,
-				"reviews": 1,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJGXaMysIb2jERUq9kRyJeaJ4",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.81017, 1.272136] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Telok Blangah 'Blangah Square' RC",
-				"address": "75 Telok Blangah Dr, Block 75, Singapore",
-				"source": "Google",
-				"rating": 3.5,
-				"reviews": 4,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJCflFZ8Mb2jERXM0PHAKxCKE",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.809121, 1.274904] }
 		},
 		{
 			"type": "Feature",
@@ -5329,19 +4278,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Thomson Sin Ming Court Residents' Committee",
-				"address": "448 Bright Hill Dr, #01-127 Sin Ming Court, Singapore",
-				"source": "Google",
-				"rating": 4.1,
-				"reviews": 39,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJh53Jei8X2jERfZdFMkoBje0",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.831548, 1.358429] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "Thrift Drive Open Space",
 				"address": "Thrift Dr",
 				"source": "Google",
@@ -5390,19 +4326,6 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.844973, 1.335467] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Triple Threat | Basketball Academy Singapore",
-				"address": "82 Lor 23 Geylang, #06-09, Singapore",
-				"source": "Google",
-				"rating": 4.9,
-				"reviews": 481,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJERyP1dZwvaYR20PXbILdkNY",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.881503, 1.316749] }
 		},
 		{
 			"type": "Feature",
@@ -5524,19 +4447,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Whampoa View Residents' Committee",
-				"address": "93 Whampoa Drive, Whampoa View, #01-108, Singapore",
-				"source": "Google",
-				"rating": 3,
-				"reviews": 2,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJdc6XlNkZ2jERAdhP0MWbePc",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.854823, 1.3222] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "Woodlands Admiral Garden",
 				"address": "620 Woodlands Drive 52, Singapore",
 				"source": "Google",
@@ -5589,32 +4499,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Woodlands Sport Centre",
-				"address": "2 Woodlands Street 12, Singapore",
-				"source": "Google",
-				"rating": 4.1,
-				"reviews": 2050,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJV5hnA6wT2jERqD4CwNu0SpM",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.779798, 1.434104] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Woodlands Sport Hall",
-				"address": "2 Woodlands Street 12, Singapore",
-				"source": "Google",
-				"rating": 4,
-				"reviews": 69,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ9-wMbKkT2jERJojJzLw7pdA",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.779696, 1.434311] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "Woodlands Sports Pavilion",
 				"address": "3 Woodlands Drive 63, Singapore",
 				"source": "Google",
@@ -5624,19 +4508,6 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.802201, 1.438746] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Woodlands Stadium",
-				"address": "1 Woodlands Street 13, Singapore",
-				"source": "Google",
-				"rating": 4.3,
-				"reviews": 605,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ2_q9-asT2jERy4IMLTN6_d8",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.780313, 1.434983] }
 		},
 		{
 			"type": "Feature",
@@ -5715,19 +4586,6 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.842126, 1.431044] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Yishun Sport Hall",
-				"address": "101 Yishun Ave 1, Singapore",
-				"source": "Google",
-				"rating": 4,
-				"reviews": 250,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ4-iWlw8U2jERbtvdchPy4-o",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.831333, 1.412111] }
 		},
 		{
 			"type": "Feature",
