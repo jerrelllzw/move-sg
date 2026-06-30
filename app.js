@@ -367,7 +367,7 @@ function renderNearby() {
   if (!ranked.length) {
     const empty = document.createElement("li");
     empty.className = "nearby-empty";
-    empty.textContent = "No places to show — turn on a layer.";
+    empty.textContent = "No places to show — turn on a filter.";
     els.nearbyList.replaceChildren(empty);
   }
 }
