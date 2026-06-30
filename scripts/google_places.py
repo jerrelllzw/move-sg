@@ -37,6 +37,22 @@ def load_api_key() -> str | None:
     return None
 
 
+def _post(body: dict, api_key: str) -> dict:
+    """POST one searchText request and return the decoded JSON."""
+    request = urllib.request.Request(
+        ENDPOINT,
+        data=json.dumps(body).encode(),
+        headers={
+            "Content-Type": "application/json",
+            "X-Goog-Api-Key": api_key,
+            "X-Goog-FieldMask": FIELD_MASK,
+        },
+        method="POST",
+    )
+    with urllib.request.urlopen(request, timeout=30) as response:
+        return json.loads(response.read().decode())
+
+
 def _search_page(query: str, api_key: str, rect: tuple, token: str | None) -> dict:
     body = {
         "textQuery": query,
@@ -50,18 +66,7 @@ def _search_page(query: str, api_key: str, rect: tuple, token: str | None) -> di
     }
     if token:
         body["pageToken"] = token
-    request = urllib.request.Request(
-        ENDPOINT,
-        data=json.dumps(body).encode(),
-        headers={
-            "Content-Type": "application/json",
-            "X-Goog-Api-Key": api_key,
-            "X-Goog-FieldMask": FIELD_MASK,
-        },
-        method="POST",
-    )
-    with urllib.request.urlopen(request, timeout=30) as response:
-        return json.loads(response.read().decode())
+    return _post(body, api_key)
 
 
 def _search_rect(query: str, api_key: str, rect: tuple) -> dict:
@@ -107,6 +112,28 @@ def find_place(query: str, api_key: str, bbox: tuple) -> dict | None:
     data = _search_page(query, api_key, bbox, None)
     places = data.get("places", [])
     return places[0] if places else None
+
+
+def find_place_near(
+    query: str, api_key: str, lat: float, lng: float, radius_m: float = 2000
+) -> list[dict]:
+    """Up to a few Google matches for a query, ranked toward (lat, lng).
+
+    Uses a location *bias* (soft) rather than a restriction (hard) so a place
+    whose pin sits just outside the circle still surfaces; callers can gate the
+    results on distance themselves.
+    """
+    body = {
+        "textQuery": query,
+        "locationBias": {
+            "circle": {
+                "center": {"latitude": lat, "longitude": lng},
+                "radius": radius_m,
+            }
+        },
+        "pageSize": 5,
+    }
+    return _post(body, api_key).get("places", [])
 
 
 def place_properties(place: dict, **extra) -> dict:

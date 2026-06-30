@@ -113,29 +113,46 @@ function escapeHtml(s) {
   return div.innerHTML;
 }
 
-// A compact star rating: filled/half/empty glyphs plus the numeric score and
-// review count, matching how Google surfaces a place's reputation at a glance.
+// A compact star rating: the numeric score and review count, plus a five-star
+// glyph. Fractional fill is done by clipping a gold star row over a muted one
+// (both using the ubiquitous ★ glyph) rather than a dedicated half-star
+// character — exotic glyphs like ⯨ have no coverage in most mobile system
+// fonts and render as a tofu box.
 function ratingHtml(rating, reviews) {
-  const full = Math.floor(rating);
-  const half = rating - full >= 0.25 && rating - full < 0.75;
-  const bonus = rating - full >= 0.75 ? 1 : 0;
-  let stars = "★".repeat(full + bonus);
-  if (half) stars += "⯨";
-  stars += "☆".repeat(Math.max(0, 5 - full - bonus - (half ? 1 : 0)));
+  const pct = Math.max(0, Math.min(100, (rating / 5) * 100));
+  const stars =
+    `<span class="popup-stars" aria-hidden="true">` +
+    `<span class="popup-stars-base">★★★★★</span>` +
+    `<span class="popup-stars-fill" style="width:${pct}%">★★★★★</span>` +
+    `</span>`;
 
   const count =
     reviews != null
       ? ` <span class="popup-reviews">(${reviews.toLocaleString()})</span>`
       : "";
-  return `<div class="popup-rating"><span class="popup-stars" aria-hidden="true">${stars}</span> <span class="popup-score">${rating.toFixed(1)}</span>${count}</div>`;
+  return `<div class="popup-rating">${stars} <span class="popup-score">${rating.toFixed(1)}</span>${count}</div>`;
 }
 
-// Fall back to a Google Maps search by name+address when Google didn't hand us a
-// canonical place URI for this feature.
+// Build a Google Maps link that resolves to the right place whether it opens in
+// a browser or hands off to the Maps app on a phone. The stored URIs come in two
+// shapes — `…/maps/place/?q=place_id:…` (courts) and `…?cid=…&g_mp=…` (pools) —
+// and neither is the documented universal format the app reliably parses, so we
+// normalise them: a place_id goes through the official Maps URLs API, and a cid
+// is reduced to the bare `?cid=` form (dropping the internal g_mp param). When
+// there's no usable id we fall back to a name+address search.
 function placeUrl(props) {
-  if (props.google_maps_uri) return props.google_maps_uri;
   const query = [props.name, props.address].filter(Boolean).join(" ");
-  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
+  const search = (extra = "") =>
+    `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}${extra}`;
+
+  const uri = props.google_maps_uri || "";
+  const placeId = uri.match(/place_id:([\w-]+)/);
+  if (placeId) return search(`&query_place_id=${placeId[1]}`);
+
+  const cid = uri.match(/[?&]cid=(\d+)/);
+  if (cid) return `https://www.google.com/maps?cid=${cid[1]}`;
+
+  return uri || search();
 }
 
 function popupHtml(category, feature) {
@@ -403,11 +420,20 @@ function renderNearby() {
   }
 }
 
+function setToolbarCollapsed(collapsed) {
+  els.toolbar.classList.toggle("collapsed", collapsed);
+  els.toolbarToggle.setAttribute("aria-expanded", String(!collapsed));
+  els.toolbarToggle.title = collapsed ? "Expand filters" : "Collapse filters";
+}
+
 function setupToolbarToggle() {
+  // On phones the sidebar is short, so an expanded filter panel would push the
+  // nearby list out of view — start collapsed there and let the user opt in.
+  if (window.matchMedia && window.matchMedia("(max-width: 760px)").matches) {
+    setToolbarCollapsed(true);
+  }
   els.toolbarToggle.addEventListener("click", () => {
-    const collapsed = els.toolbar.classList.toggle("collapsed");
-    els.toolbarToggle.setAttribute("aria-expanded", String(!collapsed));
-    els.toolbarToggle.title = collapsed ? "Expand filters" : "Collapse filters";
+    setToolbarCollapsed(!els.toolbar.classList.contains("collapsed"));
   });
 }
 

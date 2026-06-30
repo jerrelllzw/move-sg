@@ -597,9 +597,28 @@ a:hover {
   font-size: 13px;
 }
 
+/* A five-star track: a muted row of stars with a gold row clipped over it to
+   the rating's width, so fractional scores render without an exotic half-star
+   glyph (which most mobile fonts lack). */
 .popup-stars {
-  color: var(--muted);
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
   letter-spacing: 1px;
+  white-space: nowrap;
+}
+
+.popup-stars-base {
+  color: var(--track);
+}
+
+.popup-stars-fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  color: #f5a623;
+  white-space: nowrap;
 }
 
 .popup-score {
@@ -716,9 +735,19 @@ a:hover {
 
   .sidebar {
     width: 100%;
-    max-height: 42vh;
+    max-height: 50vh;
     border-right: 0;
     border-bottom: 1px solid var(--border);
+    /* Scroll the panel as a whole so an expanded filter section never buries
+       the nearby list — the user can scroll past the filters to reach it. */
+    overflow-y: auto;
+  }
+
+  /* Let the list flow at its natural height and ride the sidebar's scroll
+     instead of trapping it in a nested scroller that collapses to nothing. */
+  .nearby-list {
+    flex: none;
+    overflow: visible;
   }
 
   .map {

@@ -1,0 +1,2676 @@
+{
+  "Venus Green": {
+    "google_maps_uri": "https://maps.google.com/?cid=4765312602803433228&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.1,
+    "reviews": 29,
+    "address": "Jupiter Rd, Singapore"
+  },
+  "The Inglewood Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=3312541117972962994&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.2,
+    "reviews": 5,
+    "address": "48 The Inglewood, Singapore 575077"
+  },
+  "West Coast Green Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=14382476621299618092&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 29,
+    "address": "W Coast Grn, Singapore"
+  },
+  "Parry Road Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=14554823398480628451&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 33,
+    "address": "22 Parry Rd, Singapore 547203"
+  },
+  "West Coast Place Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=6995987452812562933&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.2,
+    "reviews": 17,
+    "address": "11 W Coast Pl, Singapore 127564"
+  },
+  "Tiong Bahru Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=14028385961957054886&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 921,
+    "address": "1 Henderson Rd, Singapore 159561"
+  },
+  "Bedok Reservoir Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=2125511014388521770&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.6,
+    "reviews": 513,
+    "address": "Bedok Reservoir, Singapore"
+  },
+  "Bougainvillea Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=8636029894843666019&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.1,
+    "reviews": 145,
+    "address": "500 Dunearn Rd, Singapore 289618"
+  },
+  "Labrador Villa Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=1448919234416097016&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "address": "Labrador Villa Rd, Singapore"
+  },
+  "Taman Mas Merah Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=18133738673022503484&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 4,
+    "address": "Taman Mas Merah, Singapore"
+  },
+  "Ang Mo Kio Linear Park (plot 4)": {
+    "google_maps_uri": "https://maps.google.com/?cid=12032053599088958262&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 117,
+    "address": "Ang Mo Kio Ave 5, Singapore"
+  },
+  "Platina Road Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=9273385148971437385&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "address": "Platina Rd, Singapore"
+  },
+  "Goodlink Park Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=11500556938196727458&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 6,
+    "address": "30 Goodlink Pk, Singapore 759509"
+  },
+  "Springside Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=12282021982293433753&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.1,
+    "reviews": 35,
+    "address": "Springside Park, Singapore"
+  },
+  "Villa Verde Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=16447758802684451965&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 288,
+    "address": "Junction of Choa Chu Kang North 5 and, Stagmont Ring, Singapore 688704"
+  },
+  "Mar Thoma Road Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=10480224398548472750&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.2,
+    "reviews": 12,
+    "address": "Mar Thoma Rd, Singapore"
+  },
+  "Leban Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=2497167185701186086&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 11,
+    "address": "Upper Thomson Rd, Singapore"
+  },
+  "Sunset Heights Os": {
+    "google_maps_uri": "https://maps.google.com/?cid=1935415105317712798&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "reviews": 7,
+    "address": "Sunset Heights, Singapore"
+  },
+  "Zhenghua Nature Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=3501069773386629888&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 564,
+    "address": "273 Bangkit Rd, Singapore 670276"
+  },
+  "Haig Walk (geylang Rd-dunman Rd)": {
+    "google_maps_uri": "https://maps.google.com/?cid=14835702089011857799&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.2,
+    "reviews": 50,
+    "address": "31 Mugliston Rd, Singapore 437717"
+  },
+  "St. Nicholas View Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=778847224792004438&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 2,
+    "address": "Singapore"
+  },
+  "Lorong Marzuki Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=1523811455902268971&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "address": "Lor Marzuki, Singapore"
+  },
+  "Yishun Pond Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=7016459265448162034&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "reviews": 200,
+    "address": "Yishun Central, Singapore 760323"
+  },
+  "One-north Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=16028987789650739258&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "reviews": 107,
+    "address": "Slim Barracks Rise, Singapore"
+  },
+  "Hdb - Compassvale Ln (blk 205b)": {
+    "google_maps_uri": "https://maps.google.com/?cid=2336371103170629481&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "reviews": 1,
+    "address": "205B Compassvale Ln, Singapore 542205"
+  },
+  "Hillview Crescent Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=2695753445898330582&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.2,
+    "reviews": 6,
+    "address": "Hillview Cres, Singapore"
+  },
+  "Geylang East Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=593032577223035628&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.5,
+    "reviews": 22,
+    "address": "601 Aljunied Ave 1, Singapore 389862"
+  },
+  "Kallang Riverside Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=15235422564159184094&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 1496,
+    "address": "Cnr Kallang Road and, Crawford St, Singapore 397732"
+  },
+  "Gentle Dr Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=15192541290418754900&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.9,
+    "reviews": 8,
+    "address": "Singapore"
+  },
+  "Binchang Rise Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=16352408459043650545&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 14,
+    "address": "Binchang Rise, Singapore"
+  },
+  "War Memorial Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=6364263924653051453&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 493,
+    "address": "Nicoll Highway, Stamford Rd, &, Singapore 189701"
+  },
+  "Lorong Kemunchup Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=11614335213358552440&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.1,
+    "reviews": 11,
+    "address": "Lor Kemunchup, Singapore"
+  },
+  "Jambol Place Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=2699857054910305063&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.7,
+    "reviews": 25,
+    "address": "Jambol Pl, Singapore"
+  },
+  "Penang Road Os": {
+    "google_maps_uri": "https://maps.google.com/?cid=5424429199836580917&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 115,
+    "address": "Penang Rd, Singapore"
+  },
+  "Sixth Avenue Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=11942698233993873057&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.2,
+    "reviews": 16,
+    "address": "Sixth Ave, Singapore"
+  },
+  "Taman Permata Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=9617987088138181235&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 2,
+    "reviews": 2,
+    "address": "166 Taman Permata, Singapore 575286"
+  },
+  "Tai Keng Gardens Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=2743248904279532618&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "address": "Tai Keng Gardens, Tai Keng Gardens Playground, Singapore 535323"
+  },
+  "Tras Link Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=16897746937027330419&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 57,
+    "address": "Tras Link, Singapore"
+  },
+  "Oasis@mulberry Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=1103481530657834616&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 18,
+    "address": "Mulberry Ave, Singapore"
+  },
+  "Siang Kuang Avenue Interim Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=11527247471827674471&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "address": "Singapore"
+  },
+  "Bishan-ang Mo Kio Park (pond Gardens)": {
+    "google_maps_uri": "https://maps.google.com/?cid=180437126901621671&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 20,
+    "address": "1380 Ang Mo Kio Avenue 1, Bishan park1, Singapore 569930"
+  },
+  "Thrift Dr Os": {
+    "google_maps_uri": "https://maps.google.com/?cid=9998385293859284285&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "reviews": 46,
+    "address": "22 Yio Chu Kang Rd, #02-01A beside the lift) Highland Centre, Singapore 545535"
+  },
+  "Sea Breeze Avenue Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=14389982361549742114&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.2,
+    "reviews": 129,
+    "address": "Simei Street 1, Singapore"
+  },
+  "Kandis Garden": {
+    "google_maps_uri": "https://maps.google.com/?cid=3746203392116476184&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.8,
+    "reviews": 10,
+    "address": "Jln Kandis, Singapore"
+  },
+  "Orchid Village Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=8444894579518237093&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.6,
+    "reviews": 10,
+    "address": "Linden Dr, Singapore 288706"
+  },
+  "Jln Pintau Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=6513728641094962796&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.6,
+    "reviews": 37,
+    "address": "Jln Pintau, Singapore"
+  },
+  "Sunrise Dr Playground I": {
+    "google_maps_uri": "https://maps.google.com/?cid=8596659615697689786&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.8,
+    "reviews": 4,
+    "address": "2 Sunrise Dr, Singapore 806505"
+  },
+  "Henry Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=5631092259179909482&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4,
+    "reviews": 27,
+    "address": "48 Holland Grove Rd, Singapore 278814"
+  },
+  "Kallang Linear Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=9302480031339503439&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.1,
+    "reviews": 13,
+    "address": "115 Potong Pasir Ave 1, Block 115, Singapore 350115"
+  },
+  "Novena Rise Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=17982115587345100082&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.8,
+    "reviews": 45,
+    "address": "Novena Rise, Singapore"
+  },
+  "Sea Breeze Garden Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=13491884122694959540&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "address": "34 Jln Soo Bee, Singapore 488127"
+  },
+  "Pasir Panjang Nursery": {
+    "google_maps_uri": "https://maps.google.com/?cid=16217541787114501177&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.7,
+    "reviews": 3,
+    "address": "100K Pasir Panjang Rd, Singapore 118526"
+  },
+  "Sembawang Hot Spring Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=17342367463741762658&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 1779,
+    "address": "Along, 500 Gambas Ave, Singapore 756952"
+  },
+  "Native Plant Centre": null,
+  "Tampines Boulevard Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=6565031329351759525&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.9,
+    "reviews": 30,
+    "address": "Singapore 522625"
+  },
+  "Market Street Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=16771613883075731106&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "address": "9 Raffles Pl, Singapore 048619"
+  },
+  "Orchard Fountain Corner": {
+    "google_maps_uri": "https://maps.google.com/?cid=1605299564422124866&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.8,
+    "reviews": 30,
+    "address": "323 Orchard Rd, Singapore 238892"
+  },
+  "Gelenggang Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=1026188446895729712&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.9,
+    "reviews": 25,
+    "address": "Jln Gelenggang, Singapore"
+  },
+  "Ang Mo Kio Town Garden West": {
+    "google_maps_uri": "https://maps.google.com/?cid=6741582033735159859&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 1092,
+    "address": "Opposite Ang Mo Kio Town Library, Ang Mo Kio Ave 6, Singapore 567740"
+  },
+  "Eng Kong Garden Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=2698053272350465499&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 25,
+    "address": "Eng Kong Ter, Singapore"
+  },
+  "Bishan-ang Mo Kio Park (river Plains)": {
+    "google_maps_uri": "https://maps.google.com/?cid=11532687890928937737&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.6,
+    "reviews": 28,
+    "address": "Bishan-Ang Mo Kio Park, Singapore"
+  },
+  "Jubilee Park (fcp)": {
+    "google_maps_uri": "https://maps.google.com/?cid=16393126707831497002&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.7,
+    "reviews": 197,
+    "address": "River Valley Rd, Singapore"
+  },
+  "Hooper Road Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=17879655352650436081&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.7,
+    "reviews": 15,
+    "address": "Hooper Rd, Singapore 229863"
+  },
+  "Thomson Green Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=15194096923272163423&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.9,
+    "reviews": 18,
+    "address": "Thomson Green, Singapore 574905"
+  },
+  "Jalan Remaja Interim Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=12942506176694600509&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.9,
+    "reviews": 9,
+    "address": "Jln Remaja, Singapore"
+  },
+  "Railway Corridor Rifle Range Connector": {
+    "google_maps_uri": "https://maps.google.com/?cid=12451352002699789418&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 2.5,
+    "reviews": 8,
+    "address": "78B Rifle Range Rd, Singapore 588385"
+  },
+  "Savoy Park Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=7365602301067469779&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 6,
+    "address": "Eng Kong Dr, Singapore"
+  },
+  "Clover Way Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=13925129212232923496&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.6,
+    "reviews": 13,
+    "address": "Singapore"
+  },
+  "Bukit Gombak Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=1428426877243535024&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "reviews": 209,
+    "address": "Bukit Batok West Ave. 5, Singapore"
+  },
+  "Sembawang Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=9060958855734855201&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "reviews": 5945,
+    "address": "Sembawang Rd, Singapore"
+  },
+  "Surin Avenue Neighbourhood Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=4109617133811385382&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "reviews": 221,
+    "address": "71 Surin Ave, Surin Avenue Neighbourhood Park, Singapore 535650"
+  },
+  "Chempaka Avenue Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=2925178813043954823&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.6,
+    "reviews": 31,
+    "address": "Chempaka Ave, Singapore"
+  },
+  "Lentor Street Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=2601218149021316583&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3,
+    "reviews": 6,
+    "address": "Lentor St, Singapore"
+  },
+  "Yunnan Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=4316670398609695418&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.1,
+    "reviews": 89,
+    "address": "Yunnan Cres, Singapore"
+  },
+  "Pasir Panjang Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=5450104590593653925&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.9,
+    "reviews": 16,
+    "address": "121 Pasir Panjang Rd, Singapore 118543"
+  },
+  "Duxton Plain Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=13442430022204792835&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 153,
+    "address": "New Bridge Rd, Singapore 089140"
+  },
+  "Sengkang Riverside Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=4246209828589177588&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "reviews": 2240,
+    "address": "Anchorvale Street, Singapore 544834"
+  },
+  "East Coast Park Area G": {
+    "google_maps_uri": "https://maps.google.com/?cid=16884685266504645338&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.6,
+    "reviews": 34,
+    "address": "Singapore 468965"
+  },
+  "Interim Park At Terang Bulan Avenue": {
+    "google_maps_uri": "https://maps.google.com/?cid=16599817777704496918&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 2,
+    "address": "Terang Bulan Ave, Singapore"
+  },
+  "Onan Road Green Space": {
+    "google_maps_uri": "https://maps.google.com/?cid=9055571556934152296&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.7,
+    "reviews": 3,
+    "address": "Onan Rd, Singapore"
+  },
+  "Lorong Melayu Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=8779768433720233228&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4,
+    "reviews": 1,
+    "address": "Lor Melayu, Singapore"
+  },
+  "Jalan Ishak Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=8190127997145228796&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "address": "Singapore"
+  },
+  "Hortpark": {
+    "google_maps_uri": "https://maps.google.com/?cid=17493515996370526076&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 3277,
+    "address": "33 Hyderabad Rd, Singapore 119578"
+  },
+  "Faber Hills Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=14246427908577425289&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "reviews": 42,
+    "address": "Faber Green, Singapore"
+  },
+  "Yio Chu Kang Gardens Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=9937367900286514983&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.8,
+    "reviews": 5,
+    "address": "Yio Chu Kang Gardens, Singapore"
+  },
+  "Lorong Marican Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=2208619737359229831&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4,
+    "reviews": 1,
+    "address": "Lor Marican, Singapore"
+  },
+  "Aljunied Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=1246937251689587502&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.1,
+    "reviews": 431,
+    "address": "Aljunied Road, Happy Garden Estate, Singapore 389842"
+  },
+  "Taman Jurong Oasis Interim Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=10196365695931488663&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "reviews": 1,
+    "address": "Yung An Rd, Singapore"
+  },
+  "Sennett Avenue Linear Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=15458038755135591962&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3,
+    "reviews": 2,
+    "address": "Sennett Ave., Singapore"
+  },
+  "Changi Point Waterfront Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=4849862970122644586&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.6,
+    "reviews": 22,
+    "address": "Lor Bekukong, Singapore"
+  },
+  "Banyan Villas Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=10228944846576870354&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.8,
+    "reviews": 5,
+    "address": "Lentor Rd, Singapore"
+  },
+  "Countryside Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=693529172306301194&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "address": "Lentor Lp., Countryside Playground, Singapore"
+  },
+  "Fudu Walk Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=5884520583741781591&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "reviews": 2,
+    "address": "Fudu Walk, Singapore 789511"
+  },
+  "Lentor Vale Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=5755484127770618677&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "reviews": 9,
+    "address": "Lentor Vale, Singapore"
+  },
+  "Lentor Walk Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=4116013638854962223&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.4,
+    "reviews": 5,
+    "address": "Lentor Walk, Singapore"
+  },
+  "Jln Eunos Interim Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=11202627206579879654&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 12,
+    "address": "Jln Eunos, Singapore"
+  },
+  "Chestnut Dr Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=6201323416114940949&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 7,
+    "address": "Chestnut Dr, Singapore"
+  },
+  "Japanese Gardens": {
+    "google_maps_uri": "https://maps.google.com/?cid=4792071418374951163&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 881,
+    "address": "60 Yuan Ching Rd, Singapore 619672"
+  },
+  "Jln Daud Interim Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=1581556202127172448&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.5,
+    "reviews": 15,
+    "address": "26-27 Jln Daud, Singapore 419569"
+  },
+  "Carmichael Road Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=5143480568077586114&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.7,
+    "reviews": 9,
+    "address": "20-26 Carmichael Rd, Singapore 359806"
+  },
+  "East Coast Park Area D": {
+    "google_maps_uri": "https://maps.google.com/?cid=13811613953444398581&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.7,
+    "reviews": 42,
+    "address": "Singapore 449880"
+  },
+  "Empress Place": {
+    "google_maps_uri": "https://maps.google.com/?cid=16014345299083280255&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "address": "Empress Pl, Singapore"
+  },
+  "Nim Meadow Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=5932666493460583299&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 24,
+    "address": "Nim Rd, Singapore"
+  },
+  "Turnhouse Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=7565920289753833429&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4,
+    "reviews": 21,
+    "address": "Turnhouse Rd, Singapore"
+  },
+  "Bukit Batok Town Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=9585209714238370086&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 92,
+    "address": "Bukit Batok St 52, Singapore"
+  },
+  "Taman Damai Interim Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=16373124362579402966&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "reviews": 1,
+    "address": "Hu Ching Rd, Singapore"
+  },
+  "Jln Awang Interim Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=17128478424926476197&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.2,
+    "reviews": 10,
+    "address": "Jln Awang, Singapore"
+  },
+  "Lengkong Enam Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=18140062187260717600&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 48,
+    "address": "Lengkong Enam, Singapore 417591"
+  },
+  "Coronation Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=18015577892141083800&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.2,
+    "reviews": 71,
+    "address": "Coronation Rd W, Singapore"
+  },
+  "East Coast Park Area H": {
+    "google_maps_uri": "https://maps.google.com/?cid=6272430578797731232&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.6,
+    "reviews": 15,
+    "address": "Pulau Ujong, Singapore"
+  },
+  "Lentor Road Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=3857979263608671636&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 2,
+    "reviews": 2,
+    "address": "Lentor Rd, Singapore"
+  },
+  "Eastwood Park Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=14903164173974995325&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4,
+    "reviews": 25,
+    "address": "Eastwood Way, Singapore"
+  },
+  "East Coast Park Area A": {
+    "google_maps_uri": "https://maps.google.com/?cid=8355397755036732405&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.8,
+    "reviews": 9,
+    "address": "Singapore"
+  },
+  "Bidadari Park Hillock": {
+    "google_maps_uri": "https://maps.google.com/?cid=15810422744303759785&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.6,
+    "reviews": 5,
+    "address": "208A Woodleigh Link, Singapore 361208"
+  },
+  "Lower Seletar Reservoir Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=13439951082175871793&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "reviews": 60,
+    "address": "Yishun Ave 1, Singapore"
+  },
+  "East Coast Park Area F": {
+    "google_maps_uri": "https://maps.google.com/?cid=8081092149828898246&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.9,
+    "reviews": 15,
+    "address": "1300 ECP, Singapore 468964"
+  },
+  "Clementi Woods Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=13569130924918143877&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 198,
+    "address": "West Coast Road, 93A Clementi Rd, Singapore 129781"
+  },
+  "Bedok Ria Crescent Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=4406670487498749673&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 18,
+    "address": "Singapore"
+  },
+  "Street Anne's Wood Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=9969350289049435227&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4,
+    "reviews": 1,
+    "address": "Saint Anne's Wood, Singapore"
+  },
+  "Chuan Lane Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=14074861126854710948&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 1.8,
+    "reviews": 4,
+    "address": "3 Chuan Ln, Singapore 554350"
+  },
+  "Dedap Place Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=13897676798253700208&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.8,
+    "reviews": 5,
+    "address": "Dedap Pl, Singapore"
+  },
+  "Greenleaf View Park Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=14813981649225562548&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "reviews": 55,
+    "address": "Greenleaf Vw, Singapore"
+  },
+  "Tai Keng Place Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=1087550358917231672&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "reviews": 2,
+    "address": "Singapore"
+  },
+  "Kent Ridge Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=10923898699707418819&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.6,
+    "reviews": 1477,
+    "address": "Vigilante Dr, Singapore 118176"
+  },
+  "Parry Avenue Interim Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=12001384552385026096&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.7,
+    "reviews": 30,
+    "address": "Along Parry Ave and, Glasgow Rd, Singapore 549357"
+  },
+  "Kranji Reservoir Park B": {
+    "google_maps_uri": "https://maps.google.com/?cid=14166967246859393844&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.3,
+    "reviews": 14,
+    "address": "Singapore"
+  },
+  "Windsor Nature Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=6338208156634688596&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.7,
+    "reviews": 46,
+    "address": "Singapore 574411"
+  },
+  "Chestnut Nature Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=1116345715229238788&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 1587,
+    "address": "Chestnut Ave, Singapore 679514"
+  },
+  "Rifle Range Nature Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=950749120119543975&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.7,
+    "reviews": 1045,
+    "address": "Rifle Range Rd, Singapore 589322"
+  },
+  "Bukit Batok Nature Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=17296570539409016607&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 106,
+    "address": "Bukit Batok East Avenue 2 and Bukit Batok East Avenue 6, Bukit Batok Nature Park, Singapore 659918"
+  },
+  "Jln Pari Burong Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=13027137925651958934&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.2,
+    "reviews": 25,
+    "address": "91 Jln Pari Burong, Singapore 488730"
+  },
+  "Mariam Way Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=16256712060075144602&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.8,
+    "reviews": 38,
+    "address": "Mariam Wy, Singapore"
+  },
+  "Sunrise Close Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=14026065467115150099&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.1,
+    "reviews": 7,
+    "address": "Sunrise Cl, Singapore"
+  },
+  "Kranji Coastal Nature Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=1391873034340378102&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.2,
+    "reviews": 189,
+    "address": "Unnamed Road, Neo Tiew Cres, Singapore 718903"
+  },
+  "Eng Kong Place Fc": {
+    "google_maps_uri": "https://maps.google.com/?cid=14900306165153499938&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3,
+    "reviews": 2,
+    "address": "Singapore"
+  },
+  "Macritchie Reservoir Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=4513558051554688452&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.7,
+    "reviews": 1489,
+    "address": "MacRitchie Reservoir, Singapore"
+  },
+  "Aroozoo Avenue Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=17351052603420590192&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "reviews": 132,
+    "address": "Aroozoo Ave, Singapore 539819"
+  },
+  "Pebble Garden": {
+    "google_maps_uri": "https://maps.google.com/?cid=13515574070748938447&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.2,
+    "reviews": 6,
+    "address": "Sembawang Rd, Singapore 752106"
+  },
+  "Cashew Link Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=10064729350318467359&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "reviews": 2,
+    "address": "Cashew Link, Singapore"
+  },
+  "Tanah Puteh Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=13230881978483430399&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.1,
+    "reviews": 15,
+    "address": "Jln Tanah Puteh, Singapore"
+  },
+  "Janggus Garden": {
+    "google_maps_uri": "https://maps.google.com/?cid=12241460684239991784&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 1,
+    "reviews": 3,
+    "address": "Jln Janggus, Singapore"
+  },
+  "Admiralty Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=8492392770775064591&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 4075,
+    "address": "31 Riverside Rd, Singapore 730000"
+  },
+  "Yishun Neighbourhood Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=15853159124904547682&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "reviews": 799,
+    "address": "Yishun Ave 2, Ave 7 and St 22, Singapore 752106"
+  },
+  "Cashew Crescent Fc Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=14730773473064995113&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "reviews": 2,
+    "address": "Cashew Rd, Singapore"
+  },
+  "Coney Island Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=16959793089640930987&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "reviews": 59,
+    "address": "Coney Walk, Serangoon Island, Singapore 829325"
+  },
+  "Esplanade Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=17506229592047229893&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.6,
+    "reviews": 596,
+    "address": "Along Connaught Drive, Singapore 179682"
+  },
+  "Macpherson Linear Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=18230612865616684146&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.5,
+    "reviews": 6,
+    "address": "Jln Kemajuan, Singapore"
+  },
+  "Chestnut Close Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=6272882873168692919&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.2,
+    "reviews": 47,
+    "address": "Chestnut Cl, Singapore"
+  },
+  "Thomson Nature Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=13147463425452544292&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 1151,
+    "address": "Upper Thomson Rd, Singapore"
+  },
+  "Dew Garden": {
+    "google_maps_uri": "https://maps.google.com/?cid=11149681793608401949&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.3,
+    "reviews": 7,
+    "address": "Jln Tari Payong, Singapore"
+  },
+  "Jurong Central Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=15670478083812149499&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 2536,
+    "address": "Junction off Jalan Boon Lay & Boon Lay Way, Singapore 609961"
+  },
+  "Sbg Lc Zone 2 (cc/btc)": null,
+  "Begonia Road Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=5317739061634275085&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.9,
+    "reviews": 31,
+    "address": "Singapore"
+  },
+  "Thong Soon Green Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=10896579543456585063&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.6,
+    "reviews": 8,
+    "address": "Thong Soon Grn, Singapore 787112"
+  },
+  "Kheam Hock Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=6525797755021525541&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "reviews": 51,
+    "address": "Kheam Hock Rd, Singapore"
+  },
+  "Farquhar Garden (fcp)": {
+    "google_maps_uri": "https://maps.google.com/?cid=8515041128611538098&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 2,
+    "reviews": 4,
+    "address": "Singapore"
+  },
+  "Kim Seng Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=15633724485762525870&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "reviews": 108,
+    "address": "River Vly Grn, Singapore 237993"
+  },
+  "East Coast Park Area E1 Car Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=8402620159062727321&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "address": "Car Park E1, Singapore"
+  },
+  "Jln Sendudok Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=10143158464308124409&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 40,
+    "address": "Jln Sendudok, Singapore 752106"
+  },
+  "Tanah Merah Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=11011465640041110209&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 37,
+    "address": "Tanah Merah Kechil Ave, Singapore 465794"
+  },
+  "Jalan Senang Linear Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=12788449551235047736&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "reviews": 1,
+    "address": "Singapore"
+  },
+  "Changi Point Promenade": {
+    "google_maps_uri": "https://maps.google.com/?cid=6376961776612502511&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.5,
+    "reviews": 6,
+    "address": "Lor Bekukong, Singapore"
+  },
+  "Changi East Boardwalk (changi Ferry Ter)": {
+    "google_maps_uri": "https://maps.google.com/?cid=1125580051286232220&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.1,
+    "reviews": 23,
+    "address": "Changi Boardwalk, Singapore"
+  },
+  "Bedok Terrace Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=7526546619595049072&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "reviews": 19,
+    "address": "Bedok Terrace, Singapore"
+  },
+  "Camp Road Interim Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=17934617971107041904&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "reviews": 7,
+    "address": "Singapore"
+  },
+  "Labrador Nature Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=2450738491194932227&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.6,
+    "reviews": 1855,
+    "address": "91 Labrador Villa Rd, Singapore 119190"
+  },
+  "Jalan Tekukor Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=6807712697200544757&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.6,
+    "reviews": 21,
+    "address": "Jln Tekukor, Singapore"
+  },
+  "Realty Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=13913567215983652196&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 70,
+    "address": "Hougang Ave 4, Singapore"
+  },
+  "Phoenix Park": null,
+  "Armenian Street (fcp)": {
+    "google_maps_uri": "https://maps.google.com/?cid=12478256973322565397&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 2.8,
+    "reviews": 6,
+    "address": "Singapore"
+  },
+  "Mount Faber Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=8200161778685169402&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 1496,
+    "address": "109 Mount Faber Rd, Singapore 099203"
+  },
+  "Sbg Lc Arbo/prc/pru": null,
+  "Fort Canning Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=7775397706249408933&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.6,
+    "reviews": 11924,
+    "address": "Singapore"
+  },
+  "Hong Lim Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=16896582059685484056&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.2,
+    "reviews": 893,
+    "address": "New Bridge Rd, Singapore 059299"
+  },
+  "Sbg Lc Zone 1 (tnc)": null,
+  "Punggol Heritage Trail Phase 1": {
+    "google_maps_uri": "https://maps.google.com/?cid=15561208472927402617&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4,
+    "reviews": 5,
+    "address": "Punggol Road, Singapore"
+  },
+  "Beting Bronok": {
+    "google_maps_uri": "https://maps.google.com/?cid=5862788865824505867&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3,
+    "reviews": 1,
+    "address": "Beting Bronok, Singapore"
+  },
+  "Ang Mo Kio Linear Park (plot 2)": {
+    "google_maps_uri": "https://maps.google.com/?cid=12032053599088958262&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 117,
+    "address": "Ang Mo Kio Ave 5, Singapore"
+  },
+  "Ang Mo Kio Linear Park (plot 3)": {
+    "google_maps_uri": "https://maps.google.com/?cid=12032053599088958262&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 117,
+    "address": "Ang Mo Kio Ave 5, Singapore"
+  },
+  "Sungei Buloh Wetland Reserve": {
+    "google_maps_uri": "https://maps.google.com/?cid=2034438098100878003&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.6,
+    "reviews": 4694,
+    "address": "301 Neo Tiew Cres, Singapore 718925"
+  },
+  "Lentor Grove Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=16940272899853487386&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4,
+    "reviews": 2,
+    "address": "26 Lentor Grv, Singapore 789200"
+  },
+  "Jln Kayu Interim Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=16805954406188886550&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 2.8,
+    "reviews": 4,
+    "address": "Jln Kayu, Singapore"
+  },
+  "Luxus Hills Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=457996859608350053&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 251,
+    "address": "40 Seletar Green Walk, Singapore 805261"
+  },
+  "Almond Crescent Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=6952078343435342048&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.6,
+    "reviews": 15,
+    "address": "Almond Cres, Singapore"
+  },
+  "King's Dock Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=18059546560027664207&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.1,
+    "reviews": 62,
+    "address": "4 HarbourFront Ave, Singapore 097992"
+  },
+  "Taman Kembangan Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=10294270164743729567&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4,
+    "reviews": 6,
+    "address": "Taman Kembangan, Singapore"
+  },
+  "Telok Kurau Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=4304235673646476108&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 759,
+    "address": "151 Lorong J Telok Kurau, Singapura 423466"
+  },
+  "Telok Ayer Green": {
+    "google_maps_uri": "https://maps.google.com/?cid=10343115651126178536&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "reviews": 126,
+    "address": "186 Telok Ayer St, Singapore 068632"
+  },
+  "Tengah Linear Woods": {
+    "google_maps_uri": "https://maps.google.com/?cid=17836755065247627924&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "reviews": 5,
+    "address": "322C Tengah Dr, Singapore 693322"
+  },
+  "Koon Seng Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=370355991168342999&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.1,
+    "reviews": 30,
+    "address": "36 Koon Seng Rd, Singapore 426978"
+  },
+  "Telok Kurau Lorong N Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=6208455977567549012&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "reviews": 51,
+    "address": "Lor. N Telok Kurau, Singapore"
+  },
+  "Harvey Crescent Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=5027137578812118756&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.6,
+    "reviews": 8,
+    "address": "Harvey Cres, Singapore"
+  },
+  "Elite Terrace Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=9221547242482062010&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "reviews": 60,
+    "address": "Elite Terrace, Singapore"
+  },
+  "Woodlands Town Park East": {
+    "google_maps_uri": "https://maps.google.com/?cid=5750877262922697719&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 354,
+    "address": "3 Woodlands Street 13, Singapore 738600"
+  },
+  "Teacher`s Estate Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=11735390661959970799&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 34,
+    "address": "30 Kalidasa Ave, Singapore 789407"
+  },
+  "Greenway South": {
+    "google_maps_uri": "https://maps.google.com/?cid=9211418942073634528&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 2.6,
+    "reviews": 12,
+    "address": "Singapore"
+  },
+  "Mount Emily Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=9141082537524319024&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "reviews": 413,
+    "address": "Mt Emily Rd, Upper Wilkie Rd, and, Singapore 228119"
+  },
+  "Beng Wan Road Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=17510216254966045047&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4,
+    "reviews": 6,
+    "address": "Beng Wan Rd, Singapore"
+  },
+  "Jln Selaseh Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=13737840196153446262&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "reviews": 57,
+    "address": "Jln Selaseh, Singapore"
+  },
+  "Pavilion Playground Ii": {
+    "google_maps_uri": "https://maps.google.com/?cid=14739454798255276678&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.9,
+    "reviews": 23,
+    "address": "Pavilion Cir, Singapore"
+  },
+  "Haus Linear Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=11296736319693707976&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.9,
+    "reviews": 9,
+    "address": "Serangoon Garden Wy, Singapore"
+  },
+  "Raffles Place Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=7336477979617255760&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 209,
+    "address": "Raffles Pl, Singapore"
+  },
+  "Cashew Road Interim Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=12818333103688226394&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 2.7,
+    "reviews": 3,
+    "address": "Cashew Rd, Singapore"
+  },
+  "Westwood Park Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=17924281452910070383&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4,
+    "reviews": 13,
+    "address": "Westwood Cres, Singapore"
+  },
+  "Changi West Boardwalk (changi Bc)": {
+    "google_maps_uri": "https://maps.google.com/?cid=9671224114416268815&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 10,
+    "address": "Cranwell Rd, Singapore"
+  },
+  "Changi Heights Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=844533943132533789&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4,
+    "reviews": 2,
+    "address": "Jln Sinar Bintang, Singapore"
+  },
+  "Jln Pari Dedap Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=7432019565773007931&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 27,
+    "address": "59 Jln Pari Dedap, Singapore 488643"
+  },
+  "Brook's Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=11259252547494641239&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.3,
+    "reviews": 8,
+    "address": "Springside Ave, Singapore"
+  },
+  "Pasir Ris Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=7678763472746586956&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.6,
+    "reviews": 402,
+    "address": "60 Pasir Ris Dr 3, Singapore 519497"
+  },
+  "Woodlands Waterfront Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=11452952275684331656&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 3991,
+    "address": "Admiralty Rd W, Singapore 759956"
+  },
+  "Connaught Drive": {
+    "google_maps_uri": "https://maps.google.com/?cid=7698000368998930070&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "address": "Connaught Dr, Singapore"
+  },
+  "Rowell Road Os": {
+    "google_maps_uri": "https://maps.google.com/?cid=7132566034215624018&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.7,
+    "reviews": 253,
+    "address": "109 Rowell Rd, Singapore 208033"
+  },
+  "Lorong Tanggam Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=12660983416305726005&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 2,
+    "reviews": 1,
+    "address": "Lor Tanggam, Singapore"
+  },
+  "Mimosa Road Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=13377351261994859417&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 25,
+    "address": "Mimosa Rd, Singapore"
+  },
+  "Mimosa Terrace Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=14074990642083889891&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 10,
+    "address": "Singapore"
+  },
+  "Mimosa Walk Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=18230602866508230000&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4,
+    "reviews": 6,
+    "address": "Mimosa Walk, Singapore"
+  },
+  "Chuan Green Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=6746864526485122109&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4,
+    "reviews": 23,
+    "address": "89 Chuan Dr, Singapore 554734"
+  },
+  "Old Upper Aljunied Road": {
+    "google_maps_uri": "https://maps.google.com/?cid=11231705976432007296&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 2.3,
+    "reviews": 3,
+    "address": "121 Upper Aljunied Rd, Singapore 367878"
+  },
+  "Mugliston Park Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=2727275702153344720&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.2,
+    "reviews": 14,
+    "address": "Mugliston Park, Singapore"
+  },
+  "Lower Peirce Reservoir Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=1338106924572871201&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.7,
+    "reviews": 96,
+    "address": "Lower Peirce Reservoir, Singapore"
+  },
+  "Pesari Walk Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=2476931822891724471&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.8,
+    "reviews": 5,
+    "address": "Pesari Walk, Singapore"
+  },
+  "Pavilion Park Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=14739454798255276678&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.9,
+    "reviews": 23,
+    "address": "Pavilion Cir, Singapore"
+  },
+  "Limau Villas Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=12155276089526568735&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4,
+    "reviews": 3,
+    "address": "Limau Terrace, Singapore"
+  },
+  "Lakeside Grove Fitness Corner": {
+    "google_maps_uri": "https://maps.google.com/?cid=15348245417076376401&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4,
+    "reviews": 2,
+    "address": "Corporation Rise, Singapore"
+  },
+  "Jalan Mas Kuning Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=5210479192278658787&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.1,
+    "reviews": 11,
+    "address": "Jln Mas Kuning, Singapore"
+  },
+  "Bukit Timah Nature Reserve": {
+    "google_maps_uri": "https://maps.google.com/?cid=555105883562727614&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.6,
+    "reviews": 8415,
+    "address": "Hindhede Dr, Singapore 589318"
+  },
+  "Hampstead Wetlands Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=10579120664720420728&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.2,
+    "reviews": 377,
+    "address": "1 Baker St, Singapore 799977"
+  },
+  "Jupiter Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=13418784007833706025&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 20,
+    "address": "Jupiter Rd, Singapore"
+  },
+  "Ganges Avenue Os": {
+    "google_maps_uri": "https://maps.google.com/?cid=5600804060534472040&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "address": "Singapore"
+  },
+  "Wilkinson Interim Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=11956673702591449802&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "reviews": 1,
+    "address": "719 Mountbatten Rd, Singapore 437739"
+  },
+  "Jalan Sembilang Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=17131980142808390176&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 2.3,
+    "reviews": 3,
+    "address": "Bright Hill Cres, Singapore"
+  },
+  "Green Lane Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=11339567658059834307&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4,
+    "reviews": 9,
+    "address": "19 Green Ln, Singapore 438918"
+  },
+  "Jln Daud Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=1581556202127172448&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.5,
+    "reviews": 15,
+    "address": "26-27 Jln Daud, Singapore 419569"
+  },
+  "Paya Lebar Crescent Os": {
+    "google_maps_uri": "https://maps.google.com/?cid=5665712911508117635&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "reviews": 1,
+    "address": "61 Paya Lebar Cres, Singapore 536137"
+  },
+  "Butterfly Avenue Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=1472423172805798196&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.6,
+    "reviews": 5,
+    "address": "46 Butterfly Ave, Singapore 349808"
+  },
+  "Jln Kelichap Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=11488652403634588124&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4,
+    "reviews": 7,
+    "address": "Jln Kelichap, Singapore"
+  },
+  "Hazel Park Os": {
+    "google_maps_uri": "https://maps.google.com/?cid=7198169975141867636&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.1,
+    "reviews": 147,
+    "address": "17 Hazel Park Terrace, Singapore 678943"
+  },
+  "Street Michael's Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=15808028115210717929&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "reviews": 6,
+    "address": "40 Jln Taman, Singapore 328987"
+  },
+  "Sbg Lc Zone 3 (nog/pv)": null,
+  "Westville Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=11842608712131821158&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "reviews": 8,
+    "address": "Westwood Cres, Singapore"
+  },
+  "Jln Pelatok Os": {
+    "google_maps_uri": "https://maps.google.com/?cid=15603671308501191009&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3,
+    "reviews": 1,
+    "address": "Singapore"
+  },
+  "Kim Pong Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=2194200011573704085&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "reviews": 111,
+    "address": "Kim Tian Pl, Singapore"
+  },
+  "Park At Sembawang Alley": {
+    "google_maps_uri": "https://maps.google.com/?cid=8560488667626471323&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "address": "Sembawang Alley, Singapore"
+  },
+  "Jln Pelatok Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=3406809051566302793&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.9,
+    "reviews": 20,
+    "address": "Singapore"
+  },
+  "Jln Limau Manis Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=2424659779901945225&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.9,
+    "reviews": 8,
+    "address": "Junction of Jalan Limau Nipis, Jln Limau Manis, and, Singapore"
+  },
+  "Parliament Promenade": {
+    "google_maps_uri": "https://maps.google.com/?cid=5152497751371438754&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "address": "Parliament Pl, Singapore"
+  },
+  "Richards Avenue Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=11544660829856130600&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "reviews": 61,
+    "address": "Richards Ave, Singapore"
+  },
+  "Telok Ayer Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=7339684252678264222&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "reviews": 23,
+    "address": "Telok Ayer St, Singapore"
+  },
+  "Ann Siang Hill Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=6513003284199560053&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.2,
+    "reviews": 375,
+    "address": "78 Club St, Singapore 069447"
+  },
+  "Jln Yasin Interim Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=8046916725866897279&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.5,
+    "reviews": 6,
+    "address": "Jln Yasin, Singapore"
+  },
+  "Kranji Marshes": {
+    "google_maps_uri": "https://maps.google.com/?cid=10933583033803896398&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.1,
+    "reviews": 468,
+    "address": "11 Neo Tiew Lane 2, Singapore 718814"
+  },
+  "Pulau Sekudu": {
+    "google_maps_uri": "https://maps.google.com/?cid=1272398162341294451&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.6,
+    "reviews": 5,
+    "address": "Pulau Sekudu, Singapore"
+  },
+  "Punggol Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=1755119807432406665&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 8,
+    "address": "Singapore"
+  },
+  "Kemuning Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=17413298478251417133&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.1,
+    "reviews": 43,
+    "address": "26 Jln Kemuning, Singapore 769748"
+  },
+  "Villa Verde Park Extension": {
+    "google_maps_uri": "https://maps.google.com/?cid=16447758802684451965&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 288,
+    "address": "Junction of Choa Chu Kang North 5 and, Stagmont Ring, Singapore 688704"
+  },
+  "Soo Chow Walk Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=5244755745565392772&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "reviews": 37,
+    "address": "Soo Chow Walk, Singapore"
+  },
+  "Pemimpin Place Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=3832013233142608075&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.3,
+    "reviews": 13,
+    "address": "Pemimpin Pl, Singapore"
+  },
+  "Legundi Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=17240919581805622115&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 2.9,
+    "reviews": 16,
+    "address": "29 Jln Legundi, Singapore 759284"
+  },
+  "Tampines Eco Green Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=8960506197373574963&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "reviews": 862,
+    "address": "Tampines Ave 9, Singapore 520491"
+  },
+  "Clover Crescent Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=8843675511615345533&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.9,
+    "reviews": 19,
+    "address": "Clover Cres, Singapore"
+  },
+  "Sungei Buloh Southern Extension": {
+    "google_maps_uri": "https://maps.google.com/?cid=2034438098100878003&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.6,
+    "reviews": 4694,
+    "address": "301 Neo Tiew Cres, Singapore 718925"
+  },
+  "Jln Senang Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=15459550790104950493&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "address": "Jalan Senang, Singapore 418508"
+  },
+  "Carpmael Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=14701070923343939425&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.7,
+    "reviews": 38,
+    "address": "166 Ceylon Rd, Singapore 429728"
+  },
+  "Chwee Chian Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=7477098298492307567&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.1,
+    "reviews": 15,
+    "address": "41 Chwee Chian Rd, Singapore 119754"
+  },
+  "Kampong Glam Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=15809873215864126351&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 54,
+    "address": "Beach Rd, Singapore"
+  },
+  "Somme Road Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=2259854831391096105&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "reviews": 73,
+    "address": "58 Somme Rd, Singapore 207875"
+  },
+  "Pulau Unum": {
+    "google_maps_uri": "https://maps.google.com/?cid=1081136235368922304&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.7,
+    "reviews": 3,
+    "address": "Pulau Unum, Singapore"
+  },
+  "Ceylon Road Interim Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=5884260992177168556&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.8,
+    "reviews": 21,
+    "address": "122 Ceylon Rd, Singapore 429696"
+  },
+  "Bedok Town Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=16480252362755491927&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 1340,
+    "address": "Bedok North Ave 3, Singapore 469724"
+  },
+  "Sunrise Place Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=12232885690704705362&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 4,
+    "address": "21 Sunrise Cl, Singapore 806618"
+  },
+  "Greenfield Dr Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=11016020572811254508&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.1,
+    "reviews": 43,
+    "address": "69 Greenfield Dr, Singapore 457957"
+  },
+  "Guillemard Road Os": {
+    "google_maps_uri": "https://maps.google.com/?cid=892693309025684347&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.7,
+    "reviews": 726,
+    "address": "511 Guillemard Rd, Singapore 399849"
+  },
+  "Sunrise Dr Playground Ii": {
+    "google_maps_uri": "https://maps.google.com/?cid=8596659615697689786&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.8,
+    "reviews": 4,
+    "address": "2 Sunrise Dr, Singapore 806505"
+  },
+  "Mayfair Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=3717887817053527871&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "reviews": 176,
+    "address": "Jalan Gaharu, Singapore"
+  },
+  "Maple Lane Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=17194136636707533263&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.8,
+    "reviews": 6,
+    "address": "Along Maple Lane, adjacent to, Bukit Timah Rd, Singapore 279872"
+  },
+  "Fernvale Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=14646311626715079509&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.2,
+    "reviews": 11,
+    "address": "128D Lor Samak, Singapore 798803"
+  },
+  "Malcolm Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=7504762513938933656&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 26,
+    "address": "247 Whitley Rd, Singapore 297830"
+  },
+  "Jalan Dermawan Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=17600252150674136105&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.7,
+    "reviews": 6,
+    "address": "Jln Dermawan, Singapore"
+  },
+  "Lorong Sarina Interim Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=3809912831228830736&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4,
+    "reviews": 2,
+    "address": "Jln Yasin, Singapore"
+  },
+  "East Coast Park Area A3": {
+    "google_maps_uri": "https://maps.google.com/?cid=8355397755036732405&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.8,
+    "reviews": 9,
+    "address": "Singapore"
+  },
+  "Mei Hwan Crescent Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=9521017085353863896&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 12,
+    "address": "32 Mei Hwan Cres, Singapore 568476"
+  },
+  "Cheng Soon Garden Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=8514059006310448608&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 52,
+    "address": "15 Kismis Rd, Singapore 596287"
+  },
+  "Waterboat House Garden": {
+    "google_maps_uri": "https://maps.google.com/?cid=16951353326322470741&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.9,
+    "reviews": 18,
+    "address": "Fullerton Rd, Singapore"
+  },
+  "Irau Drive Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=927697288657067603&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "reviews": 22,
+    "address": "Wak Hassan Dr, Singapore"
+  },
+  "Tanjong Pagar Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=5638550864510003852&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.8,
+    "reviews": 5,
+    "address": "1 Wallich St, Singapore 078881"
+  },
+  "Paya Lebar Road Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=1590459500824106956&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.9,
+    "reviews": 8,
+    "address": "Paya Lebar Rd, Singapore"
+  },
+  "Mayflower Crescent Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=14267947153259241861&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.7,
+    "reviews": 12,
+    "address": "Mayflower Cres, Singapore"
+  },
+  "Upper Serangoon Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=17162220662918907730&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.5,
+    "reviews": 4,
+    "address": "629 Upper Serangoon Rd, Singapore 534575"
+  },
+  "Jln Geneng Interim Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=238708103670262424&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "address": "36 Jln Geneng, Singapore 538344"
+  },
+  "Upper Paya Lebar Interim Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=8362597673571422639&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "address": "Singapore"
+  },
+  "Springleaf Avenue Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=17902716575409470393&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.1,
+    "reviews": 29,
+    "address": "Springleaf Ave, Singapore"
+  },
+  "Cashew Road Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=11738676712137237109&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.2,
+    "reviews": 11,
+    "address": "Cashew Rd, Singapore"
+  },
+  "Jln Rasok Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=6968572033259375843&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "address": "35 Jln Gelegar, Singapore 739789"
+  },
+  "Lucky Gardens Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=13206262380285447651&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 32,
+    "address": "51 Lucky Gardens, Singapore 467685"
+  },
+  "Jln Limau Kasturi Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=7039553583226565764&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "reviews": 4,
+    "address": "Jln Limau Kasturi, Singapore"
+  },
+  "Seletar Terrace Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=14954386218775949129&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.9,
+    "reviews": 7,
+    "address": "Seletar Terrace, Singapore 806905"
+  },
+  "Tamarind Road Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=17290463125244858704&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.6,
+    "reviews": 49,
+    "address": "157C Tamarind Rd, Singapore 806106"
+  },
+  "Mera Terrace Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=482104057980948423&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.2,
+    "reviews": 9,
+    "address": "Seagull Walk, Singapore"
+  },
+  "Kew Avenue Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=12431530818335469889&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.1,
+    "reviews": 10,
+    "address": "Kew Ave, Singapore"
+  },
+  "East Coast Park Area E": {
+    "google_maps_uri": "https://maps.google.com/?cid=5056024446810993192&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "reviews": 124,
+    "address": "E Coast Park Service Rd, Singapore"
+  },
+  "Katong Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=14137933298292593031&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.1,
+    "reviews": 288,
+    "address": "59 Fort Rd, Singapore 439105"
+  },
+  "Holland Grove View Fc": {
+    "google_maps_uri": "https://maps.google.com/?cid=9589024415792595957&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.4,
+    "reviews": 19,
+    "address": "Holland Grv Vw, Singapore"
+  },
+  "Street Michael's Fc": {
+    "google_maps_uri": "https://maps.google.com/?cid=7770680595824912949&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3,
+    "reviews": 2,
+    "address": "3 Essex Rd, Singapore 309331"
+  },
+  "Fuyong Interim Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=1923208677248001299&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.2,
+    "reviews": 72,
+    "address": "Jln Asas, Singapore 000000"
+  },
+  "Labrador Nature Reserve": {
+    "google_maps_uri": "https://maps.google.com/?cid=2450738491194932227&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.6,
+    "reviews": 1855,
+    "address": "91 Labrador Villa Rd, Singapore 119190"
+  },
+  "Mt Batten Rd/old Airport Road Os": {
+    "google_maps_uri": "https://maps.google.com/?cid=13352926406478388044&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.7,
+    "reviews": 7,
+    "address": "Old Airport Rd, Singapore"
+  },
+  "Yishun Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=107075626117716375&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 445,
+    "address": "Singapore"
+  },
+  "Jln Limau Kasturi Os": {
+    "google_maps_uri": "https://maps.google.com/?cid=4135603025433753676&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4,
+    "reviews": 6,
+    "address": "Jln Limau Kasturi, Singapore"
+  },
+  "Holland Village Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=8403539600507363592&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4,
+    "reviews": 19,
+    "address": "Holland Ave, Singapore"
+  },
+  "Bunga Rampai Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=12349470204444616043&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.8,
+    "reviews": 68,
+    "address": "1 Jln Bunga Rampai, Singapore 538398"
+  },
+  "Toh Close Interim Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=9781328592795670772&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "reviews": 4,
+    "address": "18 Toh Cl, Singapore 507999"
+  },
+  "Sennett Avenue Os": {
+    "google_maps_uri": "https://maps.google.com/?cid=850006537887831238&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "reviews": 1,
+    "address": "69 Sennett Ave., Singapore 467077"
+  },
+  "Changi Beach Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=16726943327379550812&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 7794,
+    "address": "Nicoll Dr, Singapore 498991"
+  },
+  "Loyang View Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=15359697190039059051&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3,
+    "reviews": 5,
+    "address": "Loyang Vw, Singapore 507211"
+  },
+  "Holland Green Linear Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=11025333880185904337&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.6,
+    "reviews": 133,
+    "address": "10 Holland Green, Singapore 276133"
+  },
+  "Youth Olympic Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=14493838487170952458&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 381,
+    "address": "Raffles Avenue, Singapore 039805"
+  },
+  "Florissa Park Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=13156394895284439539&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4,
+    "reviews": 4,
+    "address": "Florissa Pk, Singapore"
+  },
+  "Canning Rise (fcp)": {
+    "google_maps_uri": "https://maps.google.com/?cid=166259304557092088&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 61,
+    "address": "Canning Rise, Singapore"
+  },
+  "Changi Pt Ferry Terminal": {
+    "google_maps_uri": "https://maps.google.com/?cid=10395248392595753873&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 875,
+    "address": "51 Lor Bekukong, Singapore 499172"
+  },
+  "Mariam Walk Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=14427188654330110556&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4,
+    "reviews": 14,
+    "address": "Mariam Walk, Singapore 507111"
+  },
+  "Bukit Canberra (sportsg)": {
+    "google_maps_uri": "https://maps.google.com/?cid=6453723233606078189&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.7,
+    "reviews": 198,
+    "address": "21 Canberra Link, Singapore 756973"
+  },
+  "Chinese Gardens": {
+    "google_maps_uri": "https://maps.google.com/?cid=17444626673450524022&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "reviews": 3557,
+    "address": "Boon Lay Way, Singapore 619795"
+  },
+  "Neram Crescent Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=11281449274707190141&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 23,
+    "address": "Neram Cres, Singapore 807845"
+  },
+  "Nim Crescent Os": {
+    "google_maps_uri": "https://maps.google.com/?cid=5212324137131887533&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.9,
+    "reviews": 40,
+    "address": "77 Nim Rd, Singapore 807586"
+  },
+  "Meng Suan Interim Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=17300450976250936325&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "reviews": 2,
+    "address": "80 Meng Suan Rd, Singapore 779300"
+  },
+  "Woodlands Healing Garden": {
+    "google_maps_uri": "https://maps.google.com/?cid=18378502995298778492&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 18,
+    "address": "588 Woodlands Dr 17, Singapore 737924"
+  },
+  "Silat Avenue Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=5890687833855911432&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 2.8,
+    "reviews": 4,
+    "address": "3 Silat Ave, Singapore 168873"
+  },
+  "Jlg: Lakeside Garden": {
+    "google_maps_uri": "https://maps.google.com/?cid=8007932535915676664&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.7,
+    "reviews": 6456,
+    "address": "Yuan Ching Rd, Singapore"
+  },
+  "King's Road Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=10621422786093961285&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "reviews": 2,
+    "address": "131a King's Rd, Singapore 268168"
+  },
+  "Ellington Square Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=16426594696701919623&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 2,
+    "address": "18 Ellington Square, no 18, Singapore 568929"
+  },
+  "Shangri-la Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=3818140914643478924&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4,
+    "reviews": 24,
+    "address": "Ang Mo Kio Ave 2, Singapore"
+  },
+  "Upper Peirce Reservoir Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=13774357574115466245&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.6,
+    "reviews": 1731,
+    "address": "Along Old Upper Thomson Road, Singapore"
+  },
+  "Thomson Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=11644132681891907036&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.9,
+    "reviews": 23,
+    "address": "Jln Keli, Singapore"
+  },
+  "City Green": {
+    "google_maps_uri": "https://maps.google.com/?cid=12601541403084246645&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.6,
+    "reviews": 39,
+    "address": "Kitchener Rd, Singapore"
+  },
+  "Punggol Waterway Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=5307978681272054522&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 2633,
+    "address": "Sentul Cres, Singapore 821313"
+  },
+  "Sunrise Way Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=1096622291916981054&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "reviews": 1,
+    "address": "1 Sunrise Way, Singapore 806147"
+  },
+  "Limau Garden Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=10197063800255779808&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.1,
+    "reviews": 9,
+    "address": "Limau Garden, Singapore"
+  },
+  "Upper Seletar Reservoir Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=12101568215416043133&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.7,
+    "reviews": 20,
+    "address": "Singapore"
+  },
+  "Sisters' Island Marine Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=2885730980443005719&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 110,
+    "address": "Sisters’ Islands, Singapore"
+  },
+  "Faber Heights Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=5802178496775203278&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.1,
+    "reviews": 63,
+    "address": "Faber Heights, Singapore"
+  },
+  "Meragi Road Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=14783552378724931724&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 2.7,
+    "reviews": 13,
+    "address": "40 Meragi Rd, Singapore 487917"
+  },
+  "Stratton Walk Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=1634726397294659195&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.2,
+    "reviews": 17,
+    "address": "Stratton Walk, Singapore"
+  },
+  "Kew Dr Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=16055810945999964051&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 4,
+    "address": "Kew Dr, Singapore"
+  },
+  "Kew Crescent Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=1975014506248152438&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.8,
+    "reviews": 6,
+    "address": "Kew Cres, Singapore"
+  },
+  "Boundary Road Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=2335557519588836117&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "address": "Boundary Rd, Singapore"
+  },
+  "Jln Chempaka Kuning Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=6461617916308402035&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 24,
+    "address": "Jln Chempaka Kuning, Singapore"
+  },
+  "Jln Angin Laut Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=6512698823697402847&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.8,
+    "reviews": 9,
+    "address": "Jln Angin Laut, Singapore"
+  },
+  "How Sun Linear Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=5329105044212805190&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 2.8,
+    "reviews": 5,
+    "address": "Singapore"
+  },
+  "Jalan Singa Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=1754615226072328498&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 4,
+    "address": "Jln Singa, Singapore"
+  },
+  "North Bridge Garden": {
+    "google_maps_uri": "https://maps.google.com/?cid=6470802707051375012&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 30,
+    "address": "N Bridge Rd, Singapore"
+  },
+  "Siglap Linear Park (upp Ec Rd-m Parade)": {
+    "google_maps_uri": "https://maps.google.com/?cid=5823204066487378846&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "address": "21 Jln Sempadan, Singapore 457398"
+  },
+  "Victoria Park Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=17214431175939629906&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.6,
+    "reviews": 7,
+    "address": "56B Victoria Park Rd, Singapore 266529"
+  },
+  "Chu Yen Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=5140847551338315359&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 21,
+    "address": "Chu Yen St, Singapore"
+  },
+  "Park Villas Terrace Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=8616002418445478628&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.9,
+    "reviews": 28,
+    "address": "Along Hougang Ave 2, Park Villas Terrace, and, Singapore"
+  },
+  "Poh Huat Road Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=12216164615570401352&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.2,
+    "reviews": 13,
+    "address": "Poh Huat Rd, Singapore"
+  },
+  "Jln Naung Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=4850111209049908807&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.6,
+    "reviews": 10,
+    "address": "Jln Naung, Singapore"
+  },
+  "Sunrise Terrace Os": {
+    "google_maps_uri": "https://maps.google.com/?cid=12509539303777057856&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "address": "70 Sunrise Terrace, Singapore 806379"
+  },
+  "Shelford Road Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=11685253434207529218&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.1,
+    "reviews": 16,
+    "address": "Shelford Rd, Singapore"
+  },
+  "Sunset Way Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=16226263362959284568&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 21,
+    "address": "103 Sunset Wy, Singapore 597136"
+  },
+  "Teacher's Estate Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=11735390661959970799&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 34,
+    "address": "30 Kalidasa Ave, Singapore 789407"
+  },
+  "Pandan Reservoir Fitness Corner": {
+    "google_maps_uri": "https://maps.google.com/?cid=14115696947985936479&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 33,
+    "address": "W Coast Rd, Singapore"
+  },
+  "Jln Riang Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=5010868186031440981&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "reviews": 26,
+    "address": "23 Jln Riang, Singapore 358992"
+  },
+  "Dhoby Ghaut Green": {
+    "google_maps_uri": "https://maps.google.com/?cid=1295258079978329129&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 212,
+    "address": "9 Penang Rd, Singapore 238459"
+  },
+  "Toa Payoh Town Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=17696860918835648617&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.2,
+    "reviews": 843,
+    "address": "303 Lor 6 Toa Payoh, Singapore 319393"
+  },
+  "East Coast Terrace Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=10718568199024741444&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.9,
+    "reviews": 63,
+    "address": "58 E Coast Ter, Singapore 458956"
+  },
+  "Grove Lane Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=8395951959621302398&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "reviews": 23,
+    "address": "Grove Ln, Singapore"
+  },
+  "Hua Guan Crescent Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=17186987720522342770&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.8,
+    "reviews": 9,
+    "address": "Hua Guan Cres, Singapore"
+  },
+  "Namly Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=5073498432121808534&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.7,
+    "reviews": 30,
+    "address": "Namly Pl, Singapore"
+  },
+  "Duchess Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=7646421410746490512&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.1,
+    "reviews": 17,
+    "address": "38 Duchess Ave, Singapore 269110"
+  },
+  "Handy Road Os": {
+    "google_maps_uri": "https://maps.google.com/?cid=9433978443953723629&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "reviews": 9,
+    "address": "28 Handy Rd, Singapore 229240"
+  },
+  "Novena Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=7634644709199218194&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 29,
+    "address": "Jln Novena, Singapore"
+  },
+  "Cambridge Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=15158978327251010509&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.2,
+    "reviews": 73,
+    "address": "Cambridge Rd, Singapore"
+  },
+  "Springleaf Garden Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=11395465433371107002&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.1,
+    "reviews": 60,
+    "address": "Springleaf Garden, Singapore"
+  },
+  "Jln Kayu Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=434495387550243627&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "address": "Jln Kayu, Singapore"
+  },
+  "Lilac Dr Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=15826239575599975975&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.6,
+    "reviews": 9,
+    "address": "Lilac Dr, Singapore"
+  },
+  "Haig Walk Extension": {
+    "google_maps_uri": "https://maps.google.com/?cid=13072178597746361359&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.6,
+    "reviews": 7,
+    "address": "723 Dunman Rd, Singapore 439236"
+  },
+  "West Coast Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=17019738380316166824&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "reviews": 7047,
+    "address": "W Coast Ferry Rd, Singapore 126978"
+  },
+  "Saraca Road Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=4382371713067560892&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 2.7,
+    "reviews": 3,
+    "address": "Saraca Dr, Singapore"
+  },
+  "Bidadari Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=2465587964315052268&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "reviews": 365,
+    "address": "Bidadari Park Dr, Singapore"
+  },
+  "Tai Hwan Terrace Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=3883039706057620782&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.2,
+    "reviews": 49,
+    "address": "Singapore, 6 Tai Hwan Ter, Singapore"
+  },
+  "Mount Sinai Plain Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=11241589297654591446&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.1,
+    "reviews": 16,
+    "address": "Mount Sinai Plain, Singapore"
+  },
+  "Fulton Avenue Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=14006432215033290095&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "reviews": 3,
+    "address": "Fulton Ave, Singapore"
+  },
+  "Pasir Ris Town Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=12494237368726059781&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "reviews": 6335,
+    "address": "Along, Pasir Ris Central, Opposite MRT Station, Singapore 519639"
+  },
+  "Bidadari Park South": {
+    "google_maps_uri": "https://maps.google.com/?cid=2465587964315052268&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "reviews": 365,
+    "address": "Bidadari Park Dr, Singapore"
+  },
+  "Greenwood Crescent Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=16430129621419610742&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 15,
+    "address": "12 Greenwood Cres, Singapore 286978"
+  },
+  "Thomson Road Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=16911314415938799054&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.2,
+    "reviews": 25,
+    "address": "Thomson Rd, Singapore"
+  },
+  "Holland Green Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=8971047000781005185&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 24,
+    "address": "Holland Green, Singapore"
+  },
+  "Pearl's Hill City Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=3211811020925834180&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.2,
+    "reviews": 387,
+    "address": "Chin Swee Road &, Pearl's Hill Rd, Singapore 169879"
+  },
+  "King's Dr Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=2301112951546392775&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "address": "King's Dr, Singapore"
+  },
+  "Sg Api Api Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=9449464039377250099&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 15,
+    "address": "Singapore"
+  },
+  "Island Gardens Walk Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=9199992297923977003&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 2,
+    "reviews": 2,
+    "address": "Island Gardens Walk, Singapore"
+  },
+  "Choa Chu Kang Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=8246406340410485120&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 1910,
+    "address": "Choa Chu Kang Dr, Singapore 688845"
+  },
+  "Pek Kio Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=899741441503338741&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "reviews": 8,
+    "address": "41A Cambridge Rd, Singapore 211041"
+  },
+  "Sun Plaza Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=2704134787642989107&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.2,
+    "reviews": 958,
+    "address": "30 Tampines Ave 7, Singapore 529621"
+  },
+  "Goldhill Avenue Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=10399992805745725489&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 66,
+    "address": "Goldhill Ave, Singapore"
+  },
+  "Mei Hwan Dr Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=17064384491813120155&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.7,
+    "reviews": 22,
+    "address": "Ang Mo Kio Ave 1, Singapore"
+  },
+  "Golden Rise Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=17902323748959674857&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 2.5,
+    "reviews": 4,
+    "address": "24 Kismis Pl, Singapore 598171"
+  },
+  "The Foothills Fort Canning Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=4423377898245008320&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.2,
+    "reviews": 141,
+    "address": "70 River Valley Rd, Singapore 179037"
+  },
+  "Bidadari Park Memorial Garden": {
+    "google_maps_uri": "https://maps.google.com/?cid=2465587964315052268&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "reviews": 365,
+    "address": "Bidadari Park Dr, Singapore"
+  },
+  "Elias Terrace Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=10323469966752891873&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 7,
+    "address": "30 Elias Terrace, Singapore 519783"
+  },
+  "Opera Estate Football Field": {
+    "google_maps_uri": "https://maps.google.com/?cid=2963372622513067056&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.2,
+    "reviews": 36,
+    "address": "Swan Lake Ave, Singapore"
+  },
+  "Burgundy Crescent Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=9434464130853437655&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.7,
+    "reviews": 11,
+    "address": "Burgundy Cres, Singapore"
+  },
+  "Highgate Walk Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=5975683840971477702&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4,
+    "reviews": 4,
+    "address": "Highgate Walk, Singapore"
+  },
+  "Meyer Road Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=4178834588440958867&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.6,
+    "reviews": 34,
+    "address": "Meyer Rd, Singapore"
+  },
+  "Serenade Walk Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=9872223163420969826&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 3,
+    "address": "Serenade Walk, Singapore"
+  },
+  "Siglap Linear Park (jln B'wan-upp Ec Rd)": {
+    "google_maps_uri": "https://maps.google.com/?cid=5823204066487378846&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "address": "21 Jln Sempadan, Singapore 457398"
+  },
+  "Sunbird Circle Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=1532682060502368485&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 20,
+    "address": "Sunbird Circle, Singapore"
+  },
+  "Ang Mo Kio Town Garden East": {
+    "google_maps_uri": "https://maps.google.com/?cid=955370642372137926&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 670,
+    "address": "Junction of Ang Mo Kio Ave 3 and 8, behind Ang Mo Kio MRT Station, 6A Ang Mo Kio Street 53, Singapore 569208"
+  },
+  "Watten Heights Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=4402847586500106272&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 87,
+    "address": "166 Watten Estate Rd, Singapore 287613"
+  },
+  "Chuan Walk Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=8622432506941189686&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.9,
+    "reviews": 11,
+    "address": "Chuan Walk, Singapore"
+  },
+  "Chartwell Dr Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=11781076654285229223&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 186,
+    "address": "Chartwell Dr, Singapore"
+  },
+  "Garden View Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=1193607257764828366&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4,
+    "reviews": 34,
+    "address": "26 Conway Cir, Singapore 558271"
+  },
+  "Cactus Road Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=1332380946544428160&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "reviews": 1,
+    "address": "178 Cactus Rd, Singapore 809667"
+  },
+  "University Road Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=2864308730630089613&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 49,
+    "address": "University Rd, Singapore"
+  },
+  "Greenridge Crescent Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=12838074342813382917&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.9,
+    "reviews": 25,
+    "address": "2 Greenridge Cres, Singapore 598890"
+  },
+  "Holland Grove View Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=9589024415792595957&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.4,
+    "reviews": 19,
+    "address": "Holland Grv Vw, Singapore"
+  },
+  "Hoover Park (lor Pisang Hijau Playground)": {
+    "google_maps_uri": "https://maps.google.com/?cid=11306227730429767059&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4,
+    "reviews": 56,
+    "address": "Lor Pisang Batu, Singapore 597935"
+  },
+  "Lorong 40 Geylang Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=17639463714847093592&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "reviews": 139,
+    "address": "Geylang Park Connector, Singapore"
+  },
+  "Thomson Walk Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=8656210101767743302&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.8,
+    "reviews": 6,
+    "address": "Thomson Walk, Singapore 574497"
+  },
+  "East Coast Park Area B": {
+    "google_maps_uri": "https://maps.google.com/?cid=2406095576924565998&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.7,
+    "reviews": 61,
+    "address": "E Coast Park Service Rd, Singapore 449874"
+  },
+  "Faber Heights Open Space": {
+    "google_maps_uri": "https://maps.google.com/?cid=12960535090772626480&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.9,
+    "reviews": 13,
+    "address": "40 Faber Heights, Singapore 129177"
+  },
+  "Lentor Green Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=17913634399271281517&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3,
+    "reviews": 6,
+    "address": "Lentor Grn, Singapore"
+  },
+  "Springleaf Nature Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=13512332586691755632&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "reviews": 646,
+    "address": "1230 Upper Thomson Rd, Singapore 787129"
+  },
+  "Central Catchment Nature Reserve": null,
+  "Dairy Farm Nature Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=262624124387346661&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 1248,
+    "address": "100 Dairy Farm Rd, Singapore 679057"
+  },
+  "Lakeside Grove Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=17653862749941105962&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4,
+    "reviews": 9,
+    "address": "Corporation Walk, Singapore"
+  },
+  "Sennett Avenue Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=17128528425412235849&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.6,
+    "reviews": 22,
+    "address": "Sennett Ave., Singapore"
+  },
+  "Jalan Mas Puteh Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=6410103335338084417&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 2,
+    "reviews": 2,
+    "address": "Singapore"
+  },
+  "Punggol Heritage Trail Phase 2 (interim Boundary)": {
+    "google_maps_uri": "https://maps.google.com/?cid=14242424444023683466&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "reviews": 8,
+    "address": "New Punggol Rd, Singapore"
+  },
+  "Choa Chu Kang Way Park (pd Worksite)": {
+    "google_maps_uri": "https://maps.google.com/?cid=16454962739958071729&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "address": "No 20 Choa Chu Kang Street 52, #01-02, Singapore 689286"
+  },
+  "Istana Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=15269312843023082578&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 640,
+    "address": "Bounded by Orchard Road Penang Road, Penang Lane and, Buyong Rd, Singapore"
+  },
+  "Marsiling Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=18230287889455217096&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.2,
+    "reviews": 1911,
+    "address": "Woodlands Centre Rd, Singapore 738930"
+  },
+  "Jln Kebaya Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=7680983030000624135&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 6,
+    "address": "Jln Kebaya, Singapore"
+  },
+  "Bukit Canberra": {
+    "google_maps_uri": "https://maps.google.com/?cid=6453723233606078189&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.7,
+    "reviews": 198,
+    "address": "21 Canberra Link, Singapore 756973"
+  },
+  "Chiltern Drive Interim Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=17468234454033064172&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 22,
+    "address": "Chiltern Dr, Singapore"
+  },
+  "Colchester Grove Interim Os": {
+    "google_maps_uri": "https://maps.google.com/?cid=441864625719797213&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.5,
+    "reviews": 15,
+    "address": "Colchester Grv, Singapore"
+  },
+  "Waringin Park Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=14014830595864631232&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 16,
+    "address": "Waringin Pk, Singapore"
+  },
+  "Bukit Chermin Boardwalk": {
+    "google_maps_uri": "https://maps.google.com/?cid=986416753862599876&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.6,
+    "reviews": 231,
+    "address": "Straits View, Singapore"
+  },
+  "Yarrow Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=10848361797277461382&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.8,
+    "reviews": 6,
+    "address": "37 Yarrow Gdns, Singapore 455037"
+  },
+  "Tanjong Katong Road South Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=8004094954053051603&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3,
+    "reviews": 3,
+    "address": "Tanjong Katong Rd S, Singapore"
+  },
+  "Arthur Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=14727766705505138408&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.2,
+    "reviews": 63,
+    "address": "Arthur Rd, Singapore"
+  },
+  "Rail Corridor": {
+    "google_maps_uri": "https://maps.google.com/?cid=6202353157412984218&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.6,
+    "reviews": 99,
+    "address": "Rail Corridor, Singapore"
+  },
+  "Jln Buloh Perindu Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=7624974234209824756&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 6,
+    "address": "53 Jln Buloh Perindu, Singapore 457708"
+  },
+  "Sian Tuan Interim Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=10836743808864834845&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.1,
+    "reviews": 14,
+    "address": "Sian Tuan Ave, Singapore"
+  },
+  "Lorong Ong Lye Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=12640811439527901225&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "reviews": 16,
+    "address": "Lor Ong Lye, Singapore"
+  },
+  "Kranji Reservoir Park A": {
+    "google_maps_uri": "https://maps.google.com/?cid=11589768676874974280&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "reviews": 86,
+    "address": "30 Kranji Wy, Singapore 739440"
+  },
+  "Berlayer Creek": {
+    "google_maps_uri": "https://maps.google.com/?cid=15976089961860665563&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "reviews": 12,
+    "address": "Port Rd, Singapore"
+  },
+  "Hindhede Nature Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=15919838996561892417&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "reviews": 970,
+    "address": "Hindhede Dr, Singapore"
+  },
+  "Pulau Ubin And Chek Jawa": null,
+  "Aida Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=13284928436401704716&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.2,
+    "reviews": 68,
+    "address": "Aida St, Singapore"
+  },
+  "Marine Parade Road Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=7656519226604642977&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4,
+    "reviews": 4,
+    "address": "Singapore"
+  },
+  "Telok Blangah Hill Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=240548599263222872&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.6,
+    "reviews": 2579,
+    "address": "10, Telok Blangah Green, Singapore 109178"
+  },
+  "Bangsawan Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=3451859076058592915&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.1,
+    "reviews": 41,
+    "address": "Jln Bangsawan, Singapore"
+  },
+  "Bulim Park (phase 1)": {
+    "google_maps_uri": "https://maps.google.com/?cid=3042900599449407476&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.9,
+    "reviews": 12,
+    "address": "Bulim St, Singapore"
+  },
+  "Joo Chiat Terrace Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=12200013119176547789&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 92,
+    "address": "Joo Chiat Ter, Singapore 427253"
+  },
+  "Jln Ismail Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=2438850946353249680&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 12,
+    "address": "Jln Ismail, Singapore"
+  },
+  "Tavistock Avenue Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=6789352986229246630&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 190,
+    "address": "Tavistock Avenue, Singapore 557717"
+  },
+  "East Coast Park Area C": {
+    "google_maps_uri": "https://maps.google.com/?cid=11433276463226078150&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 27,
+    "address": "Parkland Green, Singapore"
+  },
+  "Colchester Grove Os": {
+    "google_maps_uri": "https://maps.google.com/?cid=441864625719797213&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.5,
+    "reviews": 15,
+    "address": "Colchester Grv, Singapore"
+  },
+  "Sunset Way Park": {
+    "google_maps_uri": "https://maps.google.com/?cid=11018628053523812005&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "reviews": 45,
+    "address": "115 Sunset Wy, Singapore 597149"
+  },
+  "Clementi Crescent Playground": {
+    "google_maps_uri": "https://maps.google.com/?cid=427429101049577810&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.8,
+    "reviews": 6,
+    "address": "Clementi Cres, Singapore"
+  }
+}
