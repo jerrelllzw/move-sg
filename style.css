@@ -1,15 +1,16 @@
 :root {
-  --bg: #0b0d12;
-  --panel: rgba(18, 21, 28, 0.72);
-  --panel-solid: #12151c;
-  --panel-2: #1a1e27;
-  --border: rgba(255, 255, 255, 0.08);
-  --border-strong: rgba(255, 255, 255, 0.14);
-  --text: #eef1f6;
-  --muted: #98a0ad;
+  --bg: #eef1f6;
+  --panel: rgba(255, 255, 255, 0.82);
+  --panel-solid: #ffffff;
+  --panel-2: #ffffff;
+  --border: rgba(15, 23, 42, 0.08);
+  --border-strong: rgba(15, 23, 42, 0.14);
+  --text: #1a2230;
+  --muted: #5b6675;
   --accent: #ff7a18;
   --accent-2: #ffb547;
-  --shadow: 0 16px 40px -12px rgba(0, 0, 0, 0.55);
+  --link: #d9480f;
+  --shadow: 0 16px 40px -12px rgba(15, 23, 42, 0.22);
   --radius: 16px;
   --radius-sm: 11px;
 }
@@ -37,7 +38,7 @@ body {
 }
 
 a {
-  color: var(--accent-2);
+  color: var(--link);
   text-decoration: none;
 }
 
@@ -161,7 +162,7 @@ a:hover {
 .map {
   flex: 1;
   min-height: 0;
-  background: #0b0d12;
+  background: #e2e7ee;
 }
 
 /* Floating controls over the map */
@@ -245,7 +246,7 @@ a:hover {
   font-size: 13.5px;
   font-weight: 500;
   color: var(--text);
-  background: rgba(255, 255, 255, 0.03);
+  background: rgba(15, 23, 42, 0.025);
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   padding: 9px 11px;
@@ -255,7 +256,7 @@ a:hover {
 }
 
 .layer-toggle:hover {
-  background: rgba(255, 255, 255, 0.06);
+  background: rgba(15, 23, 42, 0.05);
   border-color: var(--border-strong);
 }
 
@@ -290,7 +291,7 @@ a:hover {
   font-size: 11px;
   font-weight: 600;
   color: var(--muted);
-  background: rgba(255, 255, 255, 0.06);
+  background: rgba(15, 23, 42, 0.06);
   border-radius: 999px;
   padding: 2px 8px;
   min-width: 26px;
@@ -304,7 +305,7 @@ a:hover {
   height: 20px;
   flex-shrink: 0;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.12);
+  background: rgba(15, 23, 42, 0.18);
   transition: background 0.2s ease;
 }
 
@@ -404,10 +405,10 @@ a:hover {
   }
 }
 
-/* ---- Leaflet overrides (dark popups + controls) ---------------------------- */
+/* ---- Leaflet overrides (light popups + controls) --------------------------- */
 .leaflet-container {
   font-family: inherit;
-  background: #0b0d12;
+  background: #e2e7ee;
 }
 
 .leaflet-popup-content-wrapper {
@@ -492,7 +493,7 @@ a:hover {
   margin-top: 10px;
   font-size: 13px;
   font-weight: 600;
-  color: var(--accent-2);
+  color: var(--link);
 }
 
 /* Zoom + attribution controls restyled for the dark theme */
@@ -514,18 +515,18 @@ a:hover {
 }
 
 .leaflet-bar a:hover {
-  background: var(--panel-2) !important;
+  background: var(--bg) !important;
 }
 
 .leaflet-control-attribution {
-  background: rgba(11, 13, 18, 0.7) !important;
+  background: rgba(255, 255, 255, 0.8) !important;
   color: var(--muted) !important;
   border-radius: 8px 0 0 0;
   backdrop-filter: blur(6px);
 }
 
 .leaflet-control-attribution a {
-  color: var(--accent-2) !important;
+  color: var(--link) !important;
 }
 
 /* ---- Mobile ---------------------------------------------------------------- */

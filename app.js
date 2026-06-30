@@ -18,7 +18,7 @@ const CATEGORIES = [
     id: "pcn",
     label: "Park Connectors",
     icon: "🌳",
-    color: "#00b894",
+    color: "#6b7280",
     url: "data/pcn.geojson",
     kind: "line",
   },
@@ -50,6 +50,9 @@ const els = {
 
 let userMarker = null;
 let statusTimer = null;
+// At most one feature is highlighted at a time. Tracking it globally is a safety
+// net: if a feature's mouseout is ever missed, the next hover still clears it.
+let hovered = null;
 
 // --- Map setup ---------------------------------------------------------------
 
@@ -57,10 +60,10 @@ const map = L.map("map", { zoomControl: false }).setView(SG_CENTER, DEFAULT_ZOOM
 
 L.control.zoom({ position: "bottomright" }).addTo(map);
 
-// Dark CARTO basemap so the chrome and the map read as one surface; the colored
-// overlays (parks, courts, pools) pop against it. {r} serves retina tiles.
+// Light CARTO basemap: a clean, low-contrast surface that lets the colored
+// overlays (parks, connectors, courts, pools) read clearly. {r} serves retina tiles.
 L.tileLayer(
-  "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+  "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
   {
     maxZoom: 20,
     attribution:
@@ -141,38 +144,67 @@ function popupHtml(category, feature, _latlng) {
 // --- Layer building ----------------------------------------------------------
 
 function buildLayer(category, geojson) {
+  // Resting styles per geometry kind, and the extra emphasis applied on hover so
+  // it's obvious which feature a click will hit.
+  const baseStyles = {
+    point: {
+      radius: 7,
+      color: "#fff",
+      weight: 1.5,
+      fillColor: category.color,
+      fillOpacity: 0.95,
+    },
+    line: { color: category.color, weight: 3, opacity: 0.9 },
+    area: {
+      color: category.color,
+      weight: 1,
+      fillColor: category.color,
+      fillOpacity: 0.25,
+    },
+  };
+  const hoverStyles = {
+    point: { radius: 10, weight: 3, color: category.color, fillColor: "#fff" },
+    line: { weight: 6, opacity: 1 },
+    area: { weight: 2.5, fillOpacity: 0.45 },
+  };
+
+  const base = baseStyles[category.kind];
+  const hover = hoverStyles[category.kind];
+
   const options = {
     onEachFeature: (feature, layer) => {
       const latlng = layer.getLatLng
         ? layer.getLatLng()
         : layer.getBounds().getCenter();
       layer.bindPopup(popupHtml(category, feature, latlng));
+
+      // Keep the highlight while a feature's popup is open; otherwise the
+      // popup can swallow the mouseout and leave the feature stuck emphasized.
+      const reset = () => {
+        if (hovered === layer) hovered = null;
+        if (!layer.isPopupOpen || !layer.isPopupOpen()) layer.setStyle(base);
+      };
+      layer.on("mouseover", () => {
+        if (hovered && hovered !== layer) hovered.fire("mouseout");
+        hovered = layer;
+        layer.setStyle(hover);
+      });
+      layer.on("mouseout", reset);
+      layer.on("popupclose", () => layer.setStyle(base));
     },
   };
 
   if (category.kind === "point") {
     options.pane = "pointPane";
     options.pointToLayer = (_feature, latlng) =>
-      L.circleMarker(latlng, {
-        pane: "pointPane",
-        radius: 7,
-        color: "#fff",
-        weight: 1.5,
-        fillColor: category.color,
-        fillOpacity: 0.95,
-      });
+      L.circleMarker(latlng, { pane: "pointPane", ...base });
   } else if (category.kind === "line") {
     options.pane = "linePane";
-    options.style = { color: category.color, weight: 3, opacity: 0.9 };
+    options.style = base;
   } else {
     // area
     options.pane = "areaPane";
-    options.style = {
-      color: category.color,
-      weight: 1,
-      fillColor: category.color,
-      fillOpacity: 0.25,
-    };
+    options.style = base;
   }
 
   return L.geoJSON(geojson, options);
