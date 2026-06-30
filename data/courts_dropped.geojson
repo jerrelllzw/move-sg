@@ -1391,6 +1391,84 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.843008, 1.43392] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "200 Woodlands Industrial Park E7",
+				"address": "200 Woodlands Industrial Pk E7, Singapore",
+				"source": "Google",
+				"rating": 4,
+				"reviews": 19,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJT4pZ2m4T2jERBmcE2uLFBk0",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.79656, 1.450455] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "ANTA BASKETBALL (Paragon)",
+				"address": "290 Orchard Rd, #04-18/19, Singapore",
+				"source": "Google",
+				"rating": 4.3,
+				"reviews": 22,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJydFa4-AZ2jERnphWgaLeBJc",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.836072, 1.304454] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "ARK Sports Village",
+				"address": "20A Segar Rd, ARK SPORTS VILLAGE, Singapore",
+				"source": "Google",
+				"rating": 4.6,
+				"reviews": 40,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJgx4YWagR2jERCasQYF6YSKI",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.771703, 1.390087] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Arena @ OTH",
+				"address": "1 Tampines Walk, Singapore",
+				"source": "Google",
+				"rating": 4.3,
+				"reviews": 204,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJEwIC5BI92jERO8rhRUL8UK0",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.939382, 1.352723] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Alexandra Hill East Neighbourhood Park",
+				"address": "35a Jln Rumah Tinggi, Singapore",
+				"source": "Google",
+				"rating": 2.6,
+				"reviews": 14,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJDZ3Ue80b2jEROkyEYadw5tU",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.809638, 1.287212] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "ActiveSG Gym @ Fernvale Square",
+				"address": "51A Sengkang W Ave, Singapore",
+				"source": "Google",
+				"rating": 4.3,
+				"reviews": 107,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJC74KtocX2jERbjuFZt5Btkw",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.873222, 1.39146] }
 		}
 	]
 }

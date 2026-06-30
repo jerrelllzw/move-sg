@@ -95,10 +95,62 @@ def in_malaysia(place: dict) -> bool:
     return any(pattern.search(text) for pattern in MALAYSIA_RE)
 
 
+# The keyword search also surfaces single-sport courts for other sports (their
+# names still contain "court"/"hub", so KEEP_PATTERNS would let them through).
+# This is a basketball map, so drop futsal/badminton/tennis/volleyball — unless
+# the name also says "basketball" (a multi-sport hardcourt that includes one).
+OTHER_SPORT_RE = re.compile(r"\b(?:futsal|badminton|tennis|volleyball)\b", re.I)
+
+
+def is_other_sport(place: dict) -> bool:
+    """True for a court dedicated to a non-basketball sport."""
+    name = place.get("name", "")
+    if re.search(r"\bbasketball\b", name, re.I):
+        return False
+    return bool(OTHER_SPORT_RE.search(name))
+
+
+# Manually reviewed duplicates: a generic venue centroid (a park, community club,
+# stadium...) that names the same place as a more specific basketball-court entry,
+# leaving two pins for one spot. These are human de-dup decisions, not something a
+# name rule captures cleanly, so we exclude them explicitly by place_id (stable
+# even if Google renames the place). Keep this list in sync if duplicates resurface.
+EXCLUDED_PLACE_IDS = {
+    # Generic venue pins that duplicate a basketball-court entry.
+    "ChIJmZrv0hsY2jERoh0_KEsvnlY",  # Shot Zone
+    "ChIJq6qqmoIZ2jER48d5nbUw7hA",  # Kebun Baru Community Club
+    "ChIJ_3Bj3IQa2jERM0aLDH-DUqA",  # Firefly Park
+    "ChIJu0xj3EMU2jERFYVk0DZT7Kg",  # Nee Soon Link Park
+    "ChIJ_6ftJ_ER2jERjyRotGhn7to",  # Yew Tee Park
+    "ChIJOa5WOTIY2jER3vTbKwtyREo",  # Geylang West Community Club
+    "ChIJtz1k35c92jERvtuLIIDzCVI",  # Brontosaur Park
+    "ChIJ4YgAeX4T2jERVlOBy85Z-Wc",  # Canberra Park
+    "ChIJNZ8HHC492jER08Oay4alGbk",  # Park Aquaria
+    "ChIJQ6n9Ygw92jERM5o8IkMEhyU",  # Sun Plaza Park
+    "ChIJ50JKpe0R2jER7-GTEwN3rG8",  # Choa Chu Kang Stadium
+    "ChIJna83rrA92jERGxukdgLRHlI",  # Pasir Ris Park
+    # Reviewed near-duplicate venues (kept the more specific sibling instead).
+    "ChIJTV3-1LwX2jER_FUr4igueLo",  # ActiveSG Gym @ Ang Mo Kio Community Centre
+    "ChIJdZqloOcW2jERfOq0MTBjb20",  # ActiveSG Sport Park
+    "ChIJ0_0XGEkY2jER-GDi236NmsA",  # OCBC Arena Hall 1
+    "ChIJO9HYGkkY2jERF88ndZmK10o",  # OCBC Arena
+    "ChIJk4zKXXwZ2jERYa-98NwDuJU",  # Membina Court Residents' Committee
+    "ChIJFUQbXgAZ2jERNgLwZbWUDXM",  # Membina Court
+    "ChIJ-ZbQSvIR2jERzhg_o4EFHGo",  # Stagmont Park Residents' Committee
+    "ChIJB1ziZ_IR2jERz1YXFIkUifo",  # Stagmont Park
+    "ChIJfRlYVWwZ2jERSy_8N9cwJZU",  # Duxton Plain Park Calisthenics Fitness Corner
+    "ChIJKYNzcHIZ2jERAyCQV-Iajbo",  # Duxton Plain Park
+}
+
+
 def keep_place(place: dict) -> bool:
-    """Keep Singapore courts and public facilities; drop Malaysian results,
-    private condos, and other noise."""
+    """Keep Singapore basketball courts and public facilities; drop Malaysian
+    results, other-sport courts, reviewed duplicates, condos, and other noise."""
+    if place.get("place_id") in EXCLUDED_PLACE_IDS:
+        return False
     if in_malaysia(place):
+        return False
+    if is_other_sport(place):
         return False
     if "park" in place.get("types", []):
         return True

@@ -161,6 +161,34 @@ function popupHtml(category, feature) {
 
 // --- Layer building ----------------------------------------------------------
 
+// Different layers can geocode to the exact same point — e.g. an ActiveSG sport
+// park that holds both a swimming pool and basketball courts returns one centroid
+// for both, so one marker ends up hidden directly beneath the other. Rather than
+// falsify the data, we keep the coordinates intact and nudge a colliding marker a
+// few metres onto a small ring around the shared point so every marker stays
+// visible and clickable. The first marker at a spot keeps the true location; each
+// later collision fans out in a different direction.
+const placedPoints = [];
+const COLLISION_RADIUS_M = 16; // markers closer than this are treated as stacked
+const SPREAD_M = 22; // how far a collided marker is pushed off the shared point
+
+function spreadColliding(latlng) {
+  let collisions = 0;
+  for (const p of placedPoints) {
+    if (latlng.distanceTo(p) < COLLISION_RADIUS_M) collisions += 1;
+  }
+  // Record the true point (not the nudged one) so further collisions still count.
+  placedPoints.push(latlng);
+  if (collisions === 0) return latlng;
+
+  const angle = (collisions - 1) * ((2 * Math.PI) / 5);
+  const dLat = (SPREAD_M / 111320) * Math.cos(angle);
+  const dLng =
+    (SPREAD_M / (111320 * Math.cos((latlng.lat * Math.PI) / 180))) *
+    Math.sin(angle);
+  return L.latLng(latlng.lat + dLat, latlng.lng + dLng);
+}
+
 function buildLayer(category, geojson) {
   // Resting styles per geometry kind, and the extra emphasis applied on hover so
   // it's obvious which feature a click will hit.
@@ -216,8 +244,11 @@ function buildLayer(category, geojson) {
 
   if (category.kind === "point") {
     options.pane = "pointPane";
-    options.pointToLayer = (_feature, latlng) =>
-      L.circleMarker(latlng, { pane: "pointPane", ...base });
+    options.pointToLayer = (feature, latlng) =>
+      L.circleMarker(spreadColliding(latlng), {
+        pane: "pointPane",
+        ...base,
+      });
   } else if (category.kind === "line") {
     options.pane = "linePane";
     options.style = base;
