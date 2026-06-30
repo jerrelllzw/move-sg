@@ -50,6 +50,8 @@ const els = {
   nearbyOrigin: document.getElementById("nearby-origin"),
   searchForm: document.getElementById("search-form"),
   addressInput: document.getElementById("address-input"),
+  searchClear: document.getElementById("search-clear"),
+  searchSuggestions: document.getElementById("search-suggestions"),
   themeToggle: document.getElementById("theme-toggle"),
 };
 
@@ -506,49 +508,178 @@ function locateUser() {
   );
 }
 
-// --- Address / postal code search --------------------------------------------
+// --- Location search & autocomplete ------------------------------------------
 
 // Geocode via OneMap, Singapore's official basemap service — its search handles
 // postal codes, building names and street addresses, and needs no API key.
-async function geocodeAddress(query) {
+// Returns the full result list so the same call powers both the typeahead
+// dropdown and the form submit.
+async function geocodeSuggest(query) {
   const url =
     "https://www.onemap.gov.sg/api/common/elastic/search" +
     `?searchVal=${encodeURIComponent(query)}&returnGeom=Y&getAddrDetails=Y&pageNum=1`;
   const res = await fetch(url);
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   const data = await res.json();
-  const hit = data.results && data.results[0];
-  if (!hit) return null;
+  return (data.results || [])
+    .map((r) => {
+      const lat = parseFloat(r.LATITUDE);
+      const lng = parseFloat(r.LONGITUDE);
+      if (Number.isNaN(lat) || Number.isNaN(lng)) return null;
+      const title = r.SEARCHVAL || r.BUILDING || query;
+      // ADDRESS is the fuller line; drop it when it just echoes the title.
+      const sub = r.ADDRESS && r.ADDRESS !== title ? r.ADDRESS : "";
+      return { latlng: [lat, lng], title, sub };
+    })
+    .filter(Boolean);
+}
 
-  const lat = parseFloat(hit.LATITUDE);
-  const lng = parseFloat(hit.LONGITUDE);
-  if (Number.isNaN(lat) || Number.isNaN(lng)) return null;
-  return { latlng: [lat, lng], label: hit.SEARCHVAL || query };
+// Autocomplete state. `suggestSeq` guards against out-of-order responses, since
+// a fast typist can have several lookups in flight at once.
+let suggestItems = [];
+let activeSuggest = -1;
+let suggestSeq = 0;
+let suggestDebounce = null;
+
+function closeSuggestions() {
+  els.searchSuggestions.hidden = true;
+  els.searchSuggestions.innerHTML = "";
+  suggestItems = [];
+  activeSuggest = -1;
+  els.addressInput.setAttribute("aria-expanded", "false");
+  els.addressInput.removeAttribute("aria-activedescendant");
+}
+
+function renderSuggestions(items) {
+  suggestItems = items;
+  activeSuggest = -1;
+  const list = els.searchSuggestions;
+  list.innerHTML = "";
+  if (!items.length) {
+    closeSuggestions();
+    return;
+  }
+
+  items.forEach((item, i) => {
+    const li = document.createElement("li");
+    li.className = "search-suggestion";
+    li.id = `search-suggestion-${i}`;
+    li.setAttribute("role", "option");
+
+    const title = document.createElement("span");
+    title.className = "search-suggestion-title";
+    title.textContent = item.title;
+    li.appendChild(title);
+
+    if (item.sub) {
+      const sub = document.createElement("span");
+      sub.className = "search-suggestion-sub";
+      sub.textContent = item.sub;
+      li.appendChild(sub);
+    }
+
+    // mousedown (not click) so it lands before the input's blur closes the list.
+    li.addEventListener("mousedown", (e) => {
+      e.preventDefault();
+      chooseSuggestion(i);
+    });
+    list.appendChild(li);
+  });
+
+  list.hidden = false;
+  els.addressInput.setAttribute("aria-expanded", "true");
+}
+
+function moveActive(delta) {
+  const n = suggestItems.length;
+  if (!n) return;
+  activeSuggest = (activeSuggest + delta + n) % n;
+  const nodes = els.searchSuggestions.children;
+  for (let i = 0; i < nodes.length; i++) {
+    nodes[i].classList.toggle("is-active", i === activeSuggest);
+  }
+  const active = nodes[activeSuggest];
+  if (active) {
+    active.scrollIntoView({ block: "nearest" });
+    els.addressInput.setAttribute("aria-activedescendant", active.id);
+  }
+}
+
+function chooseSuggestion(i) {
+  const item = suggestItems[i];
+  if (!item) return;
+  els.addressInput.value = item.title;
+  els.searchClear.hidden = false;
+  closeSuggestions();
+  setOrigin(item.latlng, item.title, { fly: true });
+  setStatus("");
+}
+
+async function runSuggest(query) {
+  const seq = ++suggestSeq;
+  try {
+    const items = await geocodeSuggest(query);
+    if (seq !== suggestSeq) return; // a newer keystroke superseded this lookup
+    renderSuggestions(items);
+  } catch (err) {
+    console.error("Suggestion lookup failed:", err);
+  }
+}
+
+function onSearchInput() {
+  const query = els.addressInput.value.trim();
+  els.searchClear.hidden = query.length === 0;
+  clearTimeout(suggestDebounce);
+  if (query.length < 2) {
+    closeSuggestions();
+    return;
+  }
+  suggestDebounce = setTimeout(() => runSuggest(query), 250);
+}
+
+function onSearchKeydown(e) {
+  if (els.searchSuggestions.hidden || !suggestItems.length) return;
+  if (e.key === "ArrowDown") {
+    e.preventDefault();
+    moveActive(1);
+  } else if (e.key === "ArrowUp") {
+    e.preventDefault();
+    moveActive(-1);
+  } else if (e.key === "Enter" && activeSuggest >= 0) {
+    e.preventDefault();
+    chooseSuggestion(activeSuggest);
+  } else if (e.key === "Escape") {
+    closeSuggestions();
+  }
 }
 
 async function searchAddress(event) {
   event.preventDefault();
-  const query = els.addressInput.value.trim();
-  if (!query) return;
 
-  // Singapore postal codes are exactly six digits.
-  if (!/^\d{6}$/.test(query)) {
-    setStatus("Enter a 6-digit postal code.", 4000);
+  // A highlighted suggestion wins — submit just confirms it.
+  if (activeSuggest >= 0 && suggestItems[activeSuggest]) {
+    chooseSuggestion(activeSuggest);
     return;
   }
 
+  const query = els.addressInput.value.trim();
+  if (!query) return;
+
   setStatus("Searching…");
   try {
-    const hit = await geocodeAddress(query);
-    if (!hit) {
-      setStatus("No place found for that postal code.", 4000);
+    const hits = await geocodeSuggest(query);
+    if (!hits.length) {
+      setStatus("No place found. Try a postal code, street or building name.", 4000);
       return;
     }
-    setOrigin(hit.latlng, hit.label, { fly: true });
+    const hit = hits[0];
+    els.addressInput.value = hit.title;
+    closeSuggestions();
+    setOrigin(hit.latlng, hit.title, { fly: true });
     setStatus("");
   } catch (err) {
-    console.error("Postal code search failed:", err);
-    setStatus("Couldn't search that postal code. Try again.", 4000);
+    console.error("Location search failed:", err);
+    setStatus("Couldn't search that location. Try again.", 4000);
   }
 }
 
@@ -599,14 +730,22 @@ function setupTheme() {
 function init() {
   setupTheme();
   els.locate.addEventListener("click", () => {
-    els.addressInput.value = ""; // the located point supersedes any typed code
+    // The located point supersedes any typed query.
+    els.addressInput.value = "";
+    els.searchClear.hidden = true;
+    closeSuggestions();
     locateUser();
   });
   els.searchForm.addEventListener("submit", searchAddress);
-  // Keep the field to postal-code characters only — digits, nothing else.
-  els.addressInput.addEventListener("input", () => {
-    const digits = els.addressInput.value.replace(/\D/g, "").slice(0, 6);
-    if (digits !== els.addressInput.value) els.addressInput.value = digits;
+  els.addressInput.addEventListener("input", onSearchInput);
+  els.addressInput.addEventListener("keydown", onSearchKeydown);
+  // Close the dropdown on blur, but after a beat so a suggestion click registers.
+  els.addressInput.addEventListener("blur", () => setTimeout(closeSuggestions, 120));
+  els.searchClear.addEventListener("click", () => {
+    els.addressInput.value = "";
+    els.searchClear.hidden = true;
+    closeSuggestions();
+    els.addressInput.focus();
   });
   setupToolbarToggle();
   for (const category of CATEGORIES) loadCategory(category);

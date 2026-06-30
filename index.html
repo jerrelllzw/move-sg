@@ -48,13 +48,23 @@
               id="address-input"
               class="address-input"
               type="text"
-              inputmode="numeric"
               autocomplete="off"
-              maxlength="6"
-              pattern="\d{6}"
-              placeholder="Postal code"
-              aria-label="Search by postal code"
+              autocapitalize="off"
+              autocorrect="off"
+              spellcheck="false"
+              placeholder="Postal code, street or place"
+              aria-label="Search for a location"
+              role="combobox"
+              aria-expanded="false"
+              aria-autocomplete="list"
+              aria-controls="search-suggestions"
             />
+            <button id="search-clear" class="search-clear" type="button" title="Clear" aria-label="Clear search" hidden>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M18 6 6 18M6 6l12 12" />
+              </svg>
+            </button>
+            <ul id="search-suggestions" class="search-suggestions" role="listbox" aria-label="Location suggestions" hidden></ul>
           </span>
           <button id="locate-btn" class="locate-btn" type="button" title="Use my location" aria-label="Use my location">
             <svg class="locate-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
