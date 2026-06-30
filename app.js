@@ -498,7 +498,14 @@ const THEME_KEY = "movesg-theme";
 const THEME_COLOR = { light: "#ffffff", dark: "#0e131b" };
 
 function applyTheme(theme) {
-  document.documentElement.setAttribute("data-theme", theme);
+  const root = document.documentElement;
+  // Suppress per-element transitions so the whole UI swaps theme in one frame,
+  // instead of staggering as each hover transition animates its new colour.
+  root.classList.add("theme-switching");
+  root.setAttribute("data-theme", theme);
+  void root.offsetWidth; // force a reflow before transitions are restored
+  requestAnimationFrame(() => root.classList.remove("theme-switching"));
+
   baseLayer.setUrl(BASEMAP_URL[theme]);
 
   const meta = document.querySelector('meta[name="theme-color"]');

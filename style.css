@@ -535,6 +535,9 @@ a:hover {
 /* Dropped pin marking the current "near you" origin (typed or located). */
 .origin-pin {
   display: block;
+  /* The teardrop path touches the viewBox edges and has a 2px stroke whose
+     outer half would otherwise be clipped, shaving the white border. */
+  overflow: visible;
   filter: drop-shadow(0 3px 4px rgba(0, 0, 0, 0.35));
 }
 
@@ -719,6 +722,12 @@ a:hover {
   .map {
     min-height: 320px;
   }
+}
+
+/* Held only for the frame the theme flips, so colour transitions meant for
+   hover don't stagger the swap. */
+.theme-switching * {
+  transition: none !important;
 }
 
 @media (prefers-reduced-motion: reduce) {
