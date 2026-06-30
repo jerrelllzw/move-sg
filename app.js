@@ -3,13 +3,13 @@
 const SG_CENTER = [1.3521, 103.8198];
 const DEFAULT_ZOOM = 12;
 
-// Every category is an equal, toggleable layer. Order = draw order on the map
-// (areas first, then lines, then point markers on top).
+// Each category is an independent, toggleable map layer; `kind` drives its
+// geometry styling and stacking pane.
 const CATEGORIES = [
   {
     id: "parks",
     label: "Parks",
-    icon: "🏞️",
+    icon: "🌳",
     color: "#2ecc71",
     url: "data/parks.geojson",
     kind: "area",
@@ -17,7 +17,7 @@ const CATEGORIES = [
   {
     id: "pcn",
     label: "Park Connectors",
-    icon: "🌳",
+    icon: "🚴",
     color: "#6b7280",
     url: "data/pcn.geojson",
     kind: "line",
@@ -46,10 +46,24 @@ const els = {
   layerToggles: document.getElementById("layer-toggles"),
   toolbar: document.getElementById("toolbar"),
   toolbarToggle: document.getElementById("toolbar-toggle"),
+  nearbyList: document.getElementById("nearby-list"),
+  nearbyOrigin: document.getElementById("nearby-origin"),
+  searchForm: document.getElementById("search-form"),
+  addressInput: document.getElementById("address-input"),
 };
 
-let userMarker = null;
+// How many of the closest places the sidebar lists.
+const NEARBY_LIMIT = 40;
+
+let originMarker = null;
 let statusTimer = null;
+
+// Every feature, flattened across categories, so the sidebar can rank them by
+// distance from the reference point. `latlng` is the point itself, or the
+// centroid for areas/lines; `layer` lets a list click open that feature's popup.
+const places = [];
+// The "near you" origin: central Singapore until geolocation gives us a real fix.
+let referencePoint = L.latLng(SG_CENTER[0], SG_CENTER[1]);
 // At most one feature is highlighted at a time. Tracking it globally is a safety
 // net: if a feature's mouseout is ever missed, the next hover still clears it.
 let hovered = null;
@@ -119,10 +133,9 @@ function placeUrl(props) {
   return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
 }
 
-function popupHtml(category, feature, _latlng) {
+function popupHtml(category, feature) {
   const props = feature.properties || {};
-  const name = props.name || `${category.label}`;
-  let html = `<div class="popup-title"><span class="popup-cat-icon" title="${escapeHtml(category.label)}" aria-label="${escapeHtml(category.label)}">${category.icon}</span> ${escapeHtml(name)}</div>`;
+  let html = `<div class="popup-title"><span class="popup-cat-icon" title="${escapeHtml(category.label)}" aria-label="${escapeHtml(category.label)}">${category.icon}</span> ${escapeHtml(props.name)}</div>`;
 
   if (typeof props.rating === "number") {
     html += ratingHtml(props.rating, props.reviews);
@@ -176,7 +189,9 @@ function buildLayer(category, geojson) {
       const latlng = layer.getLatLng
         ? layer.getLatLng()
         : layer.getBounds().getCenter();
-      layer.bindPopup(popupHtml(category, feature, latlng));
+      layer.bindPopup(popupHtml(category, feature));
+
+      places.push({ category, layer, latlng, props: feature.properties || {} });
 
       // Keep the highlight while a feature's popup is open; otherwise the
       // popup can swallow the mouseout and leave the feature stuck emphasized.
@@ -214,14 +229,21 @@ function addToggle(category, layer, count) {
   const label = document.createElement("label");
   label.className = "layer-toggle";
   label.style.setProperty("--switch-color", category.color);
+  // Toggles are appended as each fetch resolves (non-deterministic order), so
+  // lay them out with flex order: most places first (negate the count, since
+  // flex order sorts ascending).
+  label.style.order = String(count != null ? -count : 0);
 
   const input = document.createElement("input");
   input.type = "checkbox";
   input.checked = true; // all layers on by default — equal footing
+  category.enabled = true;
   input.addEventListener("change", () => {
+    category.enabled = input.checked;
     label.classList.toggle("off", !input.checked);
     if (input.checked) layer.addTo(map);
     else map.removeLayer(layer);
+    renderNearby(); // keep the sidebar in sync with the visible layers
   });
 
   const emoji = document.createElement("span");
@@ -256,9 +278,92 @@ async function loadCategory(category) {
     const layer = buildLayer(category, geojson);
     layer.addTo(map); // on by default
     addToggle(category, layer, countFeatures(geojson));
+    renderNearby(); // refresh the sidebar as each category's features arrive
   } catch (err) {
     console.error(`Couldn't load "${category.id}":`, err);
     setStatus(`Couldn't load ${category.label.toLowerCase()}.`, 4000);
+  }
+}
+
+// --- Nearby sidebar ----------------------------------------------------------
+
+function formatDistance(meters) {
+  if (meters < 950) return `${Math.round(meters / 10) * 10} m`;
+  return `${(meters / 1000).toFixed(1)} km`;
+}
+
+function focusPlace(place) {
+  map.flyTo(place.latlng, Math.max(map.getZoom(), 16), { duration: 0.6 });
+  place.layer.openPopup();
+}
+
+function placeListItem(place, meters) {
+  const li = document.createElement("li");
+  li.className = "place";
+  li.tabIndex = 0;
+  li.setAttribute("role", "button");
+
+  const icon = document.createElement("span");
+  icon.className = "place-icon";
+  icon.textContent = place.category.icon;
+
+  const body = document.createElement("div");
+  body.className = "place-body";
+
+  const name = document.createElement("div");
+  name.className = "place-name";
+  name.textContent = place.props.name;
+
+  // The category is already shown by the icon, so the subtext is just the rating.
+  const meta = document.createElement("div");
+  meta.className = "place-meta";
+  if (typeof place.props.rating === "number") {
+    const reviews =
+      place.props.reviews != null ? ` (${place.props.reviews.toLocaleString()})` : "";
+    meta.innerHTML = `<span class="star">★</span> ${escapeHtml(
+      place.props.rating.toFixed(1)
+    )}${escapeHtml(reviews)}`;
+  } else {
+    meta.textContent = "No ratings yet";
+  }
+
+  body.append(name, meta);
+
+  const dist = document.createElement("span");
+  dist.className = "place-dist";
+  dist.textContent = formatDistance(meters);
+
+  li.append(icon, body, dist);
+  li.addEventListener("click", () => focusPlace(place));
+  li.addEventListener("keydown", (e) => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      focusPlace(place);
+    }
+  });
+  return li;
+}
+
+function renderNearby() {
+  if (!places.length) return;
+
+  const ranked = places
+    .filter((place) => place.category.enabled !== false) // respect layer toggles
+    .map((place) => ({ place, meters: referencePoint.distanceTo(place.latlng) }))
+    .sort((a, b) => a.meters - b.meters)
+    .slice(0, NEARBY_LIMIT);
+
+  const frag = document.createDocumentFragment();
+  for (const { place, meters } of ranked) {
+    frag.appendChild(placeListItem(place, meters));
+  }
+  els.nearbyList.replaceChildren(frag);
+
+  if (!ranked.length) {
+    const empty = document.createElement("li");
+    empty.className = "nearby-empty";
+    empty.textContent = "No places to show — turn on a layer.";
+    els.nearbyList.replaceChildren(empty);
   }
 }
 
@@ -266,12 +371,46 @@ function setupToolbarToggle() {
   els.toolbarToggle.addEventListener("click", () => {
     const collapsed = els.toolbar.classList.toggle("collapsed");
     els.toolbarToggle.setAttribute("aria-expanded", String(!collapsed));
-    els.toolbarToggle.title = collapsed ? "Expand layers" : "Collapse layers";
+    els.toolbarToggle.title = collapsed ? "Expand filters" : "Collapse filters";
   });
+}
+
+// --- Origin (the point the sidebar ranks distances from) ---------------------
+
+// A red teardrop pin that points exactly at its coordinate (anchored at the
+// tip). Marks the current "near you" origin, whether typed or located.
+const PIN_SVG =
+  '<svg class="origin-pin" viewBox="0 0 24 36" width="28" height="42" aria-hidden="true">' +
+  '<path d="M12 0a12 12 0 0 0-12 12c0 8.5 12 24 12 24s12-15.5 12-24A12 12 0 0 0 12 0Z" fill="#e8312f" stroke="#fff" stroke-width="2"/>' +
+  '<circle cx="12" cy="12" r="4.5" fill="#fff"/>' +
+  "</svg>";
+
+const ORIGIN_ICON = L.divIcon({
+  className: "",
+  html: PIN_SVG,
+  iconSize: [28, 42],
+  iconAnchor: [14, 42], // tip of the teardrop sits on the coordinate
+  popupAnchor: [0, -38],
+});
+
+// Make `latlng` the new "near you" origin: re-rank the sidebar and drop the pin.
+function setOrigin(latlng, label, { fly } = {}) {
+  referencePoint = L.latLng(latlng[0], latlng[1]);
+  els.nearbyOrigin.textContent = label;
+  renderNearby();
+
+  if (originMarker) originMarker.remove();
+  originMarker = L.marker(latlng, { icon: ORIGIN_ICON, zIndexOffset: 1000 })
+    .addTo(map)
+    .bindPopup(label);
+
+  if (fly) map.flyTo(latlng, 15, { duration: 0.6 });
 }
 
 // --- Geolocation -------------------------------------------------------------
 
+// Triggered only by the "use my location" button — the default view stays on
+// central Singapore until the user opts in.
 function locateUser() {
   if (!navigator.geolocation) {
     setStatus("Geolocation isn't supported by your browser.");
@@ -283,23 +422,11 @@ function locateUser() {
 
   navigator.geolocation.getCurrentPosition(
     (pos) => {
-      const loc = [pos.coords.latitude, pos.coords.longitude];
       els.locate.disabled = false;
+      setOrigin([pos.coords.latitude, pos.coords.longitude], "Your location", {
+        fly: true,
+      });
       setStatus("📍 Found you — centering the map", 2500);
-
-      if (userMarker) userMarker.remove();
-      userMarker = L.marker(loc, {
-        icon: L.divIcon({
-          className: "",
-          html: '<div class="user-marker"></div>',
-          iconSize: [16, 16],
-        }),
-        zIndexOffset: 1000,
-      })
-        .addTo(map)
-        .bindPopup("You are here");
-
-      map.flyTo(loc, 15, { duration: 0.6 });
     },
     (err) => {
       els.locate.disabled = false;
@@ -313,12 +440,68 @@ function locateUser() {
   );
 }
 
+// --- Address / postal code search --------------------------------------------
+
+// Geocode via OneMap, Singapore's official basemap service — its search handles
+// postal codes, building names and street addresses, and needs no API key.
+async function geocodeAddress(query) {
+  const url =
+    "https://www.onemap.gov.sg/api/common/elastic/search" +
+    `?searchVal=${encodeURIComponent(query)}&returnGeom=Y&getAddrDetails=Y&pageNum=1`;
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  const data = await res.json();
+  const hit = data.results && data.results[0];
+  if (!hit) return null;
+
+  const lat = parseFloat(hit.LATITUDE);
+  const lng = parseFloat(hit.LONGITUDE);
+  if (Number.isNaN(lat) || Number.isNaN(lng)) return null;
+  return { latlng: [lat, lng], label: hit.SEARCHVAL || query };
+}
+
+async function searchAddress(event) {
+  event.preventDefault();
+  const query = els.addressInput.value.trim();
+  if (!query) return;
+
+  // Singapore postal codes are exactly six digits.
+  if (!/^\d{6}$/.test(query)) {
+    setStatus("Enter a 6-digit postal code.", 4000);
+    return;
+  }
+
+  setStatus("Searching…");
+  try {
+    const hit = await geocodeAddress(query);
+    if (!hit) {
+      setStatus("No place found for that postal code.", 4000);
+      return;
+    }
+    setOrigin(hit.latlng, hit.label, { fly: true });
+    setStatus("");
+  } catch (err) {
+    console.error("Postal code search failed:", err);
+    setStatus("Couldn't search that postal code. Try again.", 4000);
+  }
+}
+
 // --- Init --------------------------------------------------------------------
 
 function init() {
-  els.locate.addEventListener("click", locateUser);
+  els.locate.addEventListener("click", () => {
+    els.addressInput.value = ""; // the located point supersedes any typed code
+    locateUser();
+  });
+  els.searchForm.addEventListener("submit", searchAddress);
+  // Keep the field to postal-code characters only — digits, nothing else.
+  els.addressInput.addEventListener("input", () => {
+    const digits = els.addressInput.value.replace(/\D/g, "").slice(0, 6);
+    if (digits !== els.addressInput.value) els.addressInput.value = digits;
+  });
   setupToolbarToggle();
   for (const category of CATEGORIES) loadCategory(category);
+  // Default view is central Singapore; the user opts in to geolocation.
 }
 
 init();

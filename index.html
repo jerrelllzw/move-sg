@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MoveSG — your fitness map for Singapore</title>
+  <title>MoveSG</title>
   <meta name="description" content="MoveSG: your personalized fitness map for Singapore — basketball courts, parks, park connectors and swimming pools near you." />
   <meta name="theme-color" content="#ffffff" />
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
@@ -23,44 +23,64 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="app-header">
-    <div class="brand">
-      <span class="brand-mark" aria-hidden="true">
-        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M12 21s-7-5.4-7-11a7 7 0 0 1 14 0c0 5.6-7 11-7 11Z" />
-          <path d="M7.7 10h2.1l1.2-2.6 1.7 4.2 1.1-1.6h1.5" />
-        </svg>
-      </span>
-      <div class="brand-text">
-        <h1>Move<span>SG</span></h1>
-        <p class="tagline">Reasons to move near you</p>
-      </div>
-    </div>
-    <button id="locate-btn" class="locate-btn" type="button">
-      <svg class="locate-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-        <circle cx="12" cy="12" r="3.2" />
-        <path d="M12 2v3M12 19v3M2 12h3M19 12h3" />
-      </svg>
-      <span>Near me</span>
-    </button>
-  </header>
-
   <main class="layout">
-    <div id="map" class="map" aria-label="Map of fitness places in Singapore"></div>
+    <aside class="sidebar" aria-label="Places near you">
+      <div class="sidebar-head">
+        <form id="search-form" class="search-row" role="search">
+          <span class="search-field">
+            <svg class="search-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="11" cy="11" r="7" />
+              <path d="m20 20-3.2-3.2" />
+            </svg>
+            <input
+              id="address-input"
+              class="address-input"
+              type="text"
+              inputmode="numeric"
+              autocomplete="off"
+              maxlength="6"
+              pattern="\d{6}"
+              placeholder="Postal code"
+              aria-label="Search by postal code"
+            />
+          </span>
+          <button id="locate-btn" class="locate-btn" type="button" title="Use my location" aria-label="Use my location">
+            <svg class="locate-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="3.2" />
+              <path d="M12 2v3M12 19v3M2 12h3M19 12h3" />
+            </svg>
+          </button>
+        </form>
 
-    <div class="map-overlay">
+        <p class="sidebar-origin-row">
+          <svg class="origin-glyph" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 21s-7-5.4-7-11a7 7 0 0 1 14 0c0 5.6-7 11-7 11Z" />
+            <circle cx="12" cy="10" r="2.4" />
+          </svg>
+          <span id="nearby-origin" class="sidebar-origin">Central Singapore</span>
+        </p>
+      </div>
+
       <div class="toolbar" id="toolbar">
         <div class="toolbar-head">
-          <span class="toolbar-label">Layers</span>
-          <button id="toolbar-toggle" class="toolbar-toggle" type="button" aria-expanded="true" aria-controls="layer-toggles" title="Collapse layers">
+          <span class="toolbar-label">Filters</span>
+          <button id="toolbar-toggle" class="toolbar-toggle" type="button" aria-expanded="true" aria-controls="layer-toggles" title="Collapse filters">
             <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6" /></svg>
           </button>
         </div>
         <div id="layer-toggles" class="layer-toggles"></div>
       </div>
-    </div>
 
-    <p id="status" class="status" role="status"></p>
+      <div class="results-head">
+        <span class="results-label">Nearby</span>
+      </div>
+      <ul id="nearby-list" class="nearby-list" aria-live="polite"></ul>
+    </aside>
+
+    <div class="map-area">
+      <div id="map" class="map" aria-label="Map of fitness places in Singapore"></div>
+      <p id="status" class="status" role="status"></p>
+    </div>
   </main>
 
   <script
