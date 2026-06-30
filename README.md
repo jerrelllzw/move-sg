@@ -1,122 +1,122 @@
-# MoveSG 🏀🏞️🏊
+# MoveSG
 
-Your personalized fitness map for Singapore — basketball courts, parks, park
-connectors and swimming pools, all in one place.
+A fitness map for Singapore. Find the basketball courts, parks, park connectors
+and swimming pools around you — see them on a map, browse the closest ones in a
+ranked list, and jump straight to Google Maps for ratings and directions.
 
-It's a full-screen map with four equal layers — basketball courts, parks, park
-connectors and swimming pools. Toggle any layer on or off, tap **Near me** to
-jump to your location, and click any marker or shape for details and one-tap
-directions.
+MoveSG is a static website: HTML, CSS and vanilla JavaScript built on
+[Leaflet](https://leafletjs.com/). The places it shows come from GeoJSON files
+that live in the repo, generated ahead of time by the Python scripts in
+`scripts/`. Nothing is fetched from a paid API while you browse.
 
-![MoveSG](https://github.com/user-attachments/assets/2e5ec3a2-88f5-4a6b-83c0-05d2ab14d275)
+## What you can do
 
-## Features
+- Toggle four layers independently — **parks**, **park connectors**, **basketball
+  courts** and **swimming pools** — each drawn in its own colour and shape.
+- Set where "near you" means: type a **6-digit postal code** or hit **use my
+  location**. A pin drops at that point and the sidebar re-ranks every place by
+  distance from it.
+- Open any place for its **Google rating, review count and address**, plus a link
+  out to Google Maps.
+- Switch between **light and dark** themes — it follows your system setting and
+  remembers your choice.
 
-- 🗂️ **Four equal layers** — 🏀 courts, 🏞️ parks, 🌳 park connectors, 🏊 pools,
-  each independently toggleable (all on by default).
-- 📍 **Near me** — geolocation drops a marker and centres the map on you.
-- 🗺️ **Interactive map** — built on Leaflet + OpenStreetMap (no API key needed).
-- 🧭 **Directions** — click any place for one-tap Google Maps directions.
-- 📱 **Mobile-friendly** — responsive layout for phones and desktop.
+Until you search or share your location, the map sits over central Singapore.
 
-## How it works
+## Quick start
 
-The app is a static site (`index.html`, `style.css`, `app.js`) — no backend and
-**no API keys at runtime**. Each layer just loads a static data file from `data/`.
-
-The data is collected offline by the Python scripts. Collection and the website
-are fully decoupled: refresh whenever you like, commit the updated files, and the
-site serves them. **API keys live only in the data-collection step**, never in
-the browser.
-
-Sources follow a "official government data first, then Google" preference:
-
-| Layer | File | Source | Key needed? |
-| --- | --- | --- | --- |
-| 🌳 Park connectors | [`data/pcn.geojson`](data/pcn.geojson) | data.gov.sg — NParks Park Connector Loop | No |
-| 🏞️ Parks | [`data/parks.geojson`](data/parks.geojson) | data.gov.sg — NParks Parks & Nature Reserves | No |
-| 🏀 Basketball courts | [`data/courts.geojson`](data/courts.geojson) | Google Places API (New) | Yes |
-| 🏊 Swimming pools | [`data/pools.geojson`](data/pools.geojson) | Official ActiveSG list, geocoded via Google Places | Yes |
-
-The swimming-pool layer is the canonical ActiveSG list of public complexes
-(hard-coded in [`scripts/pools.py`](scripts/pools.py)); each name is geocoded
-with Google.
-
-## Project structure
-
-```
-.
-├── index.html, style.css, app.js   # the static site (served as-is)
-├── data/                           # generated GeoJSON the site reads
-│   ├── courts.geojson  parks.geojson  pcn.geojson  pools.geojson
-├── scripts/                        # offline data-collection pipeline
-│   ├── courts.py  pools.py         # Google Places layers
-│   ├── parks.py   pcn.py           # data.gov.sg layers
-│   ├── datagovsg.py                # data.gov.sg download helper
-│   └── google_places.py            # Google Places + key loader
-├── .env / .env.example             # Google key (git-ignored) + template
-└── README.md
-```
-
-## Running locally
-
-It's a static site, so any static server works. With Python:
+It's a static site, but the app loads its data over HTTP, so serve the folder
+rather than opening the file directly:
 
 ```bash
 python -m http.server 8000
-# then open http://localhost:8000
 ```
 
-It's a static site, so any static server works. With Python:
+Open <http://localhost:8000>. No build, no dependencies, no setup for the site
+itself.
+
+## What's in the repo
+
+| Path | What it is |
+| --- | --- |
+| `index.html` | Page markup — sidebar, map, theme toggle |
+| `style.css` | Layout and light/dark theming via CSS variables |
+| `app.js` | Everything the app does: map, layers, search, ranking, theme |
+| `data/*.geojson` | The places the site loads (generated — see below) |
+| `scripts/*.py` | The data-collection pipeline |
+
+## Where the data comes from
+
+Each layer is one GeoJSON file under `data/`. Official government data is
+preferred; Google fills the gaps. The browser reads only these static files — it
+never talks to Google.
+
+| Layer | Source | Needs a Google key |
+| --- | --- | --- |
+| Parks | NParks "Parks & Nature Reserves" (data.gov.sg) | No |
+| Park connectors | NParks "Park Connector Loop" (data.gov.sg) | No |
+| Basketball courts | Google Places (legacy Nearby Search) | Yes |
+| Swimming pools | Official ActiveSG list, geocoded via Google Places | Yes |
+
+## Regenerating the data
+
+The GeoJSON is committed, so you only need this to refresh it. The scripts use
+Python 3.10+ and the standard library only.
+
+The two government layers need no key:
 
 ```bash
-python -m http.server 8000
-# then open http://localhost:8000
+python scripts/parks.py
+python scripts/pcn.py
 ```
 
-## Refreshing the data
-
-### Government layers (no key)
+The two Google layers need a Maps API key. Copy the template and fill it in —
+`.env` is git-ignored, so the key never gets committed or shipped to the browser:
 
 ```bash
-python scripts/pcn.py     # -> data/pcn.geojson     (Park Connector Network)
-python scripts/parks.py   # -> data/parks.geojson   (parks)
+cp .env.example .env      # then set GOOGLE_MAPS_API_KEY
+python scripts/courts.py
+python scripts/pools.py
 ```
 
-### Google layers (needs a key)
+A few notes on the Google scripts:
 
-1. Copy `.env.example` to `.env` and add your key (with **Places API (New)**
-   enabled). `.env` is git-ignored, so the key is never committed or deployed.
-2. Run:
+- **`courts.py`** uses the legacy Nearby Search, whose keyword matching reaches
+  into reviews — that's how it finds unnamed void-deck and HDB courts. It sweeps
+  Singapore with an adaptive grid of search circles, splitting only the dense
+  ones that hit Google's 60-result cap, so cost tracks court density. It caches
+  every raw result, so you can re-filter for free:
 
-   ```bash
-   python scripts/courts.py   # -> data/courts.geojson  (basketball courts)
-   python scripts/pools.py    # -> data/pools.geojson   (ActiveSG list via Google)
-   ```
+  ```bash
+  python scripts/courts.py               # call Google, cache, filter, save
+  python scripts/courts.py --from-cache  # re-filter the cache, no API calls
+  python scripts/courts.py --no-filter   # keep everything, skip the noise filter
+  ```
 
-`scripts/pools.py` geocodes the official ActiveSG list of complexes — edit the
-`OFFICIAL_POOLS` list in the script to add or remove pools.
+  Because reviews match too, condos and phantom blocks creep in; a name keep-list
+  removes them, and whatever it drops is written to
+  `data/courts_dropped.geojson` so you can check it.
 
-`scripts/courts.py` runs a text search across a grid of map cells (tune
-`GRID_ROWS` / `GRID_COLS` in the script). **Google Text Search is billed per
-request**, so a finer grid means better coverage but a larger bill — keep an eye
-on your usage.
+- **`pools.py`** geocodes a hard-coded list of official ActiveSG complexes with
+  the Places API (New). Edit the `OFFICIAL_POOLS` list to add or remove pools.
 
-## Deploying (GitHub Pages)
+Enable both APIs in the
+[Google Cloud Console](https://console.cloud.google.com/). Google requests are
+billed per request — watch your usage.
 
-1. Push to GitHub.
-2. **Settings → Pages → Build and deployment → Source: Deploy from a branch**.
-3. Choose the `main` branch and the `/ (root)` folder, then **Save**.
+## Deploying
 
-The site will be live at `https://<your-username>.github.io/<repo>/`.
+Any static host works. For GitHub Pages: **Settings → Pages → Deploy from a
+branch**, pick `main` and `/ (root)`, and the site goes live at
+`https://<user>.github.io/<repo>/`.
 
-## Data & attribution
+## Credits
 
-- Base map © [OpenStreetMap](https://www.openstreetmap.org/copyright)
-  contributors (ODbL).
-- Parks and park connectors © National Parks Board, via
-  [data.gov.sg](https://data.gov.sg/) under the
+- Map tiles by [CARTO](https://carto.com/attributions); map data ©
+  [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors.
+- Postal-code geocoding by [OneMap](https://www.onemap.gov.sg/).
+- Parks and park connectors © National Parks Board via
+  [data.gov.sg](https://data.gov.sg/), under the
   [Singapore Open Data Licence](https://data.gov.sg/open-data-licence).
-- Basketball courts and swimming pools from the Google Places API — review
-  Google's [Places API terms](https://cloud.google.com/maps-platform/terms)
-  before redistributing this data.
+- Court and pool details from the Google Places API — check Google's
+  [terms](https://cloud.google.com/maps-platform/terms) before redistributing.
