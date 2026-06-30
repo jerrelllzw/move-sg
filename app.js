@@ -347,7 +347,11 @@ function formatDistance(meters) {
 
 function focusPlace(place) {
   map.flyTo(place.latlng, Math.max(map.getZoom(), 16), { duration: 0.6 });
-  place.layer.openPopup();
+  // Anchor the popup to the same point flyTo centers on. Leaflet's default
+  // openPopup() uses the layer's own centroid, which for a large MultiPolygon
+  // (e.g. Central Catchment) is the first sub-polygon's center — kilometres
+  // from the bounds centre and off-screen at this zoom.
+  place.layer.openPopup(place.latlng);
 }
 
 function placeListItem(place, meters) {
