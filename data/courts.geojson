@@ -2354,19 +2354,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Blk 9 Futsal Court",
-				"address": "9 Eunos Cres, Singapore",
-				"source": "Google",
-				"rating": 4,
-				"reviews": 1,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJCUAxZqYZ2jER6MIBup9XE0M",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.902754, 1.321854] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "Blk 9 Toa Payoh Basketball Court",
 				"address": "9 Lor 7 Toa Payoh, Singapore",
 				"source": "Google",
@@ -3373,32 +3360,6 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.789771, 1.440299] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Futsal court - Blk 138 Bedok North St 2",
-				"address": "Bedok North Street 2, Block 138, Singapore",
-				"source": "Google",
-				"rating": 3.7,
-				"reviews": 3,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJSSNRPgA92jERDLeCZ6uiUb4",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.936768, 1.329309] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Futsal court - Blk 6 Marine Terrace",
-				"address": "Marine Ter, Block 6, Singapore",
-				"source": "Google",
-				"rating": 4.5,
-				"reviews": 2,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJz16_GQAj2jERswKTk1kSh7g",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.915985, 1.30364] }
 		},
 		{
 			"type": "Feature",
@@ -4687,19 +4648,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Pasir Ris St 51 Futsal Court",
-				"address": "Pasir Ris Street 51",
-				"source": "Google",
-				"rating": 4.1,
-				"reviews": 10,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ3an71g892jERZBae48tHN_E",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.94763, 1.367517] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "Paya Lebar Kovan Community Club",
 				"address": "207 Hougang St 21, Singapore",
 				"source": "Google",
@@ -5524,19 +5472,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Stirling Futsal Court",
-				"address": "Stirling Rd, Singapore",
-				"source": "Google",
-				"rating": 5,
-				"reviews": 4,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ3aKUJDca2jERQAoZdYdNu9k",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.803254, 1.296802] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "Street Soccer Court @ Block 761 Yishun",
 				"address": "Singapore",
 				"source": "Google",
@@ -6183,19 +6118,6 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.780313, 1.434983] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Yankit Rd Futsal Court",
-				"address": "Yan Kit Rd",
-				"source": "Google",
-				"rating": 4.5,
-				"reviews": 4,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ9eImb_oZ2jER1wCRulH2jOg",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.842212, 1.277543] }
 		},
 		{
 			"type": "Feature",
