@@ -11,6 +11,40 @@
   --link: #d9480f;
   --shadow: 0 16px 40px -12px rgba(15, 23, 42, 0.22);
   --radius-sm: 11px;
+
+  /* Surfaces tinted off the text color — overridden wholesale in dark mode so
+     hovers/chips don't disappear against a dark background. */
+  --hover: rgba(15, 23, 42, 0.05);
+  --hover-soft: rgba(15, 23, 42, 0.025);
+  --chip: rgba(15, 23, 42, 0.06);
+  --track: rgba(15, 23, 42, 0.18);
+  --map-bg: #e2e7ee;
+  --attribution-bg: rgba(255, 255, 255, 0.8);
+
+  color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+
+  --bg: #0e131b;
+  --panel: rgba(22, 28, 38, 0.82);
+  --panel-solid: #151b25;
+  --panel-2: #1a212d;
+  --border: rgba(255, 255, 255, 0.08);
+  --border-strong: rgba(255, 255, 255, 0.16);
+  --text: #e7ebf2;
+  --muted: #94a0b2;
+  --accent: #ff7a18;
+  --link: #ff9a4d;
+  --shadow: 0 16px 40px -12px rgba(0, 0, 0, 0.6);
+
+  --hover: rgba(255, 255, 255, 0.06);
+  --hover-soft: rgba(255, 255, 255, 0.03);
+  --chip: rgba(255, 255, 255, 0.1);
+  --track: rgba(255, 255, 255, 0.22);
+  --map-bg: #0b1017;
+  --attribution-bg: rgba(21, 27, 37, 0.85);
 }
 
 * {
@@ -33,6 +67,7 @@ body {
   font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  transition: background 0.2s ease, color 0.2s ease;
 }
 
 a {
@@ -158,6 +193,30 @@ a:hover {
   margin: 0;
   padding: 4px 12px 16px;
   list-style: none;
+  /* Themed scrollbar so it tracks light/dark like the rest of the sidebar. */
+  scrollbar-width: thin;
+  scrollbar-color: var(--track) transparent;
+}
+
+.nearby-list::-webkit-scrollbar {
+  width: 10px;
+}
+
+.nearby-list::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.nearby-list::-webkit-scrollbar-thumb {
+  background: var(--track);
+  border: 3px solid transparent;
+  background-clip: padding-box;
+  border-radius: 999px;
+}
+
+.nearby-list::-webkit-scrollbar-thumb:hover {
+  background: var(--muted);
+  border: 3px solid transparent;
+  background-clip: padding-box;
 }
 
 .place {
@@ -172,7 +231,7 @@ a:hover {
 
 .place:hover,
 .place:focus-visible {
-  background: rgba(15, 23, 42, 0.05);
+  background: var(--hover);
   outline: none;
 }
 
@@ -281,7 +340,7 @@ a:hover {
 .map {
   flex: 1;
   min-height: 0;
-  background: #e2e7ee;
+  background: var(--map-bg);
 }
 
 /* Filters section in the sidebar */
@@ -353,7 +412,7 @@ a:hover {
   font-size: 13.5px;
   font-weight: 500;
   color: var(--text);
-  background: rgba(15, 23, 42, 0.025);
+  background: var(--hover-soft);
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   padding: 8px 10px;
@@ -363,7 +422,7 @@ a:hover {
 }
 
 .layer-toggle:hover {
-  background: rgba(15, 23, 42, 0.05);
+  background: var(--hover);
   border-color: var(--border-strong);
 }
 
@@ -402,7 +461,7 @@ a:hover {
   font-size: 11px;
   font-weight: 600;
   color: var(--muted);
-  background: rgba(15, 23, 42, 0.06);
+  background: var(--chip);
   border-radius: 999px;
   padding: 2px 7px;
   min-width: 24px;
@@ -417,7 +476,7 @@ a:hover {
   height: 20px;
   flex-shrink: 0;
   border-radius: 999px;
-  background: rgba(15, 23, 42, 0.18);
+  background: var(--track);
   transition: background 0.2s ease;
 }
 
@@ -482,7 +541,7 @@ a:hover {
 /* ---- Leaflet overrides (light popups + controls) --------------------------- */
 .leaflet-container {
   font-family: inherit;
-  background: #e2e7ee;
+  background: var(--map-bg);
 }
 
 .leaflet-popup-content-wrapper {
@@ -593,7 +652,7 @@ a:hover {
 }
 
 .leaflet-control-attribution {
-  background: rgba(255, 255, 255, 0.8) !important;
+  background: var(--attribution-bg) !important;
   color: var(--muted) !important;
   border-radius: 8px 0 0 0;
   backdrop-filter: blur(6px);
@@ -601,6 +660,47 @@ a:hover {
 
 .leaflet-control-attribution a {
   color: var(--link) !important;
+}
+
+/* ---- Theme toggle ---------------------------------------------------------- */
+/* Floats over the top-right of the map; matches the frosted status/control look. */
+.theme-toggle {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 700;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  color: var(--text);
+  background: var(--panel);
+  border: 1px solid var(--border-strong);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  backdrop-filter: blur(14px) saturate(140%);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+  transition: color 0.15s ease, background 0.15s ease, border-color 0.15s ease;
+}
+
+.theme-toggle:hover {
+  color: var(--accent);
+  border-color: var(--muted);
+}
+
+/* Show the moon in light mode (tap → dark), the sun in dark mode (tap → light). */
+.theme-icon-sun {
+  display: none;
+}
+
+:root[data-theme="dark"] .theme-icon-moon {
+  display: none;
+}
+
+:root[data-theme="dark"] .theme-icon-sun {
+  display: block;
 }
 
 /* ---- Mobile ---------------------------------------------------------------- */

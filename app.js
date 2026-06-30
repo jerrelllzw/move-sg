@@ -18,7 +18,7 @@ const CATEGORIES = [
     id: "pcn",
     label: "Park Connectors",
     icon: "🚴",
-    color: "#6b7280",
+    color: "#8b5cf6",
     url: "data/pcn.geojson",
     kind: "line",
   },
@@ -50,6 +50,7 @@ const els = {
   nearbyOrigin: document.getElementById("nearby-origin"),
   searchForm: document.getElementById("search-form"),
   addressInput: document.getElementById("address-input"),
+  themeToggle: document.getElementById("theme-toggle"),
 };
 
 // How many of the closest places the sidebar lists.
@@ -74,16 +75,20 @@ const map = L.map("map", { zoomControl: false }).setView(SG_CENTER, DEFAULT_ZOOM
 
 L.control.zoom({ position: "bottomright" }).addTo(map);
 
-// Light CARTO basemap: a clean, low-contrast surface that lets the colored
-// overlays (parks, connectors, courts, pools) read clearly. {r} serves retina tiles.
-L.tileLayer(
-  "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
-  {
-    maxZoom: 20,
-    attribution:
-      '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
-  }
-).addTo(map);
+// CARTO basemap: a clean, low-contrast surface that lets the colored overlays
+// (parks, connectors, courts, pools) read clearly. The {s}/{z}/{x}/{y}{r}
+// placeholders are filled by Leaflet; {r} serves retina tiles. The light/dark
+// variant is swapped by the theme toggle (see theme handling below).
+const BASEMAP_URL = {
+  light: "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+  dark: "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+};
+
+const baseLayer = L.tileLayer(BASEMAP_URL.light, {
+  maxZoom: 20,
+  attribution:
+    '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
+}).addTo(map);
 
 // Layers load concurrently, so use panes to fix stacking regardless of which
 // finishes first: point markers sit above lines, which sit above area fills.
@@ -486,9 +491,45 @@ async function searchAddress(event) {
   }
 }
 
+// --- Theme (light / dark) ----------------------------------------------------
+
+const THEME_KEY = "movesg-theme";
+// Surface tint behind the address bar etc., kept in sync with the active theme.
+const THEME_COLOR = { light: "#ffffff", dark: "#0e131b" };
+
+function applyTheme(theme) {
+  document.documentElement.setAttribute("data-theme", theme);
+  baseLayer.setUrl(BASEMAP_URL[theme]);
+
+  const meta = document.querySelector('meta[name="theme-color"]');
+  if (meta) meta.setAttribute("content", THEME_COLOR[theme]);
+
+  const next = theme === "dark" ? "light" : "dark";
+  els.themeToggle.setAttribute("aria-label", `Switch to ${next} theme`);
+  els.themeToggle.title = `Switch to ${next} theme`;
+}
+
+function setupTheme() {
+  // Saved choice wins; otherwise follow the OS preference.
+  const saved = localStorage.getItem(THEME_KEY);
+  const prefersDark =
+    window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+  applyTheme(saved || (prefersDark ? "dark" : "light"));
+
+  els.themeToggle.addEventListener("click", () => {
+    const next =
+      document.documentElement.getAttribute("data-theme") === "dark"
+        ? "light"
+        : "dark";
+    localStorage.setItem(THEME_KEY, next);
+    applyTheme(next);
+  });
+}
+
 // --- Init --------------------------------------------------------------------
 
 function init() {
+  setupTheme();
   els.locate.addEventListener("click", () => {
     els.addressInput.value = ""; // the located point supersedes any typed code
     locateUser();
