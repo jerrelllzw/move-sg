@@ -1758,19 +1758,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Blk 101 Street Soccer Court",
-				"address": "101 Aljunied Cres, Singapore",
-				"source": "Google",
-				"rating": 4.6,
-				"reviews": 9,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJRw7MwoUZ2jERQlLA-JoZh1A",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.882801, 1.320782] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "Blk 112 Sheltered Basketball Court",
 				"address": "112 Bishan St. 12, Singapore",
 				"source": "Google",
@@ -2235,19 +2222,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Bukit Batok CC Street Soccer Court",
-				"address": "117 Bukit Batok West Ave 6, Block 117, Singapore",
-				"source": "Google",
-				"rating": 4,
-				"reviews": 1,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJRbOr2cER2jER3HRTUaLpSjc",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.747532, 1.349528] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "Bukit Batok Central Park",
 				"address": "Bukit Batok West Ave 6",
 				"source": "Google",
@@ -2274,19 +2248,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Bukit Batok Street 31 Street Soccer Court",
-				"address": "303 Bukit Batok Street 31, Singapore",
-				"source": "Google",
-				"rating": 5,
-				"reviews": 2,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJFR5hV18R2jERsX0QQNaS0j8",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.747785, 1.356858] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "Bukit Gombak MRT Basketball Court",
 				"address": "810 Bukit Batok West Ave. 5, Singapore",
 				"source": "Google",
@@ -2296,19 +2257,6 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.752228, 1.359667] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Bukit Gombak Park Street Soccer Court",
-				"address": "Singapore",
-				"source": "Google",
-				"rating": 5,
-				"reviews": 1,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ8VD5ROUR2jERdL1xezQupjo",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.751715, 1.366642] }
 		},
 		{
 			"type": "Feature",
@@ -2632,19 +2580,6 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.884391, 1.32271] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Football Court (Caged)",
-				"address": "Jurong Spring Neighbourhood Park",
-				"source": "Google",
-				"rating": 3,
-				"reviews": 2,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJVem-cgAP2jERjVjHNpq2l-g",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.716711, 1.353568] }
 		},
 		{
 			"type": "Feature",
@@ -4014,19 +3949,6 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.861138, 1.321948] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Street Soccer Court @ Block 761 Yishun",
-				"address": "Singapore",
-				"source": "Google",
-				"rating": 4.7,
-				"reviews": 3,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJsTdTOrwV2jER8VOfbT2zl90",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.832801, 1.425317] }
 		},
 		{
 			"type": "Feature",

@@ -97,9 +97,12 @@ def in_malaysia(place: dict) -> bool:
 
 # The keyword search also surfaces single-sport courts for other sports (their
 # names still contain "court"/"hub", so KEEP_PATTERNS would let them through).
-# This is a basketball map, so drop futsal/badminton/tennis/volleyball — unless
-# the name also says "basketball" (a multi-sport hardcourt that includes one).
-OTHER_SPORT_RE = re.compile(r"\b(?:futsal|badminton|tennis|volleyball)\b", re.I)
+# This is a basketball map, so drop futsal/badminton/tennis/volleyball and
+# football/street-soccer courts — unless the name also says "basketball" (a
+# multi-sport hardcourt that includes one).
+OTHER_SPORT_RE = re.compile(
+    r"\b(?:futsal|badminton|tennis|volleyball|football|soccer)\b", re.I
+)
 
 
 def is_other_sport(place: dict) -> bool:
