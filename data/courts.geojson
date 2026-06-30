@@ -512,19 +512,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Ataraxia park 3 blok A",
-				"address": "Gelang Patah",
-				"source": "Google",
-				"rating": 3.6,
-				"reviews": 7,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJZ95PXQAJ2jER9gyUFXnPNJ0",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.583292, 1.337868] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "Ayer Rajah Community Club",
 				"address": "150 Pandan Gardens, Singapore",
 				"source": "Google",
@@ -1425,19 +1412,6 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.959632, 1.35987] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Basketball Court (Autolight 7pm)",
-				"address": "1, Jalan Nusa Perintis 1/2, Taman Nusa Perintis 2, Gelang Patah",
-				"source": "Google",
-				"rating": 3.8,
-				"reviews": 13,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJE6dVSh0L2jER91eqBieEBEE",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.595078, 1.453379] }
 		},
 		{
 			"type": "Feature",
@@ -2521,45 +2495,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Block C Ataraxia Park 3",
-				"address": "8HPM+P9, Gelang Patah",
-				"source": "Google",
-				"rating": 4.8,
-				"reviews": 4,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJUWhzyGUJ2jERwY3i-fignAA",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.583354, 1.336688] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Block E Ataraxia Park 1",
-				"address": "Block E, Ataraxia Park, 1, Jln Forest City - Lebuhraya Tanjung Pelepas, Gelang Patah",
-				"source": "Google",
-				"rating": 4.1,
-				"reviews": 14,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJu1Qiiw0J2jERQ8_M9lvZZws",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.581035, 1.339091] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Block G Regalia Park",
-				"address": "5, Pulau Satu, Block E, Jln Forest City - Lebuhraya Tanjung Pelepas, Laman Perkasa Gelang Patah",
-				"source": "Google",
-				"rating": 3.7,
-				"reviews": 3,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJP2zqraIJ2jEROCO0ocK7Rq0",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.59075, 1.338321] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "Blue Court",
 				"address": "114 Edgefield Plains, Singapore",
 				"source": "Google",
@@ -2816,19 +2751,6 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.752228, 1.359667] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Bukit Indah Recreation Park",
-				"address": "Persiaran Indah, Taman Bukit Indah, Johor Bahru",
-				"source": "Google",
-				"rating": 4.1,
-				"reviews": 1038,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJC6NYfjVz2jERPORG2pHd1s8",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.659595, 1.480036] }
 		},
 		{
 			"type": "Feature",
@@ -3210,19 +3132,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Eco Botanic Basketball Court",
-				"address": "Unnamed, Road, Gelang Patah",
-				"source": "Google",
-				"rating": 4.8,
-				"reviews": 4,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ3fqvPWML2jERHOnUpAce06A",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.619742, 1.445437] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "Edgedale Green Basement Basketball Court",
 				"address": "636A Punggol Dr., Singapore",
 				"source": "Google",
@@ -3236,19 +3145,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "EduCity Sports Complex",
-				"address": "Persiaran Kampus, Educity, Iskandar Puteri",
-				"source": "Google",
-				"rating": 4.4,
-				"reviews": 2125,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJzzahupcL2jER4kN1tmmwpMs",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.613175, 1.438947] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "Elias Basketball Court",
 				"address": "188 Rivervale Dr, Singapore",
 				"source": "Google",
@@ -3258,19 +3154,6 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.904724, 1.394739] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Estuari Sports Centre",
-				"address": "Estuari Sports Centre Persiaran Laman Estuari 1, Jalan Laman Estuari 1/16, Puteri Harbour, Iskandar Puteri",
-				"source": "Google",
-				"rating": 4.5,
-				"reviews": 49,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJtz5oOQYN2jER94zhBN4fMf8",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.655833, 1.429094] }
 		},
 		{
 			"type": "Feature",
@@ -3451,19 +3334,6 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.78949, 1.440208] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Foon Yew High School Outdoor Basketball Court 宽柔中学室外篮球场",
-				"address": "Taman Stulang Laut, Johor Bahru",
-				"source": "Google",
-				"rating": 5,
-				"reviews": 1,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJDwl_PJAT2jERk0OXR_oGAUA",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.779145, 1.467721] }
 		},
 		{
 			"type": "Feature",
@@ -4125,19 +3995,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Laguna Basketball Court",
-				"address": "FP72+97, Taman Laguna, Johor Bahru",
-				"source": "Google",
-				"rating": 3,
-				"reviews": 2,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJHy0kTG0N2jERXP-V0FFj5cI",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.700966, 1.463403] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "Lam Soon Basketball Court",
 				"address": "Choa Chu Kang Ave 3",
 				"source": "Google",
@@ -4147,30 +4004,6 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.740437, 1.381045] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Landak Basketball Court",
-				"address": "2, Jalan Landak Kawan, Taman Abad, Johor Bahru",
-				"source": "Google",
-				"rating": 5,
-				"reviews": 5,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJKYxb4jVt2jERiSLUl7xCifA",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.759997, 1.480968] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Layang Basketball courst",
-				"address": "100, Jalan Layang 4, Taman Perling, Johor Bahru",
-				"source": "Google",
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJE1J8YQAN2jERoswDty4NGOs",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.672089, 1.474406] }
 		},
 		{
 			"type": "Feature",
@@ -4279,19 +4112,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Maroon Court 红场",
-				"address": "Jalan Indah 28/1, Taman Bukit Indah 2, Johor Bahru",
-				"source": "Google",
-				"rating": 5,
-				"reviews": 1,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJdbnQJQAN2jERV5Cte_B_xAU",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.646895, 1.467965] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "Marymount Community Club",
 				"address": "191 Sin Ming Ave, Singapore",
 				"source": "Google",
@@ -4301,19 +4121,6 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.8415, 1.361332] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Masai Basketball Stadium",
-				"address": "34, Jalan Bunga Dahlia, Taman Masai, Masai",
-				"source": "Google",
-				"rating": 4.7,
-				"reviews": 3,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJkUej321r2jERb5ZinFFboLQ",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.886441, 1.48574] }
 		},
 		{
 			"type": "Feature",
@@ -4351,19 +4158,6 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.857545, 1.320316] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Medini Basketball and Futsal Courts",
-				"address": "Unnamed Road, 79250, Iskandar Puteri",
-				"source": "Google",
-				"rating": 2.4,
-				"reviews": 5,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJmfkUr5QL2jERB_e2fibfgeU",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.627434, 1.416548] }
 		},
 		{
 			"type": "Feature",
@@ -4683,19 +4477,6 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.83673, 1.428841] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "NS Sport",
-				"address": "Level 4, 1, 9, Jalan Silc 2, Kawasan Perindustrian SILC, Gelang Patah",
-				"source": "Google",
-				"rating": 4.2,
-				"reviews": 374,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJhc_OvikL2jERkr9vQxNJk70",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.591945, 1.472064] }
 		},
 		{
 			"type": "Feature",
@@ -5075,19 +4856,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Public basketball court",
-				"address": "Persiaran Indah, Taman Bukit Indah, Johor Bahru",
-				"source": "Google",
-				"rating": 5,
-				"reviews": 3,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJUy-Fbcxz2jERUASdOMEoQP0",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.659305, 1.479217] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "Punggol Basketball Court",
 				"address": "295 Punggol Central",
 				"source": "Google",
@@ -5175,32 +4943,6 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.887851, 1.321236] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Regalia Park Forest City",
-				"address": "Jln Forest City - Lebuhraya Tanjung Pelepas, Gelang Patah",
-				"source": "Google",
-				"rating": 4.2,
-				"reviews": 159,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJQzaLpaYJ2jER7y0t-s7dMjg",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.590041, 1.339251] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Rise up basketball court (佛光）",
-				"address": "Jalan Sutera Merah 2, Taman Sutera, Johor Bahru",
-				"source": "Google",
-				"rating": 5,
-				"reviews": 2,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJf3o2Yjtz2jERdD83ucJGqI8",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.688286, 1.478396] }
 		},
 		{
 			"type": "Feature",
@@ -5431,32 +5173,6 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.764651, 1.381403] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Serene Park Badminton Court",
-				"address": "Jalan Bersatu, Serene Park, Johor Bahru",
-				"source": "Google",
-				"rating": 4.2,
-				"reviews": 41,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJP2T2J74T2jERWiCXspKqtNM",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.772953, 1.471218] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Serene Park Basketball Court",
-				"address": "Jalan Bersatu, Serene Park, Johor Bahru",
-				"source": "Google",
-				"rating": 4.3,
-				"reviews": 23,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJi8v8-NYS2jERuUnpo1EVWGA",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.772955, 1.471219] }
 		},
 		{
 			"type": "Feature",
@@ -5756,19 +5472,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Sports Direct",
-				"address": "1 Unit G-24 and G-25, Sunway Big Box Village, Jin Medini Selatan, Persiaran Medini, Iskandar Puteri",
-				"source": "Google",
-				"rating": 4.1,
-				"reviews": 80,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJE3pWANYL2jERTeAx_EOLXnk",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.626436, 1.396855] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "Sports Hub Beach Volleyball Courts",
 				"address": "6 Stadium Walk",
 				"source": "Google",
@@ -5886,19 +5589,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Taman Bunga Raya MBJB",
-				"address": "Jalan Tun Abdul Razak (Susur 6), Larkin, Johor Bahru",
-				"source": "Google",
-				"rating": 4.3,
-				"reviews": 110,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJKezEO1lt2jERItT9i_lndDU",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.732846, 1.490733] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "Taman Jurong Community Club",
 				"address": "1 Yung Sheng Rd, Singapore",
 				"source": "Google",
@@ -5921,32 +5611,6 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.721102, 1.328252] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Taman Sutera Hijau Basketball Court",
-				"address": "64, Jalan Sutera Merah 2, Taman Sutera, Johor Bahru",
-				"source": "Google",
-				"rating": 4,
-				"reviews": 1,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJvbcJ4URz2jERc-xMx6uMRC4",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.687282, 1.478286] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Taman Tasek Basketball Court",
-				"address": "Taman Tasek, Johor Bahru",
-				"source": "Google",
-				"rating": 3.9,
-				"reviews": 7,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJH7iVjqhy2jERF2NtJkYhLAg",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.72556, 1.486037] }
 		},
 		{
 			"type": "Feature",
@@ -6233,19 +5897,6 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.883262, 1.343906] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Tiara Sports World",
-				"address": "Lot 7207, Jalan Pasir Pelangi, Pasir Pelangi, Johor Bahru",
-				"source": "Google",
-				"rating": 4.4,
-				"reviews": 324,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJV8jDatts2jERaYCvzEsGJ5U",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.785286, 1.49007] }
 		},
 		{
 			"type": "Feature",
@@ -6675,19 +6326,6 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.771727, 1.386754] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "馬來西亞的家Block D Regalia Park",
-				"address": "Gelang Patah, 5, Pulau Satu Jln Forest City - Lebuhraya Tanjung Pelepas, Block D, Laman Perkasa",
-				"source": "Google",
-				"rating": 3.7,
-				"reviews": 3,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJL8fhXdwJ2jERK5qLzrxSi_E",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.591106, 1.339268] }
 		}
 	]
 }

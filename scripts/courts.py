@@ -76,9 +76,30 @@ KEEP_PATTERNS = [
 ]
 KEEP_RE = [re.compile(p, re.I) for p in KEEP_PATTERNS]
 
+# The search grid's north edge spills across the Strait of Johor into Johor
+# Bahru, and its west edge into Iskandar Puteri / Gelang Patah, so Malaysian
+# courts surface. They can't be told apart by latitude alone (Forest City sits
+# at the same latitude as Singapore, just west of the strait), so we match the
+# address against Johor district names. Generic Malay words like "jalan"/"taman"
+# also appear in Singapore addresses, so those are deliberately excluded.
+MALAYSIA_PATTERNS = [
+    r"\bjohor\b", r"gelang patah", r"iskandar puteri", r"forest city",
+    r"puteri harbour", r"\bmedini\b", r"\bmasai\b",
+]
+MALAYSIA_RE = [re.compile(p, re.I) for p in MALAYSIA_PATTERNS]
+
+
+def in_malaysia(place: dict) -> bool:
+    """True if the address/name points to Johor, Malaysia rather than Singapore."""
+    text = f"{place.get('name', '')} {place.get('vicinity', '')}"
+    return any(pattern.search(text) for pattern in MALAYSIA_RE)
+
 
 def keep_place(place: dict) -> bool:
-    """Keep courts and public facilities; drop private condos and other noise."""
+    """Keep Singapore courts and public facilities; drop Malaysian results,
+    private condos, and other noise."""
+    if in_malaysia(place):
+        return False
     if "park" in place.get("types", []):
         return True
     name = place.get("name", "")
