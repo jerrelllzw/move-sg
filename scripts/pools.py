@@ -14,7 +14,7 @@ import json
 import sys
 from pathlib import Path
 
-from google_places import find_place, load_api_key
+from google_places import find_place, load_api_key, place_properties
 
 # Official ActiveSG public swimming complexes. Each entry is the display name and
 # an optional Google query (defaults to the name) for tricky lookups.
@@ -58,11 +58,8 @@ def resolve(name: str, query: str | None, api_key: str) -> dict | None:
     loc = place.get("location", {})
     return {
         "type": "Feature",
-        "properties": {
-            "name": name,
-            "address": place.get("formattedAddress", ""),
-            "source": "Google",
-        },
+        # Pin the official ActiveSG name/source, but keep Google's rating + link.
+        "properties": place_properties(place, name=name, source="Google"),
         "geometry": {
             "type": "Point",
             "coordinates": [round(loc.get("longitude", 0), 6), round(loc.get("latitude", 0), 6)],
@@ -103,7 +100,7 @@ def main() -> int:
     with OUTPUT_PATH.open("w", encoding="utf-8") as file:
         json.dump(collection, file, ensure_ascii=False, indent=2)
 
-    print(f"Saved {len(features)}/{len(OFFICIAL_POOLS)} pools to {OUTPUT_PATH.relative_to(Path.cwd())}")
+    print(f"Saved {len(features)}/{len(OFFICIAL_POOLS)} pools to {OUTPUT_PATH}")
     return 0
 
 

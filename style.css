@@ -457,6 +457,29 @@ a:hover {
   padding: 3px 9px;
 }
 
+.popup-rating {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 8px;
+  font-size: 13px;
+}
+
+.popup-stars {
+  color: #ffc53d;
+  letter-spacing: 1px;
+}
+
+.popup-score {
+  font-weight: 700;
+  color: var(--text);
+}
+
+.popup-reviews {
+  color: var(--muted);
+  font-weight: 500;
+}
+
 .popup-detail {
   margin-top: 8px;
   font-size: 12.5px;

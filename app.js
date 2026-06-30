@@ -104,21 +104,46 @@ function escapeHtml(s) {
   return div.innerHTML;
 }
 
-function directionsUrl(lat, lng) {
-  return `https://www.google.com/maps/dir/?api=1&destination=${lat},${lng}`;
+// A compact star rating: filled/half/empty glyphs plus the numeric score and
+// review count, matching how Google surfaces a place's reputation at a glance.
+function ratingHtml(rating, reviews) {
+  const full = Math.floor(rating);
+  const half = rating - full >= 0.25 && rating - full < 0.75;
+  const bonus = rating - full >= 0.75 ? 1 : 0;
+  let stars = "★".repeat(full + bonus);
+  if (half) stars += "⯨";
+  stars += "☆".repeat(Math.max(0, 5 - full - bonus - (half ? 1 : 0)));
+
+  const count =
+    reviews != null
+      ? ` <span class="popup-reviews">(${reviews.toLocaleString()})</span>`
+      : "";
+  return `<div class="popup-rating"><span class="popup-stars" aria-hidden="true">${stars}</span> <span class="popup-score">${rating.toFixed(1)}</span>${count}</div>`;
 }
 
-function popupHtml(category, feature, latlng) {
+// Fall back to a Google Maps search by name+address when Google didn't hand us a
+// canonical place URI for this feature.
+function placeUrl(props) {
+  if (props.google_maps_uri) return props.google_maps_uri;
+  const query = [props.name, props.address].filter(Boolean).join(" ");
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
+}
+
+function popupHtml(category, feature, _latlng) {
   const props = feature.properties || {};
   const name = props.name || `${category.label}`;
   let html = `<div class="popup-title">${escapeHtml(name)}</div>`;
   html += `<span class="popup-cat">${category.icon} ${escapeHtml(category.label)}</span>`;
 
+  if (typeof props.rating === "number") {
+    html += ratingHtml(props.rating, props.reviews);
+  }
+
   if (props.address) {
     html += `<div class="popup-detail">${escapeHtml(props.address)}</div>`;
   }
 
-  html += `<a class="popup-link" href="${directionsUrl(latlng.lat, latlng.lng)}" target="_blank" rel="noopener">Directions →</a>`;
+  html += `<a class="popup-link" href="${placeUrl(props)}" target="_blank" rel="noopener">View on Google Maps →</a>`;
 
   if (props.source) {
     html += `<span class="popup-source">Source: ${escapeHtml(props.source)}</span>`;

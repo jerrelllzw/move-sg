@@ -18,7 +18,8 @@ from pathlib import Path
 ENDPOINT = "https://places.googleapis.com/v1/places:searchText"
 FIELD_MASK = (
     "places.id,places.displayName,places.location,"
-    "places.formattedAddress,nextPageToken"
+    "places.formattedAddress,places.rating,places.userRatingCount,"
+    "places.googleMapsUri,places.businessStatus,nextPageToken"
 )
 
 
@@ -108,15 +109,34 @@ def find_place(query: str, api_key: str, bbox: tuple) -> dict | None:
     return places[0] if places else None
 
 
+def place_properties(place: dict, **extra) -> dict:
+    """Common GeoJSON properties for a Google place: name, address, rating, link.
+
+    Rating fields are only included when Google returns them, so unrated places
+    stay lean. `extra` lets callers pin a name/source on top.
+    """
+    props = {
+        "name": place.get("displayName", {}).get("text", "Unnamed"),
+        "address": place.get("formattedAddress", ""),
+    }
+    if place.get("rating") is not None:
+        props["rating"] = place["rating"]
+    if place.get("userRatingCount") is not None:
+        props["reviews"] = place["userRatingCount"]
+    if place.get("googleMapsUri"):
+        props["google_maps_uri"] = place["googleMapsUri"]
+    if place.get("businessStatus"):
+        props["status"] = place["businessStatus"]
+    props.update(extra)
+    return props
+
+
 def to_point_feature(place: dict) -> dict:
     """Convert a Google place into a GeoJSON point feature."""
     loc = place.get("location", {})
     return {
         "type": "Feature",
-        "properties": {
-            "name": place.get("displayName", {}).get("text", "Unnamed"),
-            "address": place.get("formattedAddress", ""),
-        },
+        "properties": place_properties(place),
         "geometry": {
             "type": "Point",
             "coordinates": [
