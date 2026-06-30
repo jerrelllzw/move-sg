@@ -538,58 +538,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Badminton court",
-				"address": "157 Rivervale Cres, volleyball court",
-				"source": "Google",
-				"rating": 5,
-				"reviews": 2,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJx5EvfQAX2jERkhGDtZ2w9wQ",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.908866, 1.387956] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Badminton court - Blk 25B Jln Membina",
-				"address": "25B Jln Membina, Singapore",
-				"source": "Google",
-				"rating": 4,
-				"reviews": 1,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJOz_nQYkZ2jERrCfpVkpZk1A",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.825294, 1.283745] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Badminton court - Blk 324 Hougang Ave 5",
-				"address": "324 Hougang Ave 5, Singapore",
-				"source": "Google",
-				"rating": 3,
-				"reviews": 1,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ8znWa1YX2jERlQh7RCe2wLk",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.897407, 1.36749] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Badminton court - Blk 602 Clementi West St 1",
-				"address": "Clementi West Street 1, Singapore",
-				"source": "Google",
-				"rating": 3,
-				"reviews": 2,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJiU75LAAb2jERxSNqoFjhbfY",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.766857, 1.304959] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "Basketball Association of Singapore",
 				"address": "601 Aljunied Ave 1, #01-04, Singapore",
 				"source": "Google",
@@ -2083,19 +2031,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Blk 20 Balam Rd - Badminton Court",
-				"address": "20 Balam Rd, Singapore",
-				"source": "Google",
-				"rating": 3.5,
-				"reviews": 2,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJKUoG0AwX2jERK_ScJgXyLVg",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.887708, 1.331013] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "Blk 205 Toa Payoh Basketball court",
 				"address": "205 Toa Payoh N, Singapore",
 				"source": "Google",
@@ -2142,19 +2077,6 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.857062, 1.341729] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Blk 225 Badminton Court",
-				"address": "225 Bishan St. 23, Block 225, Singapore",
-				"source": "Google",
-				"rating": 4.3,
-				"reviews": 6,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJuULN2BgX2jERx0aUXsIEEYY",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.847433, 1.358501] }
 		},
 		{
 			"type": "Feature",
@@ -3750,19 +3672,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Kallang Tennis Hub",
-				"address": "15 Stadium Walk, Singapore",
-				"source": "Google",
-				"rating": 3.8,
-				"reviews": 93,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ--qjeQAZ2jERiRCaElyOdoI",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.877107, 1.301381] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "Kampong Ubi CC basketball court",
 				"address": "Singapore",
 				"source": "Google",
@@ -4531,19 +4440,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Open-air Badminton Court",
-				"address": "Pasir Ris Drive 6, #01-73 Block 426, Singapore",
-				"source": "Google",
-				"rating": 4.5,
-				"reviews": 4,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ664IpvM92jERd50sOCFjUFg",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.955549, 1.370173] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "Our Tampines Hub ActiveSG Community Auditorium",
 				"address": "1 Tampines Walk, Level 3, Singapore",
 				"source": "Google",
@@ -5099,19 +4995,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Sengkang volleyball court",
-				"address": "157 Rivervale Cres",
-				"source": "Google",
-				"rating": 3.9,
-				"reviews": 15,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ_5ooFk0X2jERYWy7bMBQhGY",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.908734, 1.388148] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "Senja-Cashew Community Club",
 				"address": "101 Bukit Panjang Rd, Singapore",
 				"source": "Google",
@@ -5416,19 +5299,6 @@
 				"status": "OPERATIONAL"
 			},
 			"geometry": { "type": "Point", "coordinates": [103.798414, 1.305656] }
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Sports Hub Beach Volleyball Courts",
-				"address": "6 Stadium Walk",
-				"source": "Google",
-				"rating": 4.1,
-				"reviews": 31,
-				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJOVTrE0wY2jERkIQPj-z1Ow8",
-				"status": "OPERATIONAL"
-			},
-			"geometry": { "type": "Point", "coordinates": [103.872576, 1.302145] }
 		},
 		{
 			"type": "Feature",
