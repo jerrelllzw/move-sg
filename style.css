@@ -556,7 +556,9 @@ a:hover {
 }
 
 .leaflet-popup-content {
-  margin: 13px 16px;
+  /* Extra right margin clears the absolutely-positioned close button so popup
+     text (e.g. "Your location") doesn't run underneath the ×. */
+  margin: 13px 28px 13px 16px;
   font-size: 13.5px;
   line-height: 1.5;
 }
