@@ -1,0 +1,1396 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "8scape Residensi",
+				"address": "Residensi Laman Lapan, Jalan Sutera Kuning, Taman Sutera, Taman Perling, Johor Bahru",
+				"source": "Google",
+				"rating": 3.4,
+				"reviews": 123,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJU6p_gNpy2jERAHo6wK_KqVY",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.693059, 1.487221] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "98 Lor 1 Toa Payoh Playground",
+				"address": "98A Lor 3 Toa Payoh, Singapore",
+				"source": "Google",
+				"rating": 4,
+				"reviews": 4,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJTSUuiDUX2jERgLxFmWKKuQU",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.848479, 1.338894] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Airena @ Ampas",
+				"address": "10B Jln Ampas, Singapore",
+				"source": "Google",
+				"rating": 5,
+				"reviews": 4,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJz1rXTPsZ2jER807quM02-_g",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.852015, 1.325795] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Akademi Tenis Johor (Nusa Duta Tennis Complex)",
+				"address": "Jalan Duta Utama, Nusa Duta, Johor Bahru",
+				"source": "Google",
+				"rating": 4.3,
+				"reviews": 133,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJJWympC1z2jERBel07CFptjY",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.673484, 1.479674] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Anytime Fitness 548 Ang Mo Kio",
+				"address": "548 Ang Mo Kio Ave 10, #01-2014/2016, Singapore",
+				"source": "Google",
+				"rating": 4.9,
+				"reviews": 85,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ-y9jPAAX2jERWfs_VFqzF40",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.857079, 1.372876] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Anytime Fitness Bukit Panjang",
+				"address": "8 Pending Rd, #03-01, Singapore",
+				"source": "Google",
+				"rating": 4.4,
+				"reviews": 208,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJOVKixaIR2jERRlP-Omkol_M",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.770799, 1.376308] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Bartley Ridge",
+				"address": "46 Mount Vernon Rd, Singapore",
+				"source": "Google",
+				"rating": 4.2,
+				"reviews": 191,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJXwXnQJcX2jERURJAgARdQrA",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.88067, 1.340926] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Bedok FCC in Bedok Camp 2",
+				"address": "768 Upper East Coast Road, Blk 139, Level 1",
+				"source": "Google",
+				"rating": 4,
+				"reviews": 97,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJMRgC3dAi2jERTeLf9dLX-XI",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.954114, 1.316875] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Blangah View",
+				"address": "65 Telok Blangah Dr, Singapore",
+				"source": "Google",
+				"rating": 3.9,
+				"reviews": 39,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ9_L5ttwb2jERbURt7Jtml-I",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.810441, 1.274176] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Blk 139 Bukit Batok West Avenue 6 Playground",
+				"address": "139 Bukit Batok West Ave 6, Singapore",
+				"source": "Google",
+				"rating": 4.7,
+				"reviews": 6,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJFZtsPwMR2jERQyh14vDellg",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.744018, 1.351078] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Blk 304 Clementi Ave 4",
+				"address": "304 Clementi Ave 4, Singapore",
+				"source": "Google",
+				"rating": 3.7,
+				"reviews": 3,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ03oqx4Qa2jER4BVm8_frNG8",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.764852, 1.320917] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Blk 498 Jurong West St 41",
+				"address": "498 Jurong West Street 41, Singapore",
+				"source": "Google",
+				"rating": 3.3,
+				"reviews": 7,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJdwkR6woP2jERd11vyZ8X238",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.72453, 1.348725] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Blk 62 Circuit Rd - Children Playground",
+				"address": "64A Circuit Rd, Singapore",
+				"source": "Google",
+				"rating": 4,
+				"reviews": 2,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJbXiFpmYX2jERk-4zgPg6qxA",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.887216, 1.326469] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Block 107 HDB Jalan Bukit Merah",
+				"address": "107 Jalan Bukit Merah, Singapore",
+				"source": "Google",
+				"rating": 4.3,
+				"reviews": 9,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ2ydE03wZ2jERvrnc-riwBT0",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.825442, 1.27982] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Block 124 HDB Marsiling",
+				"address": "124 Marsiling Rise, Singapore",
+				"source": "Google",
+				"rating": 4.4,
+				"reviews": 36,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJd7K_baoT2jERyke2jAlxevI",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.779736, 1.438908] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Block 25 HDB Marsiling",
+				"address": "25 Marsiling Dr, Singapore",
+				"source": "Google",
+				"rating": 4.2,
+				"reviews": 28,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ03xAVf4S2jERc5gTNZOc1_M",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.772451, 1.442048] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Block 266 HDB Bukit Batok East",
+				"address": "266 Bukit Batok East Ave 4, Singapore",
+				"source": "Google",
+				"rating": 4.2,
+				"reviews": 31,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJwW04lkMQ2jERT9DhOYwRjGY",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.760114, 1.349317] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Block 440 HDB Fernvale (MSCP)",
+				"address": "440 Fernvale Link, Singapore",
+				"source": "Google",
+				"rating": 4.1,
+				"reviews": 34,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ-e23lXoW2jERjMfvJTix6tU",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.878263, 1.393063] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Block 494J HDB Tampines",
+				"address": "494J Tampines Street 45, Singapore",
+				"source": "Google",
+				"rating": 4.4,
+				"reviews": 51,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJzcRb9qk92jERw3yvpPvnBvQ",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.954542, 1.36436] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Block A2 Starview Bay Forest City",
+				"address": "8HRR+83, Gelang Patah",
+				"source": "Google",
+				"rating": 4.3,
+				"reviews": 6,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ596lryEJ2jERkNBCsTw3sHw",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.590168, 1.340871] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Block C2 Starview Bay Forest",
+				"address": "8HRV+CR, Gelang Patah",
+				"source": "Google",
+				"rating": 3.8,
+				"reviews": 5,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJX8vIvuIJ2jERpTUTKWOJDls",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.594696, 1.341169] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Block D2 Starview Bay Forest City",
+				"address": "8HRW+J2, Gelang Patah",
+				"source": "Google",
+				"rating": 4.7,
+				"reviews": 7,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ9XdBEjoJ2jERnyZVRCdc7xE",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.597737, 1.341805] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Blossom Residences",
+				"address": "36 Segar Rd, Singapore",
+				"source": "Google",
+				"rating": 4.2,
+				"reviews": 200,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ0YzLR0EQBBARtSFWC5qiutY",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.770375, 1.389363] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Blue Horizon Suites",
+				"address": "H2-11-05, Ataraxia Park, 4, Jalan Forest City 4, Pulau Satu, Gelang Patah",
+				"source": "Google",
+				"rating": 4.8,
+				"reviews": 26,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJf6EvwxQJ2jERF0BY_aSor3U",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.584189, 1.333949] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Bukit Canberra Hawker Centre",
+				"address": "21 Canberra Link, Singapore",
+				"source": "Google",
+				"rating": 4.2,
+				"reviews": 1944,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJf-MrLT8V2jERx_aVOpIuLng",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.822837, 1.448974] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Casa Amira",
+				"address": "5, Jalan Seri Amira 3, Taman Perling, Iskandar Puteri",
+				"source": "Google",
+				"rating": 3.6,
+				"reviews": 9,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJLw0jLc8M2jERoqaJ-muSTlY",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.66627, 1.470139] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Casablanca",
+				"address": "25 Rosewood Dr, Singapore",
+				"source": "Google",
+				"rating": 4.5,
+				"reviews": 42,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ-_9iBX4T2jER_RRZjPE-Iw8",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.785449, 1.430555] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Cerulean Bay @ Forest City",
+				"address": "BLOK-A-19-02, Plot 3, Jln Forest City 1, Pulau Satu, Gelang Patah",
+				"source": "Google",
+				"rating": 4.5,
+				"reviews": 11,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJRaA4r4YJ2jERuJQ14SOgvvM",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.592068, 1.337239] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Changi Lodge 2 Workers Dormitory",
+				"address": "70 Tanah Merah Coast Rd, Singapore",
+				"source": "Google",
+				"rating": 4.1,
+				"reviews": 965,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJtS9kFFsj2jERznpx45DBuzE",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.997664, 1.312405] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Chinatown Complex Children's Playground",
+				"address": "5/F Roof, Chinatown Complex, 335 Smith St, S",
+				"source": "Google",
+				"rating": 4.7,
+				"reviews": 14,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJuc-H6FkZ2jERjRRPSSwCmXc",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.843248, 1.282369] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Choa Chu Kang Mega Playground",
+				"address": "Singapore",
+				"source": "Google",
+				"rating": 4.5,
+				"reviews": 111,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJaaXk1NwR2jERjStQPwYUkaU",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.740369, 1.38089] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Chong Pang Zone 1 RN Centre",
+				"address": "108 Yishun Ring Rd, #01-301 Chong Pang Garden, Singapore",
+				"source": "Google",
+				"rating": 4.1,
+				"reviews": 33,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJsSG0yXsU2jER5sX2shVj4Cw",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.828793, 1.432279] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Cineleisure",
+				"address": "8 Grange Rd, Singapore",
+				"source": "Google",
+				"rating": 4.1,
+				"reviews": 5356,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJe3kMD5EZ2jERFGYVqhnc6DY",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.836574, 1.301687] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "City Sprouts (Bedok)",
+				"address": "200 Bedok North Ave 1, Singapore",
+				"source": "Google",
+				"rating": 4.7,
+				"reviews": 14,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJG-6scC492jER5KPF3ljK0EE",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.927498, 1.327503] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "COURTS Orchard",
+				"address": "228 Orchard Rd, #228, Singapore",
+				"source": "Google",
+				"rating": 4,
+				"reviews": 585,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJpaxNN5EZ2jERWHr9KOpIw0c",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.837299, 1.302409] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Duck’s Nest Playground",
+				"address": "495 Tampines Street 43, Singapore",
+				"source": "Google",
+				"rating": 4.9,
+				"reviews": 7,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJUVjMYH492jERnfmTJcZs8A0",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.953221, 1.364975] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Eight Courtyards",
+				"address": "8 Canberra Dr, Singapore",
+				"source": "Google",
+				"rating": 4.3,
+				"reviews": 181,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJBWExopAV2jER9RyiSdym7Hc",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.83069, 1.438448] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Euphony Gardens",
+				"address": "9 Jln Mata Ayer, Singapore",
+				"source": "Google",
+				"rating": 4.3,
+				"reviews": 32,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJc6kP03UU2jER_HYbVaNh7-8",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.824253, 1.424778] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Fitness Corner near Blk 511",
+				"address": "511 Ang Mo Kio Ave 8, Block 511 Block 511, Singapore",
+				"source": "Google",
+				"rating": 5,
+				"reviews": 1,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJT1sLTgAX2jER0NRLHLaU0wA",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.850135, 1.373658] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Fitness Corner near Block 14",
+				"address": "Dover Cl E, Block 14, Singapore",
+				"source": "Google",
+				"rating": 4,
+				"reviews": 1,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJFVMKQgAb2jERZ0bHlvEr8A8",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.785453, 1.305733] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "FutsalArena @ Yishun Ltd",
+				"address": "32 Yishun Central 1, Singapore",
+				"source": "Google",
+				"rating": 4.2,
+				"reviews": 305,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJzQd0Km8U2jER7qbTSo9kkV8",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.838646, 1.42752] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Greenleaf View Playground",
+				"address": "Greenleaf Vw",
+				"source": "Google",
+				"rating": 4.4,
+				"reviews": 55,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ8SMRTHca2jERtLk-d9LVlc0",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.787876, 1.322423] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Hillcrest Arcadia",
+				"address": "263 Arcadia Rd, Singapore",
+				"source": "Google",
+				"rating": 4.1,
+				"reviews": 74,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ-VIcRqUQ2jERAeejk_l7j5g",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.809222, 1.335164] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Home Encorp Marina Puteri Harbour",
+				"address": "2, Persiaran Puteri Selatan, Kota Iskandar, Iskandar Puteri",
+				"source": "Google",
+				"rating": 3.9,
+				"reviews": 148,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJcaKPNxQM2jEROuI4Q22h7go",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.655436, 1.417627] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Horizon Gardens",
+				"address": "363 Ang Mo Kio Ave 2, S(567837 Horizon Gardens, Singapore",
+				"source": "Google",
+				"rating": 3.9,
+				"reviews": 52,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJlWFEkMUW2jERz-15LgiTZ7k",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.833626, 1.376691] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Horizon Hills Badminton Hall",
+				"address": "1, Jalan Eka, Horizon Hills, Iskandar Puteri",
+				"source": "Google",
+				"rating": 4.5,
+				"reviews": 74,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJG21fV1kN2jER0ZOgJyyRbPw",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.639203, 1.447035] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "JTC LaunchPad",
+				"address": "73A Ayer Rajah Cres., Singapore",
+				"source": "Google",
+				"rating": 4.3,
+				"reviews": 163,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJk7fc3E8a2jERpnqP2I-CYAU",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.786867, 1.297943] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Jurong East Petanque Courts",
+				"address": "21 Jurong East Street 31, Singapore",
+				"source": "Google",
+				"rating": 4.3,
+				"reviews": 6,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJWaHnCyAQ2jERo_IHeWoQgBE",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.729204, 1.347102] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Jurong West Swimming Complex",
+				"address": "20 Jurong West Street 93, Singapore",
+				"source": "Google",
+				"rating": 4.2,
+				"reviews": 976,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ4Qton5oP2jERihKBVLOV04k",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.693746, 1.337881] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Kallang Tennis Centre",
+				"address": "8 Stadium Blvd, Singapore",
+				"source": "Google",
+				"rating": 4.4,
+				"reviews": 327,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJh41Q1UcY2jERzlGz6WW-dkM",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.878889, 1.305833] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Kampung Siglap Lifeskills Training and Retreat Centre",
+				"address": "55 Siglap Plain, Singapore",
+				"source": "Google",
+				"rating": 4.4,
+				"reviews": 83,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ4WKk1Tcj2jERk21Gdq-g64c",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.918917, 1.31775] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Kranji FCC",
+				"address": "91 Choa Chu Kang Wy, Singapore",
+				"source": "Google",
+				"rating": 4.2,
+				"reviews": 121,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJb6xfCa4R2jERR54kJrzI5vs",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.741638, 1.400638] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Lumiere",
+				"address": "2 Mistri Rd, Singapore",
+				"source": "Google",
+				"rating": 3.4,
+				"reviews": 54,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ45FlruUb2jERcGl_sRQWq00",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.846163, 1.274407] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Mandarin Gardens",
+				"address": "5 Siglap Rd, Singapore",
+				"source": "Google",
+				"rating": 4.3,
+				"reviews": 530,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ64eWvKIi2jERqjmB7_qOOhQ",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.924434, 1.307119] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "MPSH 1",
+				"address": "2 Sports Drive 1, Singapore",
+				"source": "Google",
+				"rating": 3.7,
+				"reviews": 15,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJqw8l7lYa2jERGbuoQJFJByY",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.776025, 1.300761] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "MPSH 6",
+				"address": "4 Sports Dr., Level 1, Singapore",
+				"source": "Google",
+				"rating": 4.6,
+				"reviews": 12,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJqS36Rysb2jERhokjs0xghBc",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.775636, 1.300233] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Multipurpose courts",
+				"address": "498C Tampines Street 45, Singapore",
+				"source": "Google",
+				"rating": 4,
+				"reviews": 3,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ4yQp4so92jERUGu5Af81_bA",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.958883, 1.360831] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Nusa Perdana Homestay",
+				"address": "Persiaran Nusa Perintis, Taman Nusa Perintis 2, Gelang Patah",
+				"source": "Google",
+				"rating": 4,
+				"reviews": 190,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJjwU0Dh8L2jERT8GgFYbdBBE",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.59352, 1.457858] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Nusa Perdana Service Apartment",
+				"address": "Nusa Perdana Service Apartment, Taman Nusa Perintis, Gelang Patah",
+				"source": "Google",
+				"rating": 3.3,
+				"reviews": 15,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJU_vXFQAL2jERgHkzXX9QsMI",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.594168, 1.457626] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "OCBC Square",
+				"address": "Stadium Walk",
+				"source": "Google",
+				"rating": 4.5,
+				"reviews": 368,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJT_wRHkwY2jER1XJzYSl1STI",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.873699, 1.302163] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "One Punggol",
+				"address": "1 Punggol Dr., Singapore",
+				"source": "Google",
+				"rating": 4.3,
+				"reviews": 1733,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJOwX-M38V2jERCfpqYreVyCI",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.905039, 1.408253] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Parc Esta",
+				"address": "916 Sims Ave, B1-75, Singapore",
+				"source": "Google",
+				"rating": 4.5,
+				"reviews": 140,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJUbVrXzgZ2jERnFh_LMIzMho",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.90262, 1.318286] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Parkway Parade",
+				"address": "80 Marine Parade Rd, Singapore",
+				"source": "Google",
+				"rating": 4.3,
+				"reviews": 9166,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ2WUXmnEY2jERoGOSkJVgnrY",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.905233, 1.301337] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Performance Pickleball (Beach Club)",
+				"address": "350 Cranwell Rd, Performance Pickleball (Beach Club) by Performance Group Singapore's First Smart & First Cushioned Pickleball Club, Singapore",
+				"source": "Google",
+				"rating": 4.7,
+				"reviews": 61,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ0TKOhkk92jERLxKIOsLL73Y",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.976664, 1.389715] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Piermont Grand",
+				"address": "24 Sumang Walk, Singapore",
+				"source": "Google",
+				"rating": 4.2,
+				"reviews": 71,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJg_LhI-cX2jERSi2SJyVjJDA",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.897815, 1.410243] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Play T West",
+				"address": "Tampines Street 81, Singapore",
+				"source": "Google",
+				"rating": 4.4,
+				"reviews": 40,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJrZsH1NY92jERqbVhdVs_0xg",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.933341, 1.34788] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Playground - Blk 155 Ang Mo Kio Ave 4",
+				"address": "Ang Mo Kio Ave 4, Block 155, Singapore",
+				"source": "Google",
+				"rating": 3,
+				"reviews": 1,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ11g3JgAX2jERFfMakHrIlwE",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.840106, 1.376002] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Playground - Blk 465 Ang Mo Kio Ave 10",
+				"address": "465 Ang Mo Kio Ave 10, Block 465, Singapore",
+				"source": "Google",
+				"rating": 3,
+				"reviews": 1,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJRbMLBQAX2jERQDBq1eGF6YI",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.857077, 1.366244] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Playground - Blk 5 Beach Rd",
+				"address": "Beach Rd, Block 5, Singapore",
+				"source": "Google",
+				"rating": 3,
+				"reviews": 2,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ1W1sMQAZ2jERi_hYCO4jpWc",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.864816, 1.304361] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Playground - Blk 8 Jalan Kukoh",
+				"address": "8 Jln Kukoh, Singapore",
+				"source": "Google",
+				"rating": 3,
+				"reviews": 1,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJmavzX_4Z2jERa68WEfjZGOM",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.839401, 1.287377] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Prime Padel",
+				"address": "392 Havelock Rd, Singapore",
+				"source": "Google",
+				"rating": 4.6,
+				"reviews": 51,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ44KVMroZ2jERbvwYYJXNuXU",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.835302, 1.290087] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Provence Residence",
+				"address": "23 Canberra Cres, Singapore",
+				"source": "Google",
+				"rating": 4.7,
+				"reviews": 38,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJeb0KQmYU2jERJYHQnJ2KBtQ",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.827517, 1.447993] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Puteri Cove Residences",
+				"address": "Lebuh Laksamana, Puteri Harbour, Iskandar Puteri",
+				"source": "Google",
+				"rating": 3.7,
+				"reviews": 7,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJEXeQDAAN2jERC4fNFyULKv8",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.655927, 1.410957] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Queens Condo",
+				"address": "14 Stirling Rd, Singapore",
+				"source": "Google",
+				"rating": 3.9,
+				"reviews": 185,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJFZthxjMa2jERofUVQ4JOs9U",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.806073, 1.292937] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "RED Quarters",
+				"address": "26 Jln Benaan Kapal, Singapore",
+				"source": "Google",
+				"rating": 4.1,
+				"reviews": 46,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJUV-lUkgZ2jERcxSXA1KBlQg",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.880503, 1.302448] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Residences @ Evelyn",
+				"address": "15 Evelyn Rd, Singapore",
+				"source": "Google",
+				"rating": 4.2,
+				"reviews": 35,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJISAOz-gZ2jERxxq54x9OzvU",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.839501, 1.31613] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Rumah Iskandar Malaysia",
+				"address": "Pusat Komuniti, Prisma Harta Sdn. Bhd, Plot A, Jalan Prisma Utama, Iskandar Puteri",
+				"source": "Google",
+				"rating": 4.2,
+				"reviews": 607,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJKxaPv0oL2jER64aPjqemUeY",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.614547, 1.476477] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "SAFRA Jurong",
+				"address": "333 Boon Lay Way, Singapore",
+				"source": "Google",
+				"rating": 4.2,
+				"reviews": 1644,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJy6YytPIP2jER_3zeIbByHxE",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.705981, 1.335405] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Sheltered Playground @ Tampines Blk 842",
+				"address": "842 Tampines St 82, Block 842, Singapore",
+				"source": "Google",
+				"rating": 4.7,
+				"reviews": 16,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJT5lNn2g92jER36SPLXNAVik",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.935389, 1.351674] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Singpass Counter",
+				"address": "67A Eu Chin St, CC, Singapore",
+				"source": "Google",
+				"rating": 4.5,
+				"reviews": 11,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJAQDMFXoZ2jERCSEy0mvTEvY",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.831911, 1.283498] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Small Wonder @ Yishun (Adora Green)",
+				"address": "348A Yishun Avenue 11, #01-557, Adora Green, Singapore",
+				"source": "Google",
+				"rating": 4,
+				"reviews": 230,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJLdXlAmkU2jERzZBAkXS_JOI",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.84121, 1.42726] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Southern Marina Residences",
+				"address": "Lebuh Bahtera, Kota Iskandar, Iskandar Puteri",
+				"source": "Google",
+				"rating": 4.2,
+				"reviews": 53,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJlaUrMhYM2jER273dB5kdXSI",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.658423, 1.41411] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "STARVIEW BAY FOREST CITY BLOCK A3",
+				"address": "Jalan Forest City 5, Gelang Patah",
+				"source": "Google",
+				"rating": 3.6,
+				"reviews": 48,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJyWxmouIJ2jERN7HRSPMe2R0",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.590724, 1.341707] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Sturdee Residences",
+				"address": "10 Beatty Rd, Singapore",
+				"source": "Google",
+				"rating": 3.9,
+				"reviews": 81,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ42A__8IZ2jER_Lishvsj3tI",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.859027, 1.31298] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Sunway GRID Residence",
+				"address": "Jalan Medini Selatan 3, Iskandar Puteri",
+				"source": "Google",
+				"rating": 4.4,
+				"reviews": 181,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJee71o1MJ2jERCXodAgfk6dM",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.632351, 1.396111] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Taman bentara 6",
+				"address": "Johor Bahru",
+				"source": "Google",
+				"rating": 5,
+				"reviews": 1,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ5S0XZNZt2jERHJk4TrZEGRk",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.792889, 1.488865] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Taman Jurong Greens",
+				"address": "Singapore",
+				"source": "Google",
+				"rating": 4.2,
+				"reviews": 233,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJx5w4T-UP2jERNDdi4KZD4a0",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.718359, 1.337142] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Tanjung Puteri Apartment",
+				"address": "33, Jalan Tanjong Puteri, Taman Tanjung Puteri Resort, Pasir Gudang",
+				"source": "Google",
+				"rating": 4,
+				"reviews": 72,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJW7gi4EE_2jERD8hhRHoXMdw",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.936055, 1.446254] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Teck Whye Playground",
+				"address": "Singapore",
+				"source": "Google",
+				"rating": 4.6,
+				"reviews": 14,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJdYvTfT4R2jERh3SkVGsX_KY",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.748576, 1.381969] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Telok Kurau Playground",
+				"address": "151 Lorong J Telok Kurau, Singapore",
+				"source": "Google",
+				"rating": 4.6,
+				"reviews": 24,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJC3ZJwFQZ2jERiOgroT7j61E",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.914388, 1.31527] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Tennis Courts",
+				"address": "2 Sports Dr., Singapore",
+				"source": "Google",
+				"rating": 4.1,
+				"reviews": 44,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJy_mziVca2jERCk9TjBlTQhY",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.777232, 1.298657] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "The Arcadia",
+				"address": "235 - 241 Arcadia Rd, Singapore",
+				"source": "Google",
+				"rating": 4.4,
+				"reviews": 88,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJb5cHha8Q2jER9Eg3RyvCit0",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.811075, 1.333428] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "The Floravale",
+				"address": "240 Westwood Ave, Singapore",
+				"source": "Google",
+				"rating": 4.3,
+				"reviews": 159,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJs0gtgrsP2jER368Uf3pM5Rs",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.696387, 1.350645] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "The Kallang",
+				"address": "1 Stadium Dr, #02-01 National Stadium, Singapore",
+				"source": "Google",
+				"rating": 4.4,
+				"reviews": 7524,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJS1VVRUkY2jERZrb4Xm1Yqhk",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.874332, 1.304438] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "The Miltonia Residences",
+				"address": "544 Miltonia Cl, Singapore",
+				"source": "Google",
+				"rating": 4.3,
+				"reviews": 169,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ331aUz4U2jER0LcunuArmaA",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.848192, 1.417075] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "The Panorama",
+				"address": "8 Ang Mo Kio Ave 2, Singapore",
+				"source": "Google",
+				"rating": 4.2,
+				"reviews": 201,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJdzPHdcUW2jER5PlUQ51zixU",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.834084, 1.375918] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "The Quartz",
+				"address": "73 Compassvale Bow, Singapore",
+				"source": "Google",
+				"rating": 4.1,
+				"reviews": 177,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJV1eDayMY2jERXwCli0l9Xcg",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.893691, 1.380932] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "The Waterside",
+				"address": "13 Tanjong Rhu Rd, Singapore",
+				"source": "Google",
+				"rating": 4.3,
+				"reviews": 232,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJQViLFVsY2jERw02ejY0jumg",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.883641, 1.296695] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Tiong Bahru Orchid",
+				"address": "108 Jalan Bukit Merah, Singapore",
+				"source": "Google",
+				"rating": 4.1,
+				"reviews": 157,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJQRTf1nwZ2jER0J-_YWJwznw",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.824643, 1.280595] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Tuas Bay Dormitory",
+				"address": "30 Tuas Bay Dr, Singapore",
+				"source": "Google",
+				"rating": 5,
+				"reviews": 4,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJPeBWLAAH2jERSF1uRB3e-2w",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.631146, 1.315424] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Volleyball Courts",
+				"address": "2 Sports Dr., Singapore",
+				"source": "Google",
+				"rating": 4.6,
+				"reviews": 7,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJuw0dcFga2jER8ON8Z_OXbeQ",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.776909, 1.300335] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Westwood Hostel Pte. Ltd.",
+				"address": "19 Jurong West Ave 5, #15/17, Singapore",
+				"source": "Google",
+				"rating": 3.6,
+				"reviews": 159,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJF-Dd7r4P2jERVO0LjL7nn2E",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.701724, 1.349233] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Windy Heights",
+				"address": "86 Jln Daud, #01 88, Singapore",
+				"source": "Google",
+				"rating": 4,
+				"reviews": 126,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJQS-NbQIY2jERHw5EUbgnkBU",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.910499, 1.327449] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Wisma Geylang Serai",
+				"address": "1 Engku Aman Turn, Singapore",
+				"source": "Google",
+				"rating": 4.3,
+				"reviews": 2736,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJNemlVBcY2jER6bSTNyqozgU",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.896569, 1.316494] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Yan Kit Playfield",
+				"address": "5 Yan Kit Rd, Singapore",
+				"source": "Google",
+				"rating": 4.5,
+				"reviews": 23,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJ995QqtsZ2jERfQrn04caPRQ",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.842238, 1.276455] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Yew Tee Community Building",
+				"address": "20 Choa Chu Kang Street 52, #01-01 Yew Tee Community Building, Singapore",
+				"source": "Google",
+				"rating": 4.5,
+				"reviews": 12,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJj1r0qm0R2jERqyaGhkrh4aI",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.744711, 1.394853] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Yishun Greenwalk",
+				"address": "317B Yishun Ave 9, Singapore",
+				"source": "Google",
+				"rating": 4.3,
+				"reviews": 235,
+				"google_maps_uri": "https://www.google.com/maps/place/?q=place_id:ChIJGYrROWcU2jERvOi9EqnG514",
+				"status": "OPERATIONAL"
+			},
+			"geometry": { "type": "Point", "coordinates": [103.843008, 1.43392] }
+		}
+	]
+}

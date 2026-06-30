@@ -10,6 +10,7 @@ import json
 import sys
 from pathlib import Path
 
+import utf8_console  # noqa: F401  — forces UTF-8 stdout/stderr (Windows safety)
 from datagovsg import download_geojson
 
 # NParks "Parks and Nature Reserves" dataset (managed-area polygons).

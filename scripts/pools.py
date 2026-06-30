@@ -14,6 +14,7 @@ import json
 import sys
 from pathlib import Path
 
+import utf8_console  # noqa: F401  — forces UTF-8 stdout/stderr (Windows safety)
 from google_places import find_place, load_api_key, place_properties
 
 # Official ActiveSG public swimming complexes. Each entry is the display name and

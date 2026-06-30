@@ -28,6 +28,8 @@ import json
 import math
 import re
 import sys
+
+import utf8_console  # noqa: F401  — forces UTF-8 stdout/stderr (Windows safety)
 import time
 import urllib.parse
 import urllib.request

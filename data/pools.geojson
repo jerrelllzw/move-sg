@@ -1,480 +1,405 @@
 {
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "ActiveSG Sport Park @ Teck Ghee Swimming Complex",
-        "address": "1771 Ang Mo Kio Ave 1, Singapore 569978",
-        "rating": 4.4,
-        "reviews": 24,
-        "google_maps_uri": "https://maps.google.com/?cid=1825585114636442434&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "status": "OPERATIONAL",
-        "source": "Google"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          103.849779,
-          1.362802
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Bishan Swimming Complex",
-        "address": "1 Bishan St 14, Singapore 579778",
-        "rating": 4.1,
-        "reviews": 480,
-        "google_maps_uri": "https://maps.google.com/?cid=10811767426612968998&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "status": "OPERATIONAL",
-        "source": "Google"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          103.850152,
-          1.354255
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Bukit Batok Swimming Complex",
-        "address": "2 Bukit Batok Street 22, Singapore 659581",
-        "rating": 4.2,
-        "reviews": 604,
-        "google_maps_uri": "https://maps.google.com/?cid=14220731377244626751&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "status": "OPERATIONAL",
-        "source": "Google"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          103.748118,
-          1.344554
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Bukit Canberra Swimming Complex",
-        "address": "21 Canberra Link, Singapore 756973",
-        "rating": 3.6,
-        "reviews": 147,
-        "google_maps_uri": "https://maps.google.com/?cid=15511407519486516542&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "status": "OPERATIONAL",
-        "source": "Google"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          103.823466,
-          1.446947
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Choa Chu Kang Swimming Complex",
-        "address": "1 Choa Chu Kang Street 53, Singapore 689236",
-        "rating": 4.1,
-        "reviews": 79,
-        "google_maps_uri": "https://maps.google.com/?cid=10778380250922528655&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "status": "OPERATIONAL",
-        "source": "Google"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          103.748067,
-          1.390985
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Clementi Swimming Complex",
-        "address": "520 Clementi Ave 3, Singapore 129908",
-        "rating": 4.2,
-        "reviews": 582,
-        "google_maps_uri": "https://maps.google.com/?cid=2644071074981874303&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "status": "OPERATIONAL",
-        "source": "Google"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          103.765651,
-          1.310781
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Delta Swimming Complex",
-        "address": "900 Tiong Bahru Rd, Singapore 158790",
-        "rating": 4,
-        "reviews": 447,
-        "google_maps_uri": "https://maps.google.com/?cid=4896085195530602349&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "status": "OPERATIONAL",
-        "source": "Google"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          103.820247,
-          1.289714
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Geylang East Swimming Complex",
-        "address": "601 Aljunied Ave 1, Singapore 389862",
-        "rating": 4.1,
-        "reviews": 495,
-        "google_maps_uri": "https://maps.google.com/?cid=3838035995924909088&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "status": "OPERATIONAL",
-        "source": "Google"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          103.887842,
-          1.321297
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Heartbeat @ Bedok ActiveSG Swimming Complex",
-        "address": "Heartbeat@Bedok, 11 Bedok North Street 1, #5 Level, Singapore 469662",
-        "rating": 4.4,
-        "reviews": 4143,
-        "google_maps_uri": "https://maps.google.com/?cid=6864198145843441832&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "status": "OPERATIONAL",
-        "source": "Google"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          103.932164,
-          1.326916
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Hougang Swimming Complex",
-        "address": "95 Hougang Ave 4, Singapore 538830",
-        "rating": 4.1,
-        "reviews": 872,
-        "google_maps_uri": "https://maps.google.com/?cid=7960567914410265342&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "status": "OPERATIONAL",
-        "source": "Google"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          103.886985,
-          1.370056
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Jalan Besar Swimming Complex",
-        "address": "100 Tyrwhitt Rd, Singapore 207542",
-        "rating": 4.3,
-        "reviews": 208,
-        "google_maps_uri": "https://maps.google.com/?cid=18441129120321059374&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "status": "OPERATIONAL",
-        "source": "Google"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          103.859705,
-          1.3102
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Jurong East Swimming Complex",
-        "address": "21 Jurong East Street 31, #01-01, Singapore 609517",
-        "rating": 4.1,
-        "reviews": 2317,
-        "google_maps_uri": "https://maps.google.com/?cid=2846899833675870358&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "status": "OPERATIONAL",
-        "source": "Google"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          103.729347,
-          1.34617
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Jurong Lake Gardens Pool",
-        "address": "30 Yuan Ching Rd, Singapore 618664",
-        "rating": 4.4,
-        "reviews": 190,
-        "google_maps_uri": "https://maps.google.com/?cid=1498240388843154470&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "status": "OPERATIONAL",
-        "source": "Google"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          103.726043,
-          1.330521
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Jurong West Swimming Complex",
-        "address": "20 Jurong West Street 93, Singapore 648965",
-        "rating": 4.2,
-        "reviews": 976,
-        "google_maps_uri": "https://maps.google.com/?cid=9931446200731505290&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "status": "OPERATIONAL",
-        "source": "Google"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          103.693745,
-          1.337881
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Katong Swimming Complex",
-        "address": "111 Wilkinson Rd, Katong Swim Complex, Singapore 436752",
-        "rating": 4.1,
-        "reviews": 408,
-        "google_maps_uri": "https://maps.google.com/?cid=18206521143293173499&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "status": "OPERATIONAL",
-        "source": "Google"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          103.886164,
-          1.302129
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "MOE (Evans) Swimming Complex",
-        "address": "21 Evans Rd, Singapore 259368",
-        "rating": 4.2,
-        "reviews": 178,
-        "google_maps_uri": "https://maps.google.com/?cid=7231438181074133985&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "status": "OPERATIONAL",
-        "source": "Google"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          103.819463,
-          1.318388
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Pasir Ris Swimming Complex",
-        "address": "120 Pasir Ris Central, Singapore 519640",
-        "rating": 4.1,
-        "reviews": 420,
-        "google_maps_uri": "https://maps.google.com/?cid=5570158649391410403&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "status": "OPERATIONAL",
-        "source": "Google"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          103.952134,
-          1.374338
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Queenstown Swimming Complex",
-        "address": "473 Stirling Rd, Singapore 148948",
-        "rating": 4.1,
-        "reviews": 519,
-        "google_maps_uri": "https://maps.google.com/?cid=1881261366551962763&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "status": "CLOSED_TEMPORARILY",
-        "source": "Google"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          103.802763,
-          1.297109
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Sengkang Swimming Complex",
-        "address": "57 Anchorvale Rd, Singapore 544964",
-        "rating": 4.2,
-        "reviews": 1744,
-        "google_maps_uri": "https://maps.google.com/?cid=4956629958017548506&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "status": "OPERATIONAL",
-        "source": "Google"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          103.886301,
-          1.396295
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Senja-Cashew Swimming Complex",
-        "address": "101 Bukit Panjang Rd, Singapore 679910",
-        "rating": 4.1,
-        "reviews": 236,
-        "google_maps_uri": "https://maps.google.com/?cid=8201571755505307576&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "status": "OPERATIONAL",
-        "source": "Google"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          103.764574,
-          1.382121
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Serangoon Swimming Complex",
-        "address": "35A Yio Chu Kang Rd, Singapore 545552",
-        "rating": 4,
-        "reviews": 363,
-        "google_maps_uri": "https://maps.google.com/?cid=15492627598677811384&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "status": "OPERATIONAL",
-        "source": "Google"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          103.874675,
-          1.357214
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Tampines Swimming Complex",
-        "address": "1 Tampines Walk, Singapore 528523",
-        "rating": 4,
-        "reviews": 577,
-        "google_maps_uri": "https://maps.google.com/?cid=2266910576481264492&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "status": "OPERATIONAL",
-        "source": "Google"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          103.939847,
-          1.353217
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Woodlands Swimming Complex",
-        "address": "3 Woodlands Street 13, Woodlands Swimming Complex, Singapore 738600",
-        "rating": 4.1,
-        "reviews": 27,
-        "google_maps_uri": "https://maps.google.com/?cid=3164195713516611451&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "status": "OPERATIONAL",
-        "source": "Google"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          103.779519,
-          1.434738
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Yio Chu Kang Swimming Complex",
-        "address": "202 Ang Mo Kio Ave 9, Singapore 569771",
-        "rating": 4,
-        "reviews": 408,
-        "google_maps_uri": "https://maps.google.com/?cid=4161471997317579024&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "status": "OPERATIONAL",
-        "source": "Google"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          103.846558,
-          1.381681
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Yishun Swimming Complex",
-        "address": "351 Yishun Ave 3, YISHUN Swimming Complex, Singapore 769057",
-        "rating": 4,
-        "reviews": 808,
-        "google_maps_uri": "https://maps.google.com/?cid=13106950059719937476&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "status": "OPERATIONAL",
-        "source": "Google"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          103.833608,
-          1.423245
-        ]
-      }
-    }
-  ]
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "ActiveSG Sport Park @ Teck Ghee Swimming Complex",
+				"address": "1771 Ang Mo Kio Ave 1, Singapore 569978",
+				"rating": 4.4,
+				"reviews": 24,
+				"google_maps_uri": "https://maps.google.com/?cid=1825585114636442434&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+				"status": "OPERATIONAL",
+				"source": "Google"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [103.849779, 1.362802]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Bishan Swimming Complex",
+				"address": "1 Bishan St 14, Singapore 579778",
+				"rating": 4.1,
+				"reviews": 480,
+				"google_maps_uri": "https://maps.google.com/?cid=10811767426612968998&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+				"status": "OPERATIONAL",
+				"source": "Google"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [103.850152, 1.354255]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Bukit Batok Swimming Complex",
+				"address": "2 Bukit Batok Street 22, Singapore 659581",
+				"rating": 4.2,
+				"reviews": 604,
+				"google_maps_uri": "https://maps.google.com/?cid=14220731377244626751&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+				"status": "OPERATIONAL",
+				"source": "Google"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [103.748118, 1.344554]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Bukit Canberra Swimming Complex",
+				"address": "21 Canberra Link, Singapore 756973",
+				"rating": 3.6,
+				"reviews": 147,
+				"google_maps_uri": "https://maps.google.com/?cid=15511407519486516542&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+				"status": "OPERATIONAL",
+				"source": "Google"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [103.823466, 1.446947]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Choa Chu Kang Swimming Complex",
+				"address": "1 Choa Chu Kang Street 53, Singapore 689236",
+				"rating": 4.1,
+				"reviews": 79,
+				"google_maps_uri": "https://maps.google.com/?cid=10778380250922528655&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+				"status": "OPERATIONAL",
+				"source": "Google"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [103.748067, 1.390985]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Clementi Swimming Complex",
+				"address": "520 Clementi Ave 3, Singapore 129908",
+				"rating": 4.2,
+				"reviews": 582,
+				"google_maps_uri": "https://maps.google.com/?cid=2644071074981874303&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+				"status": "OPERATIONAL",
+				"source": "Google"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [103.765651, 1.310781]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Delta Swimming Complex",
+				"address": "900 Tiong Bahru Rd, Singapore 158790",
+				"rating": 4,
+				"reviews": 447,
+				"google_maps_uri": "https://maps.google.com/?cid=4896085195530602349&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+				"status": "OPERATIONAL",
+				"source": "Google"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [103.820247, 1.289714]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Geylang East Swimming Complex",
+				"address": "601 Aljunied Ave 1, Singapore 389862",
+				"rating": 4.1,
+				"reviews": 495,
+				"google_maps_uri": "https://maps.google.com/?cid=3838035995924909088&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+				"status": "OPERATIONAL",
+				"source": "Google"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [103.887842, 1.321297]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Heartbeat @ Bedok ActiveSG Swimming Complex",
+				"address": "Heartbeat@Bedok, 11 Bedok North Street 1, #5 Level, Singapore 469662",
+				"rating": 4.4,
+				"reviews": 4143,
+				"google_maps_uri": "https://maps.google.com/?cid=6864198145843441832&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+				"status": "OPERATIONAL",
+				"source": "Google"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [103.932164, 1.326916]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Hougang Swimming Complex",
+				"address": "95 Hougang Ave 4, Singapore 538830",
+				"rating": 4.1,
+				"reviews": 872,
+				"google_maps_uri": "https://maps.google.com/?cid=7960567914410265342&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+				"status": "OPERATIONAL",
+				"source": "Google"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [103.886985, 1.370056]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Jalan Besar Swimming Complex",
+				"address": "100 Tyrwhitt Rd, Singapore 207542",
+				"rating": 4.3,
+				"reviews": 208,
+				"google_maps_uri": "https://maps.google.com/?cid=18441129120321059374&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+				"status": "OPERATIONAL",
+				"source": "Google"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [103.859705, 1.3102]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Jurong East Swimming Complex",
+				"address": "21 Jurong East Street 31, #01-01, Singapore 609517",
+				"rating": 4.1,
+				"reviews": 2317,
+				"google_maps_uri": "https://maps.google.com/?cid=2846899833675870358&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+				"status": "OPERATIONAL",
+				"source": "Google"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [103.729347, 1.34617]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Jurong Lake Gardens Pool",
+				"address": "30 Yuan Ching Rd, Singapore 618664",
+				"rating": 4.4,
+				"reviews": 190,
+				"google_maps_uri": "https://maps.google.com/?cid=1498240388843154470&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+				"status": "OPERATIONAL",
+				"source": "Google"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [103.726043, 1.330521]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Jurong West Swimming Complex",
+				"address": "20 Jurong West Street 93, Singapore 648965",
+				"rating": 4.2,
+				"reviews": 976,
+				"google_maps_uri": "https://maps.google.com/?cid=9931446200731505290&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+				"status": "OPERATIONAL",
+				"source": "Google"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [103.693745, 1.337881]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Katong Swimming Complex",
+				"address": "111 Wilkinson Rd, Katong Swim Complex, Singapore 436752",
+				"rating": 4.1,
+				"reviews": 408,
+				"google_maps_uri": "https://maps.google.com/?cid=18206521143293173499&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+				"status": "OPERATIONAL",
+				"source": "Google"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [103.886164, 1.302129]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "MOE (Evans) Swimming Complex",
+				"address": "21 Evans Rd, Singapore 259368",
+				"rating": 4.2,
+				"reviews": 178,
+				"google_maps_uri": "https://maps.google.com/?cid=7231438181074133985&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+				"status": "OPERATIONAL",
+				"source": "Google"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [103.819463, 1.318388]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Pasir Ris Swimming Complex",
+				"address": "120 Pasir Ris Central, Singapore 519640",
+				"rating": 4.1,
+				"reviews": 420,
+				"google_maps_uri": "https://maps.google.com/?cid=5570158649391410403&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+				"status": "OPERATIONAL",
+				"source": "Google"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [103.952134, 1.374338]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Queenstown Swimming Complex",
+				"address": "473 Stirling Rd, Singapore 148948",
+				"rating": 4.1,
+				"reviews": 519,
+				"google_maps_uri": "https://maps.google.com/?cid=1881261366551962763&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+				"status": "CLOSED_TEMPORARILY",
+				"source": "Google"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [103.802763, 1.297109]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Sengkang Swimming Complex",
+				"address": "57 Anchorvale Rd, Singapore 544964",
+				"rating": 4.2,
+				"reviews": 1744,
+				"google_maps_uri": "https://maps.google.com/?cid=4956629958017548506&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+				"status": "OPERATIONAL",
+				"source": "Google"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [103.886301, 1.396295]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Senja-Cashew Swimming Complex",
+				"address": "101 Bukit Panjang Rd, Singapore 679910",
+				"rating": 4.1,
+				"reviews": 236,
+				"google_maps_uri": "https://maps.google.com/?cid=8201571755505307576&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+				"status": "OPERATIONAL",
+				"source": "Google"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [103.764574, 1.382121]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Serangoon Swimming Complex",
+				"address": "35A Yio Chu Kang Rd, Singapore 545552",
+				"rating": 4,
+				"reviews": 363,
+				"google_maps_uri": "https://maps.google.com/?cid=15492627598677811384&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+				"status": "OPERATIONAL",
+				"source": "Google"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [103.874675, 1.357214]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Tampines Swimming Complex",
+				"address": "1 Tampines Walk, Singapore 528523",
+				"rating": 4,
+				"reviews": 577,
+				"google_maps_uri": "https://maps.google.com/?cid=2266910576481264492&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+				"status": "OPERATIONAL",
+				"source": "Google"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [103.939847, 1.353217]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Woodlands Swimming Complex",
+				"address": "3 Woodlands Street 13, Woodlands Swimming Complex, Singapore 738600",
+				"rating": 4.1,
+				"reviews": 27,
+				"google_maps_uri": "https://maps.google.com/?cid=3164195713516611451&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+				"status": "OPERATIONAL",
+				"source": "Google"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [103.779519, 1.434738]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Yio Chu Kang Swimming Complex",
+				"address": "202 Ang Mo Kio Ave 9, Singapore 569771",
+				"rating": 4,
+				"reviews": 408,
+				"google_maps_uri": "https://maps.google.com/?cid=4161471997317579024&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+				"status": "OPERATIONAL",
+				"source": "Google"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [103.846558, 1.381681]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Yishun Swimming Complex",
+				"address": "351 Yishun Ave 3, YISHUN Swimming Complex, Singapore 769057",
+				"rating": 4,
+				"reviews": 808,
+				"google_maps_uri": "https://maps.google.com/?cid=13106950059719937476&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+				"status": "OPERATIONAL",
+				"source": "Google"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [103.833608, 1.423245]
+			}
+		}
+	]
 }
