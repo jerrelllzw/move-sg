@@ -119,22 +119,22 @@ function placeUrl(props) {
 function popupHtml(category, feature, _latlng) {
   const props = feature.properties || {};
   const name = props.name || `${category.label}`;
-  let html = `<div class="popup-title">${escapeHtml(name)}</div>`;
-  html += `<span class="popup-cat">${category.icon} ${escapeHtml(category.label)}</span>`;
+  let html = `<div class="popup-title"><span class="popup-cat-icon" title="${escapeHtml(category.label)}" aria-label="${escapeHtml(category.label)}">${category.icon}</span> ${escapeHtml(name)}</div>`;
 
   if (typeof props.rating === "number") {
     html += ratingHtml(props.rating, props.reviews);
+  } else {
+    html += `<div class="popup-rating popup-empty">No ratings yet</div>`;
   }
 
   if (props.address) {
     html += `<div class="popup-detail">${escapeHtml(props.address)}</div>`;
+  } else {
+    html += `<div class="popup-detail popup-empty">No location available</div>`;
   }
 
   html += `<a class="popup-link" href="${placeUrl(props)}" target="_blank" rel="noopener">View on Google Maps →</a>`;
 
-  if (props.source) {
-    html += `<span class="popup-source">Source: ${escapeHtml(props.source)}</span>`;
-  }
   return html;
 }
 
