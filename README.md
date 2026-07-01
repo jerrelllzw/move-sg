@@ -13,9 +13,9 @@ that live in the repo, generated ahead of time by the Python scripts in
 
 - Toggle four layers independently — **parks**, **park connectors**, **basketball
   courts** and **swimming pools** — each drawn in its own colour and shape.
-- Set where "near you" means: type a **6-digit postal code** or hit **use my
-  location**. A pin drops at that point and the sidebar re-ranks every place by
-  distance from it.
+- Set where "near you" means: search by **postal code, street or place name**
+  (with live suggestions as you type) or hit **use my location**. A pin drops at
+  that point and the sidebar re-ranks every place by distance from it.
 - Open any place for its **Google rating, review count and address**, plus a link
   out to Google Maps.
 - Switch between **light and dark** themes — it follows your system setting and
@@ -43,38 +43,52 @@ itself.
 | `style.css` | Layout and light/dark theming via CSS variables |
 | `app.js` | Everything the app does: map, layers, search, ranking, theme |
 | `data/*.geojson` | The places the site loads (generated — see below) |
-| `scripts/*.py` | The data-collection pipeline |
+| `data/*.json` | Raw API caches, so the data can be re-filtered/re-run for free |
+| `scripts/*.py` | The data-collection pipeline (plus shared `datagovsg`, `google_places` and `utf8_console` helpers) |
 
 ## Where the data comes from
 
 Each layer is one GeoJSON file under `data/`. Official government data is
-preferred; Google fills the gaps. The browser reads only these static files — it
-never talks to Google.
+preferred; Google fills the gaps and supplies place links, ratings and reviews.
+The browser reads only these static files — it never talks to Google.
 
-| Layer | Source | Needs a Google key |
+| Layer | Source | Google key |
 | --- | --- | --- |
-| Parks | NParks "Parks & Nature Reserves" (data.gov.sg) | No |
-| Park connectors | NParks "Park Connector Loop" (data.gov.sg) | No |
-| Basketball courts | Google Places (legacy Nearby Search) | Yes |
-| Swimming pools | Official ActiveSG list, geocoded via Google Places | Yes |
+| Parks | NParks "Parks & Nature Reserves" (data.gov.sg) | Optional — enriches each park with a canonical Google Maps link, rating and address |
+| Park connectors | NParks "Park Connector Loop" (data.gov.sg) | Optional — same enrichment, per unique connector name |
+| Basketball courts | Google Places (legacy Nearby Search) | Required |
+| Swimming pools | Official ActiveSG list, geocoded via Google Places | Required |
+
+The government layers still generate fine without a key — they just ship without
+the Google link/rating, and the app falls back to a name search for those.
 
 ## Regenerating the data
 
 The GeoJSON is committed, so you only need this to refresh it. The scripts use
 Python 3.10+ and the standard library only.
 
-The two government layers need no key:
+All four scripts read the Google key from a `.env` file. Copy the template and
+fill it in — `.env` is git-ignored, so the key never gets committed or shipped to
+the browser:
+
+```bash
+cp .env.example .env      # then set GOOGLE_MAPS_API_KEY
+```
+
+The two government layers download from data.gov.sg (no key needed for that) and
+then geocode each place against Google to attach a link, rating and address. With
+no key they still run — just without that enrichment. Each geocode is cached to
+`data/parks_places.json` / `data/pcn_places.json`, so a re-run only looks up new
+places and is resumable if interrupted:
 
 ```bash
 python scripts/parks.py
 python scripts/pcn.py
 ```
 
-The two Google layers need a Maps API key. Copy the template and fill it in —
-`.env` is git-ignored, so the key never gets committed or shipped to the browser:
+The two Google layers require the key:
 
 ```bash
-cp .env.example .env      # then set GOOGLE_MAPS_API_KEY
 python scripts/courts.py
 python scripts/pools.py
 ```
@@ -114,7 +128,7 @@ branch**, pick `main` and `/ (root)`, and the site goes live at
 
 - Map tiles by [CARTO](https://carto.com/attributions); map data ©
   [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors.
-- Postal-code geocoding by [OneMap](https://www.onemap.gov.sg/).
+- Location search and geocoding by [OneMap](https://www.onemap.gov.sg/).
 - Parks and park connectors © National Parks Board via
   [data.gov.sg](https://data.gov.sg/), under the
   [Singapore Open Data Licence](https://data.gov.sg/open-data-licence).
