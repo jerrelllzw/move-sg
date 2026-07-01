@@ -241,6 +241,51 @@ EXCLUDED_PLACE_IDS = {
     "ChIJ9-wMbKkT2jERJojJzLw7pdA",  # Woodlands Sport Hall
     "ChIJ2_q9-asT2jERy4IMLTN6_d8",  # Woodlands Stadium
     "ChIJ4-iWlw8U2jERbtvdchPy4-o",  # Yishun Sport Hall
+    # Near-duplicate cluster review (2026-07): pairs/venues within ~70m of a more
+    # specific basketball-court entry; kept the court, dropped the venue/lower-review
+    # sibling. See data/courts_dropped.geojson for the removed pins.
+    "ChIJjVfWj3gX2jERHP9kSEkgmOM",  # Potong Pasir Community Club (-> Potong Pasir Basketball Court)
+    "ChIJE6iNrJ4a2jERMMx8SP8R3bM",  # Faber Height Open Space (-> Basketball Court)
+    "ChIJv-oYL1IX2jERS4HEVHik3S0",  # The Walk at Buangkok Recreation Park (-> Sheltered BC @ Buangkok Green Blk 987)
+    "ChIJ7bQAOJYX2jERxGt976pkSNI",  # Thrift Drive Open Space (-> TDOS Basketball Court)
+    "ChIJx-6Lg4IZ2jERfBWa3SzWvA8",  # Kim Seng Community Centre (-> Kim Seng CC Basketball court)
+    "ChIJJxiLHg892jER1e5MNA9iGKI",  # Tampines North Community Club (-> Basketball Court @ Tampines North CC)
+    "ChIJJYncfsAR2jERVE0WPGMg8Bg",  # Chua Chu Kang Community Club (-> Choa Chu Kang CC Sheltered BC)
+    "ChIJW2RO4zE92jERB0zfdzfmxzc",  # Tampines West Community Club (-> Sheltered BC @ Tampines West CC)
+    "ChIJ6zYOHVoW2jERqI7iqOoGeTo",  # Hwi Yoh Community Centre (-> Blk 537 Basketball Court)
+    "ChIJ1wjHMWEW2jERdg_PSN-cpr4",  # Jalan Selaseh Park (-> JSP Basketball Court)
+    "ChIJlaOQkfgP2jERAbtDE12iPEw",  # Taman Jurong Park (-> Basketball Court (Sheltered))
+    "ChIJm1F3HUo92jERUztUGDVbOYI",  # Fengshan Community Club (-> Fengshan CC Basketball Court)
+    "ChIJ65I0z9gb2jERMbHTZo81AoQ",  # Radin Mas Community Club (-> Radin Mas CC Sheltered BC)
+    "ChIJ_4KZj9cZ2jERsIv_LOKK2W0",  # Whampoa Community Club (-> Basketball Court @ Whampoa CC)
+    "ChIJz8Tq5nMT2jERBtZQj6riGo8",  # Woodlands Crescent Park (-> WCP Basketball Court)
+    "ChIJPRrhkhoY2jERMMNSzjg2Tkg",  # Kampong Ubi Community Centre (-> Kampong Ubi CC basketball court)
+    "ChIJDXSq2WAT2jERo3eAWsc06vA",  # Jelutung Harbour Park (-> Basketball Court, Woodlands Sector 2)
+    "ChIJOQsPkFMW2jERCnF63_cwx38",  # Activity Park (-> SNCP Basketball Court)
+    "ChIJq_t9CxIU2jERsR9RNw6kk7E",  # MPC @ Khatib (-> Basketball Court)
+    "ChIJLRrXHfgX2jERL0NiN2Ht2Fw",  # 332 Basketball Court (-> Blk 333 Basketball Court, higher reviews)
+    "ChIJvfZ-fwAX2jERpCznT7QkGeM",  # 188 Basketball Court (-> Elias Basketball Court, higher reviews)
+    "ChIJY1ND0NMR2jEROE2Ap7Ehum4",  # Basketball court near blue pavillion (-> South View LRT Basketball Court)
+    "ChIJj7HC34EX2jERr-X7PbtuROY",  # Potong Pasir Town Basketball Court (-> Blk 222 Basketball Court, higher reviews)
+    "ChIJT06NDgAV2jERAhBWD10wdDc",  # Blk 216 basketball court (-> Block 213 Basketball Court)
+    "ChIJh-wRcEkT2jER7tHuARn_I2s",  # Basketball Court Block 366 (-> Basketball Court @ Canberra Park)
+    "ChIJJdCFw34R2jERfyY5itp3Ef0",  # The Arena @ Keat Hong (-> Lam Soon Basketball Court)
+    "ChIJI7qbDaEP2jERTZxqNlegpqM",  # NTU SRC Hall D (-> Sports & Recreation Centre)
+    "ChIJqcFGhWoZ2jERLRNy_V4gRFQ",  # Heritage Garden Basketball Court (-> Pinnacle @ Duxton Basketball Court)
+    "ChIJ6wMr92cX2jERQ0j8BFwdM5Y",  # Toa Payoh West Community Club (-> Basketball Court, 144 Lor 2 Toa Payoh)
+    # Second cluster pass (~150m): more venue pins duplicating a nearby court entry.
+    "ChIJw92PBzQW2jER1ffIIa59foY",  # Hougang Neighbourhood Park (-> 324 Hougang Ave Basketball Court)
+    "ChIJ72UutBsQ2jERo9kuR_0VQVg",  # Yuhua Community Club (-> Basketball Court (Caged))
+    "ChIJsdDhIQgY2jERTCtDVYq3uzs",  # Telok Kurau Park (-> Basketball court)
+    "ChIJWzXCpUUW2jERt2u2OJN48A8",  # Ci Yuan Community Club (-> 918 Basketball Court)
+    "ChIJ2V0hRQA92jERgzdNUe6N8OU",  # Multi-purpose court - Blk 138 Bedok North St 2 (-> Blk 138 … Basketball Court)
+    "ChIJd-Ab69UR2jERF8gLf_TT-CQ",  # Old Court Basketball Court (-> Basketball court, same spot)
+    "ChIJRVcadg0W2jERQLUnN_6QBCw",  # Sengkang Community Club (-> Sengkang Square Basketball Court)
+    "ChIJcdzI0G8Z2jERIKVSm89vuKA",  # Blk 49 Kim Pong Rd - Multi-Purpose Court
+    "ChIJNd06foAQ2jEREkyR1w_gZsQ",  # SIM Multi-Purpose Sports Hall (indoor sports hall, not a public court)
+    "ChIJVzciVPMX2jEREHRLNPArDgc",  # Blk 923 Multi-Purpose Court (name/address mismatch)
+    "ChIJk-mskEIU2jER9R7lkjG9qCk",  # Multipurpose Court (360 Yishun Ring Rd)
+    "ChIJcZ2UoQoT2jERFzW6nLY05LI",  # Multi Purpose Court (unlocatable, addr "Singapore")
 }
 
 
