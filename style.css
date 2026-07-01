@@ -101,6 +101,11 @@ a:hover {
   border-bottom: 1px solid var(--border);
 }
 
+/* Grabber for the mobile bottom sheet — hidden entirely in the desktop split view. */
+.sheet-handle {
+  display: none;
+}
+
 .search-row {
   display: flex;
   align-items: stretch;
@@ -430,11 +435,19 @@ a:hover {
   border-bottom: 1px solid var(--border);
 }
 
+/* The whole header is the collapse/expand control. */
 .toolbar-head {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
   padding: 0 2px 10px;
+  background: transparent;
+  border: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  text-align: left;
 }
 
 .toolbar-label {
@@ -453,13 +466,11 @@ a:hover {
   padding: 0;
   color: var(--muted);
   background: transparent;
-  border: 0;
   border-radius: 8px;
-  cursor: pointer;
   transition: background 0.15s ease, color 0.15s ease, transform 0.2s ease;
 }
 
-.toolbar-toggle:hover {
+.toolbar-head:hover .toolbar-toggle {
   background: var(--border);
   color: var(--text);
 }
@@ -583,17 +594,19 @@ a:hover {
 }
 
 /* ---- Status pill ----------------------------------------------------------- */
+/* Toast at the top-center of the map: prominent on desktop, and clear of the
+   bottom sheet on mobile. Slides down into view when shown. */
 .status {
   position: absolute;
   left: 50%;
-  bottom: 18px;
-  transform: translate(-50%, 8px);
+  top: 16px;
+  transform: translate(-50%, -10px);
   z-index: 600;
   margin: 0;
   max-width: calc(100% - 32px);
-  padding: 9px 16px;
-  font-size: 13px;
-  font-weight: 500;
+  padding: 11px 20px;
+  font-size: 14px;
+  font-weight: 600;
   color: var(--text);
   background: var(--panel);
   border: 1px solid var(--border-strong);
@@ -809,30 +822,149 @@ a:hover {
 }
 
 /* ---- Mobile ---------------------------------------------------------------- */
+/* Phones get a full-screen map with the sidebar riding over it as a draggable
+   bottom sheet (peek / half / full), so the map — the point of the app — is
+   never squeezed below the fold. Snap positions are driven from app.js. */
 @media (max-width: 760px) {
   .layout {
-    flex-direction: column;
+    display: block;
+  }
+
+  /* Map fills the whole viewport; the sheet floats above it. */
+  .map-area {
+    position: absolute;
+    inset: 0;
+    display: block;
+  }
+
+  .map {
+    height: 100%;
+    min-height: 0;
   }
 
   .sidebar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
     width: 100%;
-    max-height: 50vh;
+    /* dvh (not vh) so the sheet tracks the real viewport as the browser's
+       address bar shows and hides, instead of jumping. */
+    height: 85dvh;
     border-right: 0;
-    border-bottom: 1px solid var(--border);
-    /* Scroll the panel as a whole so an expanded filter section never buries
-       the nearby list — the user can scroll past the filters to reach it. */
+    border-top: 1px solid var(--border-strong);
+    border-radius: 18px 18px 0 0;
+    box-shadow: 0 -10px 34px -14px rgba(0, 0, 0, 0.45);
     overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
+    transition: transform 0.3s cubic-bezier(0.22, 0.61, 0.36, 1);
+    will-change: transform;
+    /* Match the themed scrollbar the nearby list uses on desktop — on mobile the
+       whole sheet is the scroll container. */
+    scrollbar-width: thin;
+    scrollbar-color: var(--track) transparent;
   }
 
-  /* Let the list flow at its natural height and ride the sidebar's scroll
+  .sidebar::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  .sidebar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .sidebar::-webkit-scrollbar-thumb {
+    background: var(--track);
+    border: 3px solid transparent;
+    background-clip: padding-box;
+    border-radius: 999px;
+  }
+
+  .sidebar::-webkit-scrollbar-thumb:hover {
+    background: var(--muted);
+    border: 3px solid transparent;
+    background-clip: padding-box;
+  }
+
+  /* The grabber stays pinned to the top of the sheet so it's always draggable,
+     even after the list has been scrolled. */
+  .sheet-handle {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 26px;
+    padding: 0;
+    border: 0;
+    background: var(--panel-solid);
+    border-radius: 18px 18px 0 0;
+    cursor: grab;
+    /* Let JS own the drag gesture — no native scroll/pull-to-refresh. */
+    touch-action: none;
+    flex-shrink: 0;
+  }
+
+  .sheet-handle:active {
+    cursor: grabbing;
+  }
+
+  .sheet-handle-bar {
+    width: 40px;
+    height: 5px;
+    border-radius: 999px;
+    background: var(--track);
+  }
+
+  .sidebar-head {
+    position: sticky;
+    top: 26px;
+    z-index: 2;
+    background: var(--panel-solid);
+  }
+
+  /* Let the list flow at its natural height and ride the sheet's own scroll
      instead of trapping it in a nested scroller that collapses to nothing. */
   .nearby-list {
     flex: none;
     overflow: visible;
   }
 
-  .map {
-    min-height: 320px;
+  /* No zoom buttons on phones — pinch-to-zoom covers it, and there's nowhere
+     at the bottom they wouldn't peek through the sheet. */
+  .leaflet-control-zoom {
+    display: none;
+  }
+
+  /* Attribution rides top-left on mobile; give it a tidy self-contained radius
+     instead of the bottom-corner shape it uses on desktop. */
+  .leaflet-control-attribution {
+    border-radius: 0 0 8px 0;
+  }
+
+  /* Sit below the top control row (theme toggle / attribution) rather than at
+     the bottom, where the sheet would cover it. */
+  .status {
+    top: 64px;
+  }
+
+  /* Roomier tap targets on touch screens (Apple/Google recommend ~44px). */
+  .search-clear {
+    width: 30px;
+    height: 30px;
+  }
+
+  .toolbar-toggle {
+    width: 34px;
+    height: 34px;
+  }
+
+  .theme-toggle {
+    width: 44px;
+    height: 44px;
   }
 }
 

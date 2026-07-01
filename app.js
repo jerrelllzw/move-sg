@@ -43,6 +43,8 @@ const CATEGORIES = [
 const els = {
   status: document.getElementById("status"),
   locate: document.getElementById("locate-btn"),
+  sidebar: document.querySelector(".sidebar"),
+  sheetHandle: document.getElementById("sheet-handle"),
   layerToggles: document.getElementById("layer-toggles"),
   toolbar: document.getElementById("toolbar"),
   toolbarToggle: document.getElementById("toolbar-toggle"),
@@ -348,6 +350,9 @@ function formatDistance(meters) {
 }
 
 function focusPlace(place) {
+  // On mobile the sheet covers the map, so collapse it to peek — otherwise a
+  // list tap flies a map the user can't see.
+  if (isMobile()) setSheet("peek");
   map.flyTo(place.latlng, Math.max(map.getZoom(), 16), { duration: 0.6 });
   // Anchor the popup to the same point flyTo centers on. Leaflet's default
   // openPopup() uses the layer's own centroid, which for a large MultiPolygon
@@ -443,6 +448,133 @@ function setupToolbarToggle() {
   });
 }
 
+// --- Mobile bottom sheet -----------------------------------------------------
+
+// On phones the sidebar rides over a full-screen map as a draggable sheet that
+// snaps between three heights: "peek" leaves just the search bar showing so the
+// map is the focus, "half" is the default, and "full" opens the whole list. On
+// desktop none of this applies — the sheet styling only exists under the mobile
+// media query, and every entry point here is guarded by isMobile().
+const mobileMq = window.matchMedia("(max-width: 760px)");
+const isMobile = () => mobileMq.matches;
+
+const SHEET_PEEK_VISIBLE = 150; // px of the sheet kept on screen when collapsed
+const SHEET_ORDER = ["peek", "half", "full"];
+let sheetState = "half";
+let sheetY = 0; // current translateY (px); 0 = fully open
+
+// Snap targets as translateY offsets, derived from the sheet's live height so
+// they stay correct across rotation and address-bar resize.
+function sheetSnaps() {
+  const h = els.sidebar.offsetHeight || 1;
+  return {
+    full: 0,
+    half: Math.round(h * 0.5),
+    peek: Math.max(0, h - SHEET_PEEK_VISIBLE),
+  };
+}
+
+function setSheet(state, { animate = true } = {}) {
+  if (!SHEET_ORDER.includes(state)) return;
+  sheetState = state;
+  sheetY = sheetSnaps()[state];
+  if (!animate) els.sidebar.style.transition = "none";
+  els.sidebar.style.transform = `translateY(${sheetY}px)`;
+  els.sidebar.dataset.sheet = state;
+  els.sheetHandle.setAttribute(
+    "aria-label",
+    state === "full" ? "Collapse panel" : "Expand panel"
+  );
+  // Restore the CSS transition once a non-animated jump has painted.
+  if (!animate) requestAnimationFrame(() => (els.sidebar.style.transition = ""));
+}
+
+function cycleSheet() {
+  const i = SHEET_ORDER.indexOf(sheetState);
+  setSheet(SHEET_ORDER[(i + 1) % SHEET_ORDER.length]);
+}
+
+function setupSheet() {
+  const handle = els.sheetHandle;
+  let startPointerY = 0;
+  let startSheetY = 0;
+  let dragging = false;
+  let moved = false;
+
+  handle.addEventListener("pointerdown", (e) => {
+    if (!isMobile()) return;
+    dragging = true;
+    moved = false;
+    startPointerY = e.clientY;
+    startSheetY = sheetY;
+    els.sidebar.style.transition = "none"; // track the finger 1:1
+    handle.setPointerCapture(e.pointerId);
+  });
+
+  handle.addEventListener("pointermove", (e) => {
+    if (!dragging) return;
+    const dy = e.clientY - startPointerY;
+    if (Math.abs(dy) > 4) moved = true;
+    const snaps = sheetSnaps();
+    sheetY = Math.min(snaps.peek, Math.max(snaps.full, startSheetY + dy));
+    els.sidebar.style.transform = `translateY(${sheetY}px)`;
+  });
+
+  const endDrag = () => {
+    if (!dragging) return;
+    dragging = false;
+    els.sidebar.style.transition = "";
+    // A tap (no real drag) just steps to the next height; a drag snaps to the
+    // height it was released nearest to.
+    if (!moved) {
+      cycleSheet();
+      return;
+    }
+    const snaps = sheetSnaps();
+    const nearest = Object.keys(snaps).reduce((best, key) =>
+      Math.abs(snaps[key] - sheetY) < Math.abs(snaps[best] - sheetY) ? key : best
+    );
+    setSheet(nearest);
+  };
+
+  handle.addEventListener("pointerup", endDrag);
+  handle.addEventListener("pointercancel", endDrag);
+
+  // Opening the keyboard to search needs room for the suggestions dropdown.
+  els.addressInput.addEventListener("focus", () => {
+    if (isMobile() && sheetState !== "full") setSheet("full");
+  });
+}
+
+// The bottom sheet covers the full width, so on mobile the attribution moves to
+// the top-left to stay visible instead of hiding behind (or peeking through) the
+// sheet. Desktop keeps it in its usual bottom-right corner.
+function positionControls() {
+  const ac = map.attributionControl;
+  if (!ac) return;
+  // Only move it when the corner actually needs to change. Re-setting the same
+  // position re-appends the control and reshuffles its stacking against the zoom
+  // control, which leaves the attribution floating off the corner on desktop.
+  const want = isMobile() ? "topleft" : "bottomright";
+  if (ac.getPosition() !== want) ac.setPosition(want);
+}
+
+// Keep Leaflet's canvas correct when the layout flips between the desktop split
+// view and the mobile sheet, and re-snap the sheet after a rotation changes its
+// height. Leaflet handles plain window resizes itself.
+function handleViewportChange() {
+  positionControls();
+  if (isMobile()) {
+    setSheet(sheetState, { animate: false });
+  } else {
+    // Shed any inline sheet state so the desktop flex layout is untouched.
+    els.sidebar.style.transform = "";
+    els.sidebar.style.transition = "";
+    delete els.sidebar.dataset.sheet;
+  }
+  map.invalidateSize();
+}
+
 // --- Origin (the point the sidebar ranks distances from) ---------------------
 
 // A red teardrop pin that points exactly at its coordinate (anchored at the
@@ -472,7 +604,11 @@ function setOrigin(latlng, label, { fly } = {}) {
     .addTo(map)
     .bindPopup(label);
 
-  if (fly) map.flyTo(latlng, 15, { duration: 0.6 });
+  if (fly) {
+    // Reveal the map when a search or geolocation recenters it.
+    if (isMobile()) setSheet("peek");
+    map.flyTo(latlng, 15, { duration: 0.6 });
+  }
 }
 
 // --- Geolocation -------------------------------------------------------------
@@ -542,6 +678,11 @@ let suggestSeq = 0;
 let suggestDebounce = null;
 
 function closeSuggestions() {
+  // Cancel any pending or in-flight lookup so a late response can't re-open the
+  // list after it's been closed (e.g. by submitting or picking a suggestion).
+  clearTimeout(suggestDebounce);
+  suggestSeq++;
+
   els.searchSuggestions.hidden = true;
   els.searchSuggestions.innerHTML = "";
   suggestItems = [];
@@ -748,6 +889,23 @@ function init() {
     els.addressInput.focus();
   });
   setupToolbarToggle();
+  setupSheet();
+  positionControls();
+  if (isMobile()) setSheet("half", { animate: false });
+
+  // Re-sync the sheet and map when the layout crosses the mobile breakpoint, and
+  // re-snap + repaint the map after an orientation change (mobile browsers can
+  // report a stale size on the immediate event, so give it a beat).
+  const onBreakpoint = () => handleViewportChange();
+  if (mobileMq.addEventListener) mobileMq.addEventListener("change", onBreakpoint);
+  else if (mobileMq.addListener) mobileMq.addListener(onBreakpoint); // older Safari
+  window.addEventListener("orientationchange", () => {
+    setTimeout(() => {
+      if (isMobile()) setSheet(sheetState, { animate: false });
+      map.invalidateSize();
+    }, 300);
+  });
+
   for (const category of CATEGORIES) loadCategory(category);
   // Default view is central Singapore; the user opts in to geolocation.
 }
