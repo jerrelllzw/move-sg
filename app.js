@@ -752,6 +752,7 @@ function chooseSuggestion(i) {
   els.addressInput.value = item.title;
   els.searchClear.hidden = false;
   closeSuggestions();
+  els.addressInput.blur(); // dismiss the mobile keyboard
   setOrigin(item.latlng, item.title, { fly: true });
   setStatus("");
 }
@@ -816,6 +817,7 @@ async function searchAddress(event) {
     const hit = hits[0];
     els.addressInput.value = hit.title;
     closeSuggestions();
+    els.addressInput.blur(); // dismiss the mobile keyboard
     setOrigin(hit.latlng, hit.title, { fly: true });
     setStatus("");
   } catch (err) {
