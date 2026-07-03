@@ -9,6 +9,9 @@ MoveSG is a static website: HTML, CSS and vanilla JavaScript built on
 that live in the repo, generated ahead of time by the Python scripts in
 `scripts/`. Nothing is fetched from a paid API while you browse.
 
+It's also an installable, offline-capable **Progressive Web App** — add it to
+your home screen and it opens full-screen and works without a connection.
+
 ## What you can do
 
 - Toggle four layers independently — **parks**, **park connectors**, **basketball
@@ -20,6 +23,8 @@ that live in the repo, generated ahead of time by the Python scripts in
   out to Google Maps.
 - Switch between **light and dark** themes — it follows your system setting and
   remembers your choice.
+- **Install it** to your phone or desktop and use it **offline** — the app,
+  its place data and any map areas you've already viewed are cached.
 
 Until you search or share your location, the map sits over central Singapore.
 
@@ -35,6 +40,24 @@ python -m http.server 8000
 Open <http://localhost:8000>. No build, no dependencies, no setup for the site
 itself.
 
+## Install & offline
+
+MoveSG is a Progressive Web App. `manifest.webmanifest` makes it installable
+(**Add to Home Screen** on mobile, or the install icon in the address bar on
+desktop), and `sw.js` is a service worker that caches for offline use:
+
+- The **app shell** (HTML/CSS/JS, icons) and all **place data** are precached, so
+  the app opens and the lists work with no connection.
+- **Map tiles** are cached as you view them — areas you've already panned over
+  stay visible offline; brand-new areas show blank tiles until you're back online.
+- Online, it stays fresh: navigations are network-first and assets update in the
+  background (stale-while-revalidate).
+
+Service workers only run over **HTTPS** (or `localhost`), so offline support is
+active on any real deploy and when testing locally — but not when opening the
+file directly. Bump `CACHE_VERSION` in `sw.js` whenever you change the cached
+asset list to roll the caches.
+
 ## What's in the repo
 
 | Path | What it is |
@@ -42,6 +65,9 @@ itself.
 | `index.html` | Page markup — sidebar, map, theme toggle |
 | `style.css` | Layout and light/dark theming via CSS variables |
 | `app.js` | Everything the app does: map, layers, search, ranking, theme |
+| `sw.js` | Service worker — offline caching of the app shell, data and map tiles |
+| `manifest.webmanifest` | PWA manifest — name, icons, colours, standalone display |
+| `favicon.svg`, `icon-*.png` | App icons (SVG plus 192/512 PNGs, including a maskable one) |
 | `data/*.geojson` | The places the site loads (generated — see below) |
 | `data/*.json` | Raw API caches, so the data can be re-filtered/re-run for free |
 | `scripts/*.py` | The data-collection pipeline (plus shared `datagovsg`, `google_places` and `utf8_console` helpers) |
