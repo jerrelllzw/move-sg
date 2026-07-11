@@ -11,7 +11,7 @@
  *
  * Bump CACHE_VERSION whenever the shell asset list changes to roll caches.
  */
-const CACHE_VERSION = "v1";
+const CACHE_VERSION = "v2";
 const SHELL_CACHE = `movesg-shell-${CACHE_VERSION}`;
 const RUNTIME_CACHE = `movesg-runtime-${CACHE_VERSION}`;
 const TILE_CACHE = `movesg-tiles-${CACHE_VERSION}`;
@@ -23,7 +23,7 @@ const SHELL_ASSETS = [
   "index.html",
   "style.css",
   "app.js",
-  "favicon.svg",
+  "favicon.png",
   "icon-192.png",
   "icon-512.png",
   "icon-maskable-512.png",

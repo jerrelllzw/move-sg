@@ -11,9 +11,9 @@
   "categories": ["health", "fitness", "sports", "navigation"],
   "icons": [
     {
-      "src": "favicon.svg",
-      "type": "image/svg+xml",
-      "sizes": "any",
+      "src": "favicon.png",
+      "type": "image/png",
+      "sizes": "48x48",
       "purpose": "any"
     },
     {

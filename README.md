@@ -67,7 +67,7 @@ asset list to roll the caches.
 | `app.js` | Everything the app does: map, layers, search, ranking, theme |
 | `sw.js` | Service worker — offline caching of the app shell, data and map tiles |
 | `manifest.webmanifest` | PWA manifest — name, icons, colours, standalone display |
-| `favicon.svg`, `icon-*.png` | App icons (SVG plus 192/512 PNGs, including a maskable one) |
+| `favicon.png`, `icon-*.png` | App icons (favicon plus 192/512 PNGs, including a maskable one) |
 | `data/*.geojson` | The places the site loads (generated — see below) |
 | `data/*.json` | Raw API caches, so the data can be re-filtered/re-run for free |
 | `scripts/*.py` | The data-collection pipeline (plus shared `datagovsg`, `google_places` and `utf8_console` helpers) |
