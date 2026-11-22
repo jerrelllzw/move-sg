@@ -84,8 +84,8 @@ L.control.zoom({ position: "bottomright" }).addTo(map);
 // placeholders are filled by Leaflet; {r} serves retina tiles. The light/dark
 // variant is swapped by the theme toggle (see theme handling below).
 const BASEMAP_URL = {
-  light: "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
-  dark: "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+  light: "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png?apikey=cb1_5dra_1_df779149bf00d89d64d6f501",
+  dark: "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png?apikey=cb1_5dra_1_df779149bf00d89d64d6f501",
 };
 
 const baseLayer = L.tileLayer(BASEMAP_URL.light, {

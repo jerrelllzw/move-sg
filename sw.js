@@ -11,7 +11,7 @@
  *
  * Bump CACHE_VERSION whenever the shell asset list changes to roll caches.
  */
-const CACHE_VERSION = "v2";
+const CACHE_VERSION = "v3";
 const SHELL_CACHE = `movesg-shell-${CACHE_VERSION}`;
 const RUNTIME_CACHE = `movesg-runtime-${CACHE_VERSION}`;
 const TILE_CACHE = `movesg-tiles-${CACHE_VERSION}`;
